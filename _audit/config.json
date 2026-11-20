@@ -1,0 +1,28 @@
+{
+ "siteActuel": "lasauternaise.com",
+ "pagesTypes": [
+  "/",
+  "/chambres",
+  "/la-maison",
+  "/environs",
+  "/reserver",
+  "/acces"
+ ],
+ "effets": [
+  "facade",
+  "tirage",
+  "pile-de-tirages",
+  "buee",
+  "regle-des-distances",
+  "bandeau",
+  "plein-cadre",
+  "revelateur",
+  "brume",
+  "filtres-environs",
+  "itineraire",
+  "eventail"
+ ],
+ "grille": {
+  "dispenses": {}
+ }
+}

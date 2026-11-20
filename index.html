@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Sauternaise : maison d’hôtes de charme et de bien-être à Sauternes</title>
+<meta name="description" content="Quatre chambres aux noms de grands vins, chacune avec sa salle de bains bien-être, dans l’ancien Office de dégustation de Sauternes. Réservation directe.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://lasauternaise-maquette.vercel.app/">
+<style>:root{--fond:#F6F1E7;--texte:#2A211C;--voile-fond:#E6D9C1;--ouverture-fond:#F6F1E7;--menu-fond:#EDE3CF}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/ibarra-real-nova-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hanken-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F6F1E7">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="La Sauternaise">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="La Sauternaise : maison d’hôtes de charme et de bien-être à Sauternes">
+<meta property="og:description" content="Quatre chambres aux noms de grands vins, chacune avec sa salle de bains bien-être, dans l’ancien Office de dégustation de Sauternes. Réservation directe.">
+<meta property="og:url" content="https://lasauternaise-maquette.vercel.app/">
+<meta property="og:image" content="https://lasauternaise-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La façade de La Sauternaise, ancien Office de dégustation de Sauternes">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BedAndBreakfast","name":"La Sauternaise","url":"https://lasauternaise-maquette.vercel.app/","telephone":"+33678006418","image":"https://lasauternaise-maquette.vercel.app/assets/images/facade-1280.webp","description":"Maison d’hôtes de charme dans une demeure du XVIIIe siècle, ancien Office de dégustation de Sauternes : quatre chambres avec salle de bains bien-être, petit-déjeuner compris.","address":{"@type":"PostalAddress","streetAddress":"22 rue Principale, place de l’Église","postalCode":"33210","addressLocality":"Sauternes","addressCountry":"FR"},"checkinTime":"16:00","checkoutTime":"11:00","numberOfRooms":4,"petsAllowed":false,"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Petit-déjeuner compris","value":true},{"@type":"LocationFeatureSpecification","name":"Hammam, sauna infrarouge, baignoire balnéo ou douche hydromassante selon la chambre","value":true}],"sameAs":["https://www.instagram.com/lasauternaise/","https://www.facebook.com/lasauternaise/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" data-gouttiere="#E6D9C1" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-couleur-320.webp" alt="" width="320" height="203"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-couleur-640.webp" alt="" width="640" height="405" data-ouverture-objet>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Maison d’hôtes · Sauternes</p>
+</div>
+<div class="intro-tirage" aria-hidden="true">
+  <img class="intro-tirage-archive" src="/assets/images/archive-1280.webp" alt="" width="1280" height="853">
+  <picture class="intro-tirage-couleur"><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/facade-mobile-640.webp 640w, /assets/images/facade-mobile-1080.webp 1080w" sizes="100vw"><img src="/assets/images/facade-1280.webp" srcset="/assets/images/facade-640.webp 640w, /assets/images/facade-1280.webp 1280w, /assets/images/facade-1800.webp 1800w" sizes="(max-width: 760px) 100vw, 55vw" alt="" width="1280" height="960"></picture>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo-couleur-320.webp" alt="" width="320" height="203"><span class="visuellement-cache">La Sauternaise</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/chambres" data-libelle="Les chambres">Les chambres</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/environs" data-libelle="Les environs">Les environs</a></li><li><a href="/acces" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/reserver" data-libelle="Réserver">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/chambres" class="menu-lien" data-libelle="Les chambres">Les chambres</a></li><li style="--i:2"><a href="/la-maison" class="menu-lien" data-libelle="La maison">La maison</a></li><li style="--i:3"><a href="/environs" class="menu-lien" data-libelle="Les environs">Les environs</a></li><li style="--i:4"><a href="/acces" class="menu-lien" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33678006418">Appeler 06 78 00 64 18</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut">
+  <div class="hero-texte">
+    <p class="surtitre" data-anime="gsap">Maison d’hôtes · XVIIIe siècle · Sauternes</p>
+    <h1 class="hero-titre ouv-titre" data-anime="gsap"><span class="ligne-masque"><span class="hero-ligne">Charme et bien-être</span></span><span class="ligne-masque"><span class="hero-ligne">au cœur de</span></span><span class="ligne-masque"><span class="hero-ligne"><em>Sauternes</em></span></span></h1>
+    <p class="hero-intro masque-ecran-tres-bas" data-anime="gsap">Quatre chambres aux noms de grands vins, chacune avec sa salle de bains bien-être, dans l’ancien Office de dégustation du village.</p>
+    <p class="actions" data-anime="gsap">
+      <a href="/reserver" class="bouton" data-libelle="Réserver" data-action-principale data-survol="magnetique">Réserver en direct</a>
+      <a href="/chambres" class="bouton bouton--contour" data-libelle="Les chambres">Voir les chambres</a>
+    </p>
+    <p class="info-cle" data-info-cle data-anime="gsap">Arrivée autonome dès 16 h · petit-déjeuner compris</p>
+  </div>
+  <figure class="media hero-media" data-iris-centre data-effet="facade" data-boucle-css style="--cadrage:33% 52%;--cadrage-mobile:50% 52%;background-image:url(data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBQCdASoYABIAPu1oq02ppiQiMAgBMB2JQBUehEBOv4lFSR7tj3h5/5ey0apfyggAAP4ihBCM+4Bc3sdm4cR/NRBO1UVkM7e8xdOmEQZoSK0sLycfLp79Y9EmL0Ia/GrSaRNW1Iia4AfwAAA=);background-size:cover;background-position:33% 52%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/facade-mobile-640.webp 640w, /assets/images/facade-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 55vw">
+    <img src="/assets/images/facade-1280.webp" srcset="/assets/images/facade-640.webp 640w, /assets/images/facade-1280.webp 1280w, /assets/images/facade-1800.webp 1800w" sizes="(max-width: 760px) 100vw, 55vw" alt="La façade de La Sauternaise, ancien Office de dégustation de Sauternes, avec son inscription peinte et ses volets gris" width="1280" height="960" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="section fond-pierre" id="histoire" aria-labelledby="hier-titre">
+  <div class="conteneur hier-grille">
+    <div>
+      <p class="surtitre">Hier et aujourd’hui</p>
+      <blockquote class="citation" id="hier-titre" data-anime="mots">«&nbsp;Une maison légendaire qui vient de renaître.&nbsp;»</blockquote>
+      <p class="citation-source" data-anime>Jean-Pierre Stahl, grand reporter, France 3 Régions</p>
+      <p data-anime>Pascale et Didier ont découvert la maison au fil de leurs promenades du dimanche : l’ancien Office de dégustation de Sauternes, une demeure du XVIIIe siècle derrière l’église. Ils l’ont rénovée pour recevoir avec l’esprit d’une maison d’hôtes et le confort d’un hôtel haut de gamme.</p>
+      <p data-anime><a href="/la-maison#histoire" class="lien-fleche" data-libelle="La maison">L’histoire de la maison</a></p>
+    </div>
+    <div class="tirages" data-effet="tirage">
+      <figure class="tirage tirage--aujourdhui">
+        <figure class="media " style="--cadrage:36% 50%">
+  <picture>
+    <img src="/assets/images/facade-face-1280.webp" srcset="/assets/images/facade-face-640.webp 640w, /assets/images/facade-face-1280.webp 1280w, /assets/images/facade-face-1800.webp 1800w" sizes="(max-width: 860px) 86vw, 44vw" alt="La façade aujourd’hui, restaurée, sous un ciel bleu" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption class="tirage-legende">Aujourd’hui</figcaption>
+      </figure>
+      <figure class="tirage tirage--archive" data-superpose>
+        <figure class="media " style="--cadrage:45% 48%">
+  <picture>
+    <img src="/assets/images/archive-1280.webp" srcset="/assets/images/archive-640.webp 640w, /assets/images/archive-1280.webp 1280w, /assets/images/archive-1800.webp 1800w" sizes="(max-width: 860px) 78vw, 40vw" alt="La même maison autrefois : l’Office de dégustation de Sauternes sur une photo d’archive en noir et blanc" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption class="tirage-legende">Autrefois</figcaption>
+      </figure>
+      <p class="tirages-consigne"><span class="souris">Faites glisser la photo d’archive</span><span class="tactile">Glissez la photo d’archive</span></p>
+    </div>
+  </div>
+</section>
+<section class="section" id="chambres" aria-labelledby="chambres-titre">
+  <div class="conteneur pile-grille">
+    <div class="pile-texte">
+      <p class="surtitre">Les chambres</p>
+      <h2 id="chambres-titre" class="titre-section" data-anime="lignes"><span class="l">Quatre chambres,</span><span class="l"><em>quatre grands vins</em></span></h2>
+      <p class="masque-ecran-bas" data-anime>Chacune a son ambiance : murs de pierre, cheminées, portes anciennes, tableaux d’artistes, tissus Nobilis et Casamance. Literie Simmons en queen ou king size, draps en satin de coton Linvosges.</p>
+      <ul class="noms" data-anime="cascade"><li>Or de Bordeaux<small>Climatisée</small></li><li>Reflets de Saint-Émilion<small>Climatisée</small></li><li>Terre de Margaux</li><li>Lettre de Sauternes</li></ul>
+      <p><a href="/chambres" class="bouton" data-libelle="Les chambres" data-survol="magnetique">Découvrir les chambres</a></p>
+    </div>
+    <div class="pile" data-effet="pile-de-tirages">
+      <figure class="pile-tirage" style="--i:0;--r:-2deg" data-superpose>
+        <figure class="media " style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/chambre-terre-de-margaux-1280.webp" srcset="/assets/images/chambre-terre-de-margaux-640.webp 640w, /assets/images/chambre-terre-de-margaux-1280.webp 1280w, /assets/images/chambre-terre-de-margaux-1800.webp 1800w" sizes="(max-width: 860px) 92vw, 50vw" alt="La chambre Terre de Margaux : mur terracotta, mezzanine et grand lit" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption>Terre de Margaux</figcaption>
+      </figure><figure class="pile-tirage" style="--i:1;--r:1.6deg" data-superpose>
+        <figure class="media " style="--cadrage:47% 44%">
+  <picture>
+    <img src="/assets/images/chambre-pierre-1280.webp" srcset="/assets/images/chambre-pierre-640.webp 640w, /assets/images/chambre-pierre-1280.webp 1280w, /assets/images/chambre-pierre-1800.webp 1800w" sizes="(max-width: 860px) 92vw, 50vw" alt="Chambre aux murs de pierre, lit en lin et cheminée ancienne" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption>Pierre et lin</figcaption>
+      </figure><figure class="pile-tirage" style="--i:2;--r:-1.2deg" data-superpose>
+        <figure class="media " style="--cadrage:50% 60%">
+  <picture>
+    <img src="/assets/images/chambre-blanche-1280.webp" srcset="/assets/images/chambre-blanche-640.webp 640w, /assets/images/chambre-blanche-1280.webp 1280w, /assets/images/chambre-blanche-1800.webp 1800w" sizes="(max-width: 860px) 92vw, 50vw" alt="Chambre blanche et grise, cheminée de marbre et verrière vers la salle de bains" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption>Cheminée de marbre</figcaption>
+      </figure><figure class="pile-tirage" style="--i:3;--r:2deg" data-superpose>
+        <figure class="media " style="--cadrage:45% 50%">
+  <picture>
+    <img src="/assets/images/chambre-ocre-1280.webp" srcset="/assets/images/chambre-ocre-640.webp 640w, /assets/images/chambre-ocre-1280.webp 1280w, /assets/images/chambre-ocre-1500.webp 1500w" sizes="(max-width: 860px) 92vw, 50vw" alt="Chambre au mur ocre, grand tableau et lits jumeaux" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <figcaption>Le mur ocre</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<section class="section fond-cave" id="bien-etre" aria-labelledby="bienetre-titre">
+  <div class="conteneur buee-grille">
+    <div>
+      <div class="buee" data-effet="buee" data-souris>
+        <figure class="media " style="--cadrage:50% 53%">
+  <picture>
+    <img src="/assets/images/bain-rouge-800.webp" srcset="/assets/images/bain-rouge-480.webp 480w, /assets/images/bain-rouge-800.webp 800w" sizes="(max-width: 860px) 92vw, 50vw" alt="Salle de bains au mur rouge, douche vitrée et carreaux de ciment" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <canvas aria-hidden="true" data-audit-ignorer></canvas>
+      </div>
+      <p class="buee-consigne"><span class="souris">Passez la souris sur la photo pour essuyer la buée</span><span class="tactile">Touchez la photo pour essuyer la buée</span></p>
+    </div>
+    <div>
+      <p class="surtitre">Le bien-être</p>
+      <h2 id="bienetre-titre" class="titre-section" data-anime="lignes"><span class="l">Une salle de bains</span><span class="l"><em>pour se détendre</em></span></h2>
+      <p data-anime>Chaque salle de bains privative a été pensée pour votre bien-être, avec l’un de ces quatre équipements.</p>
+      <ul class="equipements" data-anime="cascade">
+        <li><strong>Hammam</strong><span>Effegibi</span></li><li><strong>Sauna infrarouge</strong><span>Tylö</span></li><li><strong>Baignoire balnéo</strong><span>Kinedo</span></li><li><strong>Douche hydromassante</strong><span>Hansgrohe</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="section" id="matin" aria-labelledby="matin-titre">
+  <div class="conteneur matin-grille">
+    <figure class="media " data-anime="rideau" style="--cadrage:50% 62%">
+  <picture>
+    <img src="/assets/images/petit-dejeuner-1100.webp" srcset="/assets/images/petit-dejeuner-480.webp 480w, /assets/images/petit-dejeuner-800.webp 800w, /assets/images/petit-dejeuner-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 42vw" alt="Petit-déjeuner au jardin : croissant, confiture et café sous les fleurs" width="1100" height="1375" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <p class="surtitre">Le matin</p>
+      <h2 id="matin-titre" class="titre-section" data-anime="lignes"><span class="l">Le petit-déjeuner,</span><span class="l"><em>compris</em></span></h2>
+      <p class="chapo" data-anime>Servi en général de 8 h 30 à 10 h, dans la salle à manger ou au jardin quand il fait beau.</p>
+      <ul class="liste-fine" data-anime="cascade"><li>Café d’une sélection de grands crus, thés Dammann Frères, chocolat chaud à l’ancienne</li><li>Jus d’orange pressé, salade de fruits frais, yaourts</li><li>Croissants, baguette, pain aux céréales, confitures artisanales</li><li>Sur demande : œuf à la coque, jambon, fromage, et une table sans gluten ni lactose</li></ul>
+      <p class="note" data-anime>Professionnels : dès 7 h 30, sur demande à la réservation.</p>
+    </div>
+  </div>
+</section>
+<section class="section fond-pierre" id="hotes" aria-labelledby="hotes-titre">
+  <div class="conteneur hotes-grille">
+    <figure class="media " data-fx="zoom" style="--cadrage:50% 34%">
+  <picture>
+    <img src="/assets/images/pascale-didier-1100.webp" srcset="/assets/images/pascale-didier-480.webp 480w, /assets/images/pascale-didier-800.webp 800w, /assets/images/pascale-didier-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 36vw" alt="Pascale et Didier, vos hôtes, en tenue de soirée" width="1100" height="1376" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <p class="surtitre">Vos hôtes</p>
+      <h2 id="hotes-titre" class="titre-section" data-anime="lignes"><span class="l">Pascale</span><span class="l"><em>et Didier</em></span></h2>
+      <blockquote class="hotes-citation" data-anime="lignes">«&nbsp;Nous nous devions d’honorer cet héritage, ce lieu authentique et plein de charme.&nbsp;»</blockquote>
+      <div class="hotes-bios" data-anime="cascade">
+        <div><h3>Didier</h3><p>Quatrième génération dans le vin, Didier œuvre depuis plus de dix ans à faire connaître le Sauternes au Château Guiraud, premier grand cru classé en 1855. Il est Commandeur d’Honneur de la Commanderie du Bontemps.</p></div>
+        <div><h3>Pascale</h3><p>Après une carrière dans le vin, du merchandising au marketing, Pascale a pensé l’agencement, l’équipement et la décoration de la maison.</p></div>
+      </div>
+      <p><a href="/la-maison" class="lien-fleche" data-libelle="La maison">La maison et ses services</a></p>
+    </div>
+  </div>
+</section>
+<section class="section" id="a-pied" aria-labelledby="pied-titre">
+  <figure class="media pied-bandeau" data-fx="parallaxe" data-fx-force="12" style="--cadrage:70% 40%;--cadrage-mobile:50% 40%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grappes-mobile-640.webp 640w, /assets/images/grappes-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grappes-1280.webp" srcset="/assets/images/grappes-640.webp 640w, /assets/images/grappes-1280.webp 1280w, /assets/images/grappes-1920.webp 1920w" sizes="100vw" alt="Grappes de raisin noir sur de vieux ceps" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="conteneur">
+    <div class="pied-tete">
+      <div>
+        <p class="surtitre">Autour de la maison</p>
+        <h2 id="pied-titre" class="titre-section" data-anime="lignes"><span class="l">Yquem à 2 km,</span><span class="l"><em>à pied</em></span></h2>
+      </div>
+      <p class="chapo" data-anime>Les grands crus de Sauternes commencent au bout de la rue. Didier partage volontiers ses adresses pour visiter caves et propriétés.</p>
+    </div>
+    <div class="regle" data-effet="regle-des-distances" role="img" aria-label="Distances depuis la maison : Église &lt; 100 m, Château d’Arche 500 m, Château Guiraud 800 m, Château Filhot 900 m, Rayne Vigneau 1,4 km, Clos Haut-Peyraguey 1,5 km, Château d’Yquem 2 km, Lafaurie-Peyraguey 2,2 km">
+      <div class="regle-axe">
+        <span class="regle-plein"></span>
+        <svg class="regle-maison" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg>
+        <div class="regle-point bas debut" style="--x:0.0261;--xi:0.0400" data-km="0.06" data-repere>
+          <p class="regle-etiquette"><strong>Église</strong>&lt; 100 m</p>
+        </div><div class="regle-point haut" style="--x:0.2174;--xi:0.1714" data-km="0.5" data-repere>
+          <p class="regle-etiquette"><strong>Château d’Arche</strong>500 m</p>
+        </div><div class="regle-point bas" style="--x:0.3478;--xi:0.3029" data-km="0.8" data-repere>
+          <p class="regle-etiquette"><strong>Château Guiraud</strong>800 m<em>sur rendez-vous</em></p>
+        </div><div class="regle-point haut" style="--x:0.3913;--xi:0.4343" data-km="0.9" data-repere>
+          <p class="regle-etiquette"><strong>Château Filhot</strong>900 m</p>
+        </div><div class="regle-point bas" style="--x:0.6087;--xi:0.5657" data-km="1.4" data-repere>
+          <p class="regle-etiquette"><strong>Rayne Vigneau</strong>1,4 km</p>
+        </div><div class="regle-point haut" style="--x:0.6522;--xi:0.6971" data-km="1.5" data-repere>
+          <p class="regle-etiquette"><strong>Clos Haut-Peyraguey</strong>1,5 km<em>sur rendez-vous</em></p>
+        </div><div class="regle-point bas vedette" style="--x:0.8696;--xi:0.8286" data-km="2" data-repere>
+          <p class="regle-etiquette"><strong>Château d’Yquem</strong>2 km<em>sur rendez-vous</em></p>
+        </div><div class="regle-point haut fin" style="--x:0.9565;--xi:0.9600" data-km="2.2" data-repere>
+          <p class="regle-etiquette"><strong>Lafaurie-Peyraguey</strong>2,2 km</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="conteneur">
+    <p class="surtitre">Et plus loin</p>
+    <div class="ruban-section">
+      <div class="ruban" id="ruban" data-boucle-css data-ruban data-effet="ruban"><p>Château de Roquetaillade<span>9 km</span>Villandraut<span>11 km</span>Lacs d’Hostens<span>12 km</span>Bazas<span>20 km</span>Bordeaux<span>44 km</span>Saint-Émilion<span>50 km</span>Château Margaux<span>77 km</span>Dune du Pilat<span>85 km</span>Château de Roquetaillade<span>9 km</span>Villandraut<span>11 km</span>Lacs d’Hostens<span>12 km</span>Bazas<span>20 km</span>Bordeaux<span>44 km</span>Saint-Émilion<span>50 km</span>Château Margaux<span>77 km</span>Dune du Pilat<span>85 km</span></p></div>
+      <button type="button" class="ruban-pause" data-pause-pour="ruban" data-libelle-pause="Pause" data-libelle-lecture="Lecture"><span data-libelle-bouton>Pause</span></button>
+    </div>
+    <p style="margin-top:1.4em"><a href="/environs" class="lien-fleche" data-libelle="Les environs">Les 39 visites des environs</a></p>
+  </div>
+</section>
+<section class="section fond-cave direct" id="reserver" aria-labelledby="direct-titre">
+  <div class="conteneur direct-grille">
+    <div>
+      <p class="surtitre">Réservez en direct</p>
+      <h2 id="direct-titre" class="titre-section" data-anime="lignes"><span class="l">Le meilleur tarif,</span><span class="l"><em>chez nous</em></span></h2>
+      <ul class="direct-chiffres" data-anime="cascade">
+        <li><strong data-prix>5 à 10 €</strong><span>de moins par nuit qu’en passant par les plateformes</span></li><li><strong data-prix>48 h</strong><span>pour annuler, aux mêmes conditions</span></li><li><strong data-prix>-5 %</strong><span>dès 4 nuits dans la même chambre, avec le code 4N</span></li>
+      </ul>
+      <p data-anime>Tarifs selon la saison et la chambre, donnés à la demande. Réponse sous 24 h.</p>
+      <p class="actions">
+        <a href="/reserver" class="bouton" data-libelle="Réserver" data-survol="magnetique">Demander mes dates</a>
+        <a class="bouton bouton--contour" href="tel:+33678006418">Appeler 06 78 00 64 18</a>
+      </p>
+      <p class="direct-acces">À 30 minutes de Bordeaux · 22 rue Principale, place de l’Église · <a href="/acces" data-libelle="Accès &amp; contact">Venir à Sauternes</a></p>
+    </div>
+    <figure class="media " data-fx="parallaxe" data-fx-force="8" style="--cadrage:65% 50%;--cadrage-mobile:50% 44%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/verre-dore-mobile-640.webp 640w, /assets/images/verre-dore-mobile-1080.webp 1080w" sizes="(max-width: 860px) 92vw, 40vw">
+    <img src="/assets/images/verre-dore-1280.webp" srcset="/assets/images/verre-dore-640.webp 640w, /assets/images/verre-dore-1280.webp 1280w, /assets/images/verre-dore-1920.webp 1920w" sizes="(max-width: 860px) 92vw, 40vw" alt="Un verre de vin doré sur le rebord d’une fenêtre en pierre, au soleil du soir" width="1280" height="720" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-maison">
+      <img class="pied-logo" src="/assets/images/logo-creme-320.webp" alt="La Sauternaise, maison d’hôtes à Sauternes" width="320" height="203" loading="lazy">
+      <p>22 rue Principale, place de l’Église, 33210 Sauternes<br><a href="tel:+33678006418">+33 6 78 00 64 18</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/chambres" data-libelle="Les chambres">Les chambres</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/environs" data-libelle="Les environs">Les environs</a></li><li><a href="/acces" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre la maison</p>
+      <ul>
+        <li><a href="https://www.instagram.com/lasauternaise/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.facebook.com/lasauternaise/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.les-granges-de-sauternes.com/" target="_blank" rel="noopener">Notre restaurant : Les Granges<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Vignobles &amp; Découvertes · Route des Vins · Bacchus</p><p>Mentions légales · Politique de confidentialité · Conditions générales de vente : à compléter</p><p>Maquette : demandes et réservations simulées, rien n’est envoyé.</p><p>© La Sauternaise</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33678006418">Appeler</a>
+  <a class="bouton" href="/reserver" data-libelle="Réserver">Réserver</a>
+</div>
+</body>
+</html>

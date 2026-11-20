@@ -1,0 +1,4944 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo.jpg",
+    "role": "logo",
+    "alt": "La Sauternaise, Luxury B and B",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "3d5b8c4144a9ab82",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 6670,
+      "logo-480.webp": 15976
+    },
+    "media": "c.media({ nom: 'logo', alt: \"La Sauternaise, Luxury B and B\", sizes: '240px' })"
+  },
+  "facade": {
+    "nom": "facade",
+    "source": "recu/galerie-11.jpg",
+    "role": "ouverture",
+    "alt": "La façade de La Sauternaise, ancien Office de dégustation de Sauternes, avec son inscription peinte et ses volets gris",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "f3390b585d9a1971",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1800
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 52%"
+    },
+    "cadrage": "33% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 12.5,
+      "l": 100,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "facade-640.webp",
+      "facade-1280.webp",
+      "facade-1800.webp",
+      "facade-mobile-640.webp",
+      "facade-mobile-1080.webp"
+    ],
+    "poids": {
+      "facade-640.webp": 61126,
+      "facade-1280.webp": 176054,
+      "facade-1800.webp": 264902,
+      "facade-mobile-640.webp": 68684,
+      "facade-mobile-1080.webp": 127330
+    },
+    "media": "c.media({ nom: 'facade', alt: \"La façade de La Sauternaise, ancien Office de dégustation de Sauternes, avec son inscription peinte et ses volets gris\", cadrage: '33% 52%', cadrageMobile: '50% 52%', sizes: '100vw', priorite: true })"
+  },
+  "archive": {
+    "nom": "archive",
+    "source": "recu/galerie-2.jpg",
+    "role": "galerie",
+    "alt": "La même maison autrefois : l’Office de dégustation de Sauternes sur une photo d’archive en noir et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a82e9151505be2f8",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1800
+    ],
+    "mobile": null,
+    "cadrage": "45% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1937,
+      "height": 1291,
+      "source": [
+        2000,
+        1291
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "archive-640.webp",
+      "archive-1280.webp",
+      "archive-1800.webp"
+    ],
+    "poids": {
+      "archive-640.webp": 67488,
+      "archive-1280.webp": 215408,
+      "archive-1800.webp": 297006
+    },
+    "media": "c.media({ nom: 'archive', alt: \"La même maison autrefois : l’Office de dégustation de Sauternes sur une photo d’archive en noir et blanc\", cadrage: '45% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "facade-face": {
+    "nom": "facade-face",
+    "source": "recu/galerie-3.jpg",
+    "role": "galerie",
+    "alt": "La façade aujourd’hui, restaurée, sous un ciel bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "35fb29a2aa9ca28c",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1800
+    ],
+    "mobile": null,
+    "cadrage": "36% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 4.4,
+      "l": 100,
+      "h": 91
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 1,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1335
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "facade-face-640.webp",
+      "facade-face-1280.webp",
+      "facade-face-1800.webp"
+    ],
+    "poids": {
+      "facade-face-640.webp": 63220,
+      "facade-face-1280.webp": 226910,
+      "facade-face-1800.webp": 300874
+    },
+    "media": "c.media({ nom: 'facade-face', alt: \"La façade aujourd’hui, restaurée, sous un ciel bleu\", cadrage: '36% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "bain-balneo": {
+    "nom": "bain-balneo",
+    "source": "recu/galerie-9.jpg",
+    "role": "section-fond",
+    "alt": "Salle de bains aux carreaux de ciment avec baignoire balnéo et verrière",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f0bcf9eaf4477fda",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "34% 50%",
+    "sujet": {
+      "x": 21.9,
+      "y": 13.6,
+      "l": 68.8,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bain-balneo-640.webp",
+      "bain-balneo-1280.webp",
+      "bain-balneo-1920.webp",
+      "bain-balneo-mobile-640.webp",
+      "bain-balneo-mobile-1080.webp"
+    ],
+    "poids": {
+      "bain-balneo-640.webp": 31896,
+      "bain-balneo-1280.webp": 78206,
+      "bain-balneo-1920.webp": 124590,
+      "bain-balneo-mobile-640.webp": 48364,
+      "bain-balneo-mobile-1080.webp": 88194
+    },
+    "media": "c.media({ nom: 'bain-balneo', alt: \"Salle de bains aux carreaux de ciment avec baignoire balnéo et verrière\", cadrage: '34% 50%', cadrageMobile: '50% 50%', sizes: '100vw' })"
+  },
+  "petit-dejeuner": {
+    "nom": "petit-dejeuner",
+    "source": "recu/luxury-b-b-bordeaux.png",
+    "role": "carte-service",
+    "alt": "Petit-déjeuner au jardin : croissant, confiture et café sous les fleurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3d4cd5384cce0e78",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 297,
+      "top": 0,
+      "width": 1486,
+      "height": 1857,
+      "source": [
+        2000,
+        1857
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "petit-dejeuner-480.webp",
+      "petit-dejeuner-800.webp",
+      "petit-dejeuner-1100.webp"
+    ],
+    "poids": {
+      "petit-dejeuner-480.webp": 38254,
+      "petit-dejeuner-800.webp": 72166,
+      "petit-dejeuner-1100.webp": 107080
+    },
+    "media": "c.media({ nom: 'petit-dejeuner', alt: \"Petit-déjeuner au jardin : croissant, confiture et café sous les fleurs\", cadrage: '50% 62%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "pascale-didier": {
+    "nom": "pascale-didier",
+    "source": "recu/sauternaise-pourquoi-comment.jpg",
+    "role": "portrait",
+    "alt": "Pascale et Didier, vos hôtes, en tenue de soirée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "99708f05a2a6079c",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 34%",
+    "sujet": {
+      "x": 0,
+      "y": 18.2,
+      "l": 100,
+      "h": 77.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 427,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pascale-didier-480.webp",
+      "pascale-didier-800.webp",
+      "pascale-didier-1100.webp"
+    ],
+    "poids": {
+      "pascale-didier-480.webp": 18670,
+      "pascale-didier-800.webp": 40734,
+      "pascale-didier-1100.webp": 59440
+    },
+    "media": "c.media({ nom: 'pascale-didier', alt: \"Pascale et Didier, vos hôtes, en tenue de soirée\", cadrage: '50% 34%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "grappes": {
+    "nom": "grappes",
+    "source": "recu/moins-100-m-8.jpg",
+    "role": "section-fond",
+    "alt": "Grappes de raisin noir sur de vieux ceps",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "63484931b3bcce58",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 40%"
+    },
+    "cadrage": "70% 40%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 93.7,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080,
+      "source": [
+        1920,
+        1080
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grappes-640.webp",
+      "grappes-1280.webp",
+      "grappes-1920.webp",
+      "grappes-mobile-640.webp",
+      "grappes-mobile-1080.webp"
+    ],
+    "poids": {
+      "grappes-640.webp": 43342,
+      "grappes-1280.webp": 103944,
+      "grappes-1920.webp": 170024,
+      "grappes-mobile-640.webp": 76032,
+      "grappes-mobile-1080.webp": 138224
+    },
+    "media": "c.media({ nom: 'grappes', alt: \"Grappes de raisin noir sur de vieux ceps\", cadrage: '70% 40%', cadrageMobile: '50% 40%', sizes: '100vw' })"
+  },
+  "cour": {
+    "nom": "cour",
+    "source": "recu/luxury-b-b-bordeaux-3.jpg",
+    "role": "ouverture",
+    "alt": "La cour ombragée : table, verres de vin blanc et banc rouge sous la marquise",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "65a0092ae7414442",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 50%"
+    },
+    "cadrage": "40% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cour-640.webp",
+      "cour-1280.webp",
+      "cour-1920.webp",
+      "cour-mobile-640.webp",
+      "cour-mobile-1080.webp"
+    ],
+    "poids": {
+      "cour-640.webp": 59164,
+      "cour-1280.webp": 138076,
+      "cour-1920.webp": 216884,
+      "cour-mobile-640.webp": 68108,
+      "cour-mobile-1080.webp": 122784
+    },
+    "media": "c.media({ nom: 'cour', alt: \"La cour ombragée : table, verres de vin blanc et banc rouge sous la marquise\", cadrage: '40% 50%', cadrageMobile: '50% 50%', sizes: '100vw', priorite: true })"
+  },
+  "chambre-terre-de-margaux": {
+    "nom": "chambre-terre-de-margaux",
+    "source": "recu/maison-hotes.jpg",
+    "role": "galerie",
+    "alt": "La chambre Terre de Margaux : mur terracotta, mezzanine et grand lit",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "2d77bfd1b2c29e08",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1800
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-terre-de-margaux-640.webp",
+      "chambre-terre-de-margaux-1280.webp",
+      "chambre-terre-de-margaux-1800.webp"
+    ],
+    "poids": {
+      "chambre-terre-de-margaux-640.webp": 33332,
+      "chambre-terre-de-margaux-1280.webp": 107318,
+      "chambre-terre-de-margaux-1800.webp": 191178
+    },
+    "media": "c.media({ nom: 'chambre-terre-de-margaux', alt: \"La chambre Terre de Margaux : mur terracotta, mezzanine et grand lit\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "chambre-pierre": {
+    "nom": "chambre-pierre",
+    "source": "recu/galerie-10.jpg",
+    "role": "galerie",
+    "alt": "Chambre aux murs de pierre, lit en lin et cheminée ancienne",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "724711aced4a09d5",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1800
+    ],
+    "mobile": null,
+    "cadrage": "47% 44%",
+    "sujet": {
+      "x": 3.1,
+      "y": 1.5,
+      "l": 93.8,
+      "h": 98.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 167,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-pierre-640.webp",
+      "chambre-pierre-1280.webp",
+      "chambre-pierre-1800.webp"
+    ],
+    "poids": {
+      "chambre-pierre-640.webp": 32410,
+      "chambre-pierre-1280.webp": 110214,
+      "chambre-pierre-1800.webp": 194062
+    },
+    "media": "c.media({ nom: 'chambre-pierre', alt: \"Chambre aux murs de pierre, lit en lin et cheminée ancienne\", cadrage: '47% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "chambre-blanche": {
+    "nom": "chambre-blanche",
+    "source": "recu/booking-maison-hotes-sauternaise-2.jpg",
+    "role": "galerie",
+    "alt": "Chambre blanche et grise, cheminée de marbre et verrière vers la salle de bains",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8630d6b302d5621d",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1800
+    ],
+    "mobile": null,
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-blanche-640.webp",
+      "chambre-blanche-1280.webp",
+      "chambre-blanche-1800.webp"
+    ],
+    "poids": {
+      "chambre-blanche-640.webp": 18810,
+      "chambre-blanche-1280.webp": 53360,
+      "chambre-blanche-1800.webp": 85028
+    },
+    "media": "c.media({ nom: 'chambre-blanche', alt: \"Chambre blanche et grise, cheminée de marbre et verrière vers la salle de bains\", cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "chambre-ocre": {
+    "nom": "chambre-ocre",
+    "source": "recu/galerie-14.png",
+    "role": "galerie",
+    "alt": "Chambre au mur ocre, grand tableau et lits jumeaux",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "35262518c3fa36bf",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "45% 50%",
+    "sujet": {
+      "x": 3.8,
+      "y": 0,
+      "l": 96.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.56,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 234,
+      "top": 0,
+      "width": 1266,
+      "height": 844,
+      "source": [
+        1500,
+        844
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,18 fois (source de 1266 px après recadrage)"
+    ],
+    "fichiers": [
+      "chambre-ocre-640.webp",
+      "chambre-ocre-1280.webp",
+      "chambre-ocre-1500.webp"
+    ],
+    "poids": {
+      "chambre-ocre-640.webp": 34152,
+      "chambre-ocre-1280.webp": 108850,
+      "chambre-ocre-1500.webp": 135696
+    },
+    "media": "c.media({ nom: 'chambre-ocre', alt: \"Chambre au mur ocre, grand tableau et lits jumeaux\", cadrage: '45% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "chambre-poutres": {
+    "nom": "chambre-poutres",
+    "source": "recu/galerie-13.jpg",
+    "role": "galerie",
+    "alt": "Chambre sous les poutres, pierre blonde et lampes de chevet",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1d4388403797a11e",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "44% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1385,
+      "height": 923,
+      "source": [
+        1399,
+        923
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-poutres-640.webp",
+      "chambre-poutres-1280.webp"
+    ],
+    "poids": {
+      "chambre-poutres-640.webp": 30340,
+      "chambre-poutres-1280.webp": 84784
+    },
+    "media": "c.media({ nom: 'chambre-poutres', alt: \"Chambre sous les poutres, pierre blonde et lampes de chevet\", cadrage: '44% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "chambre-mezzanine": {
+    "nom": "chambre-mezzanine",
+    "source": "recu/booking-maison-hotes-sauternaise.jpg",
+    "role": "carte-service",
+    "alt": "Chambre à mezzanine, mur rouge et verrière d’atelier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ad2d799b7ba93ae6",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "51% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 2000,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-mezzanine-480.webp",
+      "chambre-mezzanine-800.webp",
+      "chambre-mezzanine-1100.webp"
+    ],
+    "poids": {
+      "chambre-mezzanine-480.webp": 24184,
+      "chambre-mezzanine-800.webp": 45390,
+      "chambre-mezzanine-1100.webp": 67264
+    },
+    "media": "c.media({ nom: 'chambre-mezzanine', alt: \"Chambre à mezzanine, mur rouge et verrière d’atelier\", cadrage: '51% 55%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "chambre-grise": {
+    "nom": "chambre-grise",
+    "source": "recu/luxury-b-b-bordeaux-4.jpg",
+    "role": "galerie",
+    "alt": "Chambre au mur gris anthracite, tableau coloré et salle de bains vitrée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c094d384fc12ed3f",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "40% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1336,
+      "height": 891,
+      "source": [
+        1336,
+        891
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-grise-640.webp",
+      "chambre-grise-1280.webp"
+    ],
+    "poids": {
+      "chambre-grise-640.webp": 32120,
+      "chambre-grise-1280.webp": 105762
+    },
+    "media": "c.media({ nom: 'chambre-grise', alt: \"Chambre au mur gris anthracite, tableau coloré et salle de bains vitrée\", cadrage: '40% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "chambre-jaune": {
+    "nom": "chambre-jaune",
+    "source": "recu/galerie.jpg",
+    "role": "galerie",
+    "alt": "Chambre au mur jaune et mur de pierre, lits jumeaux et lumière du jour",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e8ea6e53583c752e",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 9.1,
+      "l": 93.8,
+      "h": 86.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1336,
+      "height": 891,
+      "source": [
+        1336,
+        891
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-jaune-640.webp",
+      "chambre-jaune-1280.webp"
+    ],
+    "poids": {
+      "chambre-jaune-640.webp": 33994,
+      "chambre-jaune-1280.webp": 109080
+    },
+    "media": "c.media({ nom: 'chambre-jaune', alt: \"Chambre au mur jaune et mur de pierre, lits jumeaux et lumière du jour\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "chambres-bandeau": {
+    "nom": "chambres-bandeau",
+    "source": "recu/chambres-tarifs.jpg",
+    "role": "ouverture",
+    "alt": "Une chambre de La Sauternaise en panoramique : lit blanc, cheminée et armoire ancienne",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6ba9e870ddc06fc2",
+    "ratio": "21:9",
+    "largeurs": [
+      800,
+      1600,
+      2000
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "51% 48%"
+    },
+    "cadrage": "42% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 92.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1918,
+      "height": 822,
+      "source": [
+        2000,
+        822
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambres-bandeau-800.webp",
+      "chambres-bandeau-1600.webp",
+      "chambres-bandeau-2000.webp",
+      "chambres-bandeau-mobile-640.webp",
+      "chambres-bandeau-mobile-1080.webp"
+    ],
+    "poids": {
+      "chambres-bandeau-800.webp": 29450,
+      "chambres-bandeau-1600.webp": 81346,
+      "chambres-bandeau-2000.webp": 105632,
+      "chambres-bandeau-mobile-640.webp": 29250,
+      "chambres-bandeau-mobile-1080.webp": 57246
+    },
+    "media": "c.media({ nom: 'chambres-bandeau', alt: \"Une chambre de La Sauternaise en panoramique : lit blanc, cheminée et armoire ancienne\", cadrage: '42% 45%', cadrageMobile: '51% 48%', sizes: '100vw', priorite: true })"
+  },
+  "chambre-douce": {
+    "nom": "chambre-douce",
+    "source": "recu/chambres-tarifs-3.jpg",
+    "role": "galerie",
+    "alt": "Chambre aux tons crème, lit capitonné et lumière chaude",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e480d4b4d7fb78c2",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "54% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 13.6,
+      "l": 100,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "chambre-douce-640.webp",
+      "chambre-douce-1280.webp"
+    ],
+    "poids": {
+      "chambre-douce-640.webp": 24122,
+      "chambre-douce-1280.webp": 63428
+    },
+    "media": "c.media({ nom: 'chambre-douce', alt: \"Chambre aux tons crème, lit capitonné et lumière chaude\", cadrage: '54% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "sauna": {
+    "nom": "sauna",
+    "source": "recu/chambres-tarifs-4.jpg",
+    "role": "carte-service",
+    "alt": "Sauna infrarouge en bois clair dans une salle de bains",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "54d4bd9a8a43629f",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 367,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "sauna-480.webp",
+      "sauna-800.webp"
+    ],
+    "poids": {
+      "sauna-480.webp": 16860,
+      "sauna-800.webp": 32986
+    },
+    "media": "c.media({ nom: 'sauna', alt: \"Sauna infrarouge en bois clair dans une salle de bains\", cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "bain-rouge": {
+    "nom": "bain-rouge",
+    "source": "recu/chambres-tarifs-2.jpg",
+    "role": "carte-service",
+    "alt": "Salle de bains au mur rouge, douche vitrée et carreaux de ciment",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a07bc5cacc3497a6",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 427,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bain-rouge-480.webp",
+      "bain-rouge-800.webp"
+    ],
+    "poids": {
+      "bain-rouge-480.webp": 26782,
+      "bain-rouge-800.webp": 62848
+    },
+    "media": "c.media({ nom: 'bain-rouge', alt: \"Salle de bains au mur rouge, douche vitrée et carreaux de ciment\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "porte-peignoir": {
+    "nom": "porte-peignoir",
+    "source": "recu/booking-maison-hotes-sauternaise-3.jpg",
+    "role": "carte-service",
+    "alt": "Porte ancienne en bois et peignoir blanc dans une salle de bains en pierre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d8777f40807d2a0d",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 707,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "porte-peignoir-480.webp",
+      "porte-peignoir-800.webp"
+    ],
+    "poids": {
+      "porte-peignoir-480.webp": 22706,
+      "porte-peignoir-800.webp": 50816
+    },
+    "media": "c.media({ nom: 'porte-peignoir', alt: \"Porte ancienne en bois et peignoir blanc dans une salle de bains en pierre\", sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "hier-aujourdhui": {
+    "nom": "hier-aujourdhui",
+    "source": "recu/contact-acces.jpg",
+    "role": "ouverture",
+    "alt": "Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d0f5a5457dbea238",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 35%"
+    },
+    "cadrage": "40% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "hier-aujourdhui-640.webp",
+      "hier-aujourdhui-1280.webp",
+      "hier-aujourdhui-1920.webp",
+      "hier-aujourdhui-mobile-640.webp",
+      "hier-aujourdhui-mobile-1080.webp"
+    ],
+    "poids": {
+      "hier-aujourdhui-640.webp": 30582,
+      "hier-aujourdhui-1280.webp": 79198,
+      "hier-aujourdhui-1920.webp": 132734,
+      "hier-aujourdhui-mobile-640.webp": 70508,
+      "hier-aujourdhui-mobile-1080.webp": 147372
+    },
+    "media": "c.media({ nom: 'hier-aujourdhui', alt: \"Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »\", cadrage: '40% 47%', cadrageMobile: '50% 35%', sizes: '100vw', priorite: true })"
+  },
+  "salle-a-manger": {
+    "nom": "salle-a-manger",
+    "source": "recu/galerie-7.jpg",
+    "role": "galerie",
+    "alt": "La salle à manger : lustre, grande table et sol en damier",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e956c79eb8b0c83d",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1800
+    ],
+    "mobile": null,
+    "cadrage": "41% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "salle-a-manger-640.webp",
+      "salle-a-manger-1280.webp",
+      "salle-a-manger-1800.webp"
+    ],
+    "poids": {
+      "salle-a-manger-640.webp": 35996,
+      "salle-a-manger-1280.webp": 108480,
+      "salle-a-manger-1800.webp": 179912
+    },
+    "media": "c.media({ nom: 'salle-a-manger', alt: \"La salle à manger : lustre, grande table et sol en damier\", cadrage: '41% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "salon-escalier": {
+    "nom": "salon-escalier",
+    "source": "recu/galerie-8.jpg",
+    "role": "galerie",
+    "alt": "L’escalier blanc en colimaçon au-dessus du salon",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8828bffc349e2608",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 367,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "salon-escalier-480.webp",
+      "salon-escalier-800.webp",
+      "salon-escalier-1100.webp"
+    ],
+    "poids": {
+      "salon-escalier-480.webp": 28902,
+      "salon-escalier-800.webp": 58164,
+      "salon-escalier-1100.webp": 84384
+    },
+    "media": "c.media({ nom: 'salon-escalier', alt: \"L’escalier blanc en colimaçon au-dessus du salon\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "cuisine": {
+    "nom": "cuisine",
+    "source": "recu/galerie-6.jpg",
+    "role": "galerie",
+    "alt": "Cuisine claire, mur rouge et carreaux de ciment",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "adfec3f30d20389d",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "40% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 77.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cuisine-640.webp",
+      "cuisine-1280.webp"
+    ],
+    "poids": {
+      "cuisine-640.webp": 24054,
+      "cuisine-1280.webp": 62138
+    },
+    "media": "c.media({ nom: 'cuisine', alt: \"Cuisine claire, mur rouge et carreaux de ciment\", cadrage: '40% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "jardin": {
+    "nom": "jardin",
+    "source": "recu/galerie-12.jpg",
+    "role": "galerie",
+    "alt": "Le jardin : grand arbre, palmier et façade arrière",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "566b256ed91c67cb",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "54% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1444,
+      "height": 963,
+      "source": [
+        1444,
+        964
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "jardin-640.webp",
+      "jardin-1280.webp"
+    ],
+    "poids": {
+      "jardin-640.webp": 92504,
+      "jardin-1280.webp": 291002
+    },
+    "media": "c.media({ nom: 'jardin', alt: \"Le jardin : grand arbre, palmier et façade arrière\", cadrage: '54% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "cave-lampe": {
+    "nom": "cave-lampe",
+    "source": "recu/luxury-b-b-bordeaux-2.jpg",
+    "role": "carte-service",
+    "alt": "Une bouteille de Sauternes et un verre à la lumière d’une lampe",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7e348aa267b5e7aa",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 300,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cave-lampe-480.webp",
+      "cave-lampe-800.webp",
+      "cave-lampe-1100.webp"
+    ],
+    "poids": {
+      "cave-lampe-480.webp": 37078,
+      "cave-lampe-800.webp": 103318,
+      "cave-lampe-1100.webp": 167340
+    },
+    "media": "c.media({ nom: 'cave-lampe', alt: \"Une bouteille de Sauternes et un verre à la lumière d’une lampe\", sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "pascale": {
+    "nom": "pascale",
+    "source": "recu/sommes-nous.png",
+    "role": "vignette",
+    "alt": "Pascale en cuisine",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3a091215db30f9b8",
+    "ratio": "4:5",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 30%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 96.6,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 110,
+      "top": 0,
+      "width": 946,
+      "height": 1183,
+      "source": [
+        1060,
+        1183
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1060 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "pascale-400.webp",
+      "pascale-640.webp"
+    ],
+    "poids": {
+      "pascale-400.webp": 16888,
+      "pascale-640.webp": 30080
+    },
+    "media": "c.media({ nom: 'pascale', alt: \"Pascale en cuisine\", cadrage: '50% 30%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "didier": {
+    "nom": "didier",
+    "source": "recu/sommes-nous-2.png",
+    "role": "vignette",
+    "alt": "Didier en robe de la Commanderie du Bontemps",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e8858a6114d69b3b",
+    "ratio": "4:5",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 30%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 113,
+      "top": 0,
+      "width": 809,
+      "height": 1011,
+      "source": [
+        995,
+        1011
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "995 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "didier-400.webp",
+      "didier-640.webp"
+    ],
+    "poids": {
+      "didier-400.webp": 26300,
+      "didier-640.webp": 56704
+    },
+    "media": "c.media({ nom: 'didier', alt: \"Didier en robe de la Commanderie du Bontemps\", cadrage: '50% 30%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 5' })"
+  },
+  "env-saint-emilion": {
+    "nom": "env-saint-emilion",
+    "source": "recu/environs.jpg",
+    "role": "vignette",
+    "alt": "Saint-Émilion, son clocher et ses toits au soleil couchant",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "02a5a813645d6eaf",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "45% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1992,
+      "height": 1328,
+      "source": [
+        2000,
+        1328
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-saint-emilion-400.webp",
+      "env-saint-emilion-640.webp"
+    ],
+    "poids": {
+      "env-saint-emilion-400.webp": 20608,
+      "env-saint-emilion-640.webp": 48466
+    },
+    "media": "c.media({ nom: 'env-saint-emilion', alt: \"Saint-Émilion, son clocher et ses toits au soleil couchant\", cadrage: '45% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-filhot": {
+    "nom": "env-filhot",
+    "source": "recu/moins-100-m-9.jpg",
+    "role": "vignette",
+    "alt": "Le château Filhot dans la lumière du soir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "eac4edff90a0468d",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "44% 30%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 90.6,
+      "h": 73
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1700,
+      "height": 1133,
+      "source": [
+        1700,
+        1138
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-filhot-400.webp",
+      "env-filhot-640.webp"
+    ],
+    "poids": {
+      "env-filhot-400.webp": 21068,
+      "env-filhot-640.webp": 52686
+    },
+    "media": "c.media({ nom: 'env-filhot', alt: \"Le château Filhot dans la lumière du soir\", cadrage: '44% 30%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-margaux": {
+    "nom": "env-margaux",
+    "source": "recu/moins-100-m-7.jpg",
+    "role": "vignette",
+    "alt": "Le château Margaux au bout de son allée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3fd53401d8b4fc4b",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 23.2,
+      "y": 5,
+      "l": 66.4,
+      "h": 80
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 85,
+      "top": 0,
+      "width": 1790,
+      "height": 1193,
+      "source": [
+        2000,
+        1193
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-margaux-400.webp",
+      "env-margaux-640.webp"
+    ],
+    "poids": {
+      "env-margaux-400.webp": 34612,
+      "env-margaux-640.webp": 92754
+    },
+    "media": "c.media({ nom: 'env-margaux', alt: \"Le château Margaux au bout de son allée\", cadrage: '50% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-cadillac": {
+    "nom": "env-cadillac",
+    "source": "recu/moins-100-m-6.jpg",
+    "role": "vignette",
+    "alt": "Le château de Cadillac vu du ciel",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d0e7f0c6dc81b35f",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 64%",
+    "sujet": {
+      "x": 0,
+      "y": 18.2,
+      "l": 100,
+      "h": 77.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.69,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 2,
+      "top": 0,
+      "width": 1997,
+      "height": 1331,
+      "source": [
+        2000,
+        1331
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-cadillac-400.webp",
+      "env-cadillac-640.webp"
+    ],
+    "poids": {
+      "env-cadillac-400.webp": 17684,
+      "env-cadillac-640.webp": 39260
+    },
+    "media": "c.media({ nom: 'env-cadillac', alt: \"Le château de Cadillac vu du ciel\", cadrage: '50% 64%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-sauve-majeure": {
+    "nom": "env-sauve-majeure",
+    "source": "recu/moins-100-m-4.jpg",
+    "role": "vignette",
+    "alt": "L’abbaye de La Sauve-Majeure et son clocher roman",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d63b8e3c27607444",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 62%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 3,
+      "top": 0,
+      "width": 1995,
+      "height": 1330,
+      "source": [
+        2000,
+        1330
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-sauve-majeure-400.webp",
+      "env-sauve-majeure-640.webp"
+    ],
+    "poids": {
+      "env-sauve-majeure-400.webp": 14510,
+      "env-sauve-majeure-640.webp": 35678
+    },
+    "media": "c.media({ nom: 'env-sauve-majeure', alt: \"L’abbaye de La Sauve-Majeure et son clocher roman\", cadrage: '50% 62%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-la-brede": {
+    "nom": "env-la-brede",
+    "source": "recu/moins-100-m-17.jpg",
+    "role": "vignette",
+    "alt": "Le château de La Brède entouré de ses douves",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "4edc0bcb67709f59",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "42% 57%",
+    "sujet": {
+      "x": 9.4,
+      "y": 4.5,
+      "l": 68.8,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1488,
+      "height": 992,
+      "source": [
+        1488,
+        992
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-la-brede-400.webp",
+      "env-la-brede-640.webp"
+    ],
+    "poids": {
+      "env-la-brede-400.webp": 21026,
+      "env-la-brede-640.webp": 44240
+    },
+    "media": "c.media({ nom: 'env-la-brede', alt: \"Le château de La Brède entouré de ses douves\", cadrage: '42% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-cazeneuve": {
+    "nom": "env-cazeneuve",
+    "source": "recu/moins-100-m-18.jpg",
+    "role": "vignette",
+    "alt": "Le château royal de Cazeneuve",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "db83ca81b265f6d5",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 91.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 412,
+      "top": 0,
+      "width": 1097,
+      "height": 731,
+      "source": [
+        2000,
+        731
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-cazeneuve-400.webp",
+      "env-cazeneuve-640.webp"
+    ],
+    "poids": {
+      "env-cazeneuve-400.webp": 25302,
+      "env-cazeneuve-640.webp": 59508
+    },
+    "media": "c.media({ nom: 'env-cazeneuve', alt: \"Le château royal de Cazeneuve\", cadrage: '50% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-canal-garonne": {
+    "nom": "env-canal-garonne",
+    "source": "recu/moins-100-m-15.jpg",
+    "role": "vignette",
+    "alt": "Péniche et cyclistes au bord du canal de Garonne",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "62c24efe04a37e23",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "49% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-canal-garonne-400.webp",
+      "env-canal-garonne-640.webp"
+    ],
+    "poids": {
+      "env-canal-garonne-400.webp": 37688,
+      "env-canal-garonne-640.webp": 96354
+    },
+    "media": "c.media({ nom: 'env-canal-garonne', alt: \"Péniche et cyclistes au bord du canal de Garonne\", cadrage: '49% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-huitres-fossiles": {
+    "nom": "env-huitres-fossiles",
+    "source": "recu/moins-100-m-12.jpg",
+    "role": "vignette",
+    "alt": "Le banc d’huîtres fossiles de Sainte-Croix-du-Mont",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f05710f748265516",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "60% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 133,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-huitres-fossiles-400.webp",
+      "env-huitres-fossiles-640.webp"
+    ],
+    "poids": {
+      "env-huitres-fossiles-400.webp": 38042,
+      "env-huitres-fossiles-640.webp": 87158
+    },
+    "media": "c.media({ nom: 'env-huitres-fossiles', alt: \"Le banc d’huîtres fossiles de Sainte-Croix-du-Mont\", cadrage: '60% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-boeuf-bazas": {
+    "nom": "env-boeuf-bazas",
+    "source": "recu/moins-100-m-13.jpg",
+    "role": "vignette",
+    "alt": "Bœufs de Bazas dans un pré",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a5c860e7a69cfc6e",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "54% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 1.6,
+      "l": 100,
+      "h": 98.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 133,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-boeuf-bazas-400.webp",
+      "env-boeuf-bazas-640.webp"
+    ],
+    "poids": {
+      "env-boeuf-bazas-400.webp": 30102,
+      "env-boeuf-bazas-640.webp": 76742
+    },
+    "media": "c.media({ nom: 'env-boeuf-bazas', alt: \"Bœufs de Bazas dans un pré\", cadrage: '54% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-roquetaillade": {
+    "nom": "env-roquetaillade",
+    "source": "recu/moins-100-m-3.jpg",
+    "role": "vignette",
+    "alt": "Le plafond peint de la chapelle du château de Roquetaillade",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6b5cbe15ddc88c77",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 59%",
+    "sujet": {
+      "x": 3,
+      "y": 13.6,
+      "l": 84.6,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 3,
+      "top": 0,
+      "width": 1995,
+      "height": 1330,
+      "source": [
+        2000,
+        1330
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-roquetaillade-400.webp",
+      "env-roquetaillade-640.webp"
+    ],
+    "poids": {
+      "env-roquetaillade-400.webp": 45024,
+      "env-roquetaillade-640.webp": 106866
+    },
+    "media": "c.media({ nom: 'env-roquetaillade', alt: \"Le plafond peint de la chapelle du château de Roquetaillade\", cadrage: '50% 59%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-lafaurie-peyraguey": {
+    "nom": "env-lafaurie-peyraguey",
+    "source": "recu/moins-100-m-14.jpg",
+    "role": "vignette",
+    "alt": "Le chai à barriques du château Lafaurie-Peyraguey",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "758b19b360d4fec2",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 24,
+      "y": 7.1,
+      "l": 43.7,
+      "h": 92.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 317,
+      "top": 0,
+      "width": 1286,
+      "height": 857,
+      "source": [
+        2000,
+        857
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-lafaurie-peyraguey-400.webp",
+      "env-lafaurie-peyraguey-640.webp"
+    ],
+    "poids": {
+      "env-lafaurie-peyraguey-400.webp": 16874,
+      "env-lafaurie-peyraguey-640.webp": 31454
+    },
+    "media": "c.media({ nom: 'env-lafaurie-peyraguey', alt: \"Le chai à barriques du château Lafaurie-Peyraguey\", cadrage: '50% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-eglise-sauternes": {
+    "nom": "env-eglise-sauternes",
+    "source": "recu/moins-100-m-16.jpg",
+    "role": "vignette",
+    "alt": "L’église Saint-Pierre-ès-Liens de Sauternes et ses autels de marbre",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d6e67b7a62b73f62",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "45% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 4.5,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1497,
+      "height": 998,
+      "source": [
+        1500,
+        998
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-eglise-sauternes-400.webp",
+      "env-eglise-sauternes-640.webp"
+    ],
+    "poids": {
+      "env-eglise-sauternes-400.webp": 19032,
+      "env-eglise-sauternes-640.webp": 37476
+    },
+    "media": "c.media({ nom: 'env-eglise-sauternes', alt: \"L’église Saint-Pierre-ès-Liens de Sauternes et ses autels de marbre\", cadrage: '45% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-velos": {
+    "nom": "env-velos",
+    "source": "recu/moins-100-m-23.jpg",
+    "role": "vignette",
+    "alt": "Balade à vélo dans les vignes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "166bf2fa316ee552",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 5,
+      "l": 100,
+      "h": 90
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 44,
+      "top": 0,
+      "width": 1167,
+      "height": 778,
+      "source": [
+        1280,
+        778
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-velos-400.webp",
+      "env-velos-640.webp"
+    ],
+    "poids": {
+      "env-velos-400.webp": 29810,
+      "env-velos-640.webp": 71362
+    },
+    "media": "c.media({ nom: 'env-velos', alt: \"Balade à vélo dans les vignes\", cadrage: '50% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-canoe-ciron": {
+    "nom": "env-canoe-ciron",
+    "source": "recu/moins-100-m-28.jpg",
+    "role": "vignette",
+    "alt": "Canoë sur le Ciron sous les arbres",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "d5231dc1830d4734",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "49% 53%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 71.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 85,
+      "width": 1024,
+      "height": 683,
+      "source": [
+        1024,
+        768
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-canoe-ciron-400.webp",
+      "env-canoe-ciron-640.webp"
+    ],
+    "poids": {
+      "env-canoe-ciron-400.webp": 29484,
+      "env-canoe-ciron-640.webp": 67700
+    },
+    "media": "c.media({ nom: 'env-canoe-ciron', alt: \"Canoë sur le Ciron sous les arbres\", cadrage: '49% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-guiraud": {
+    "nom": "env-guiraud",
+    "source": "recu/moins-100-m-27.jpg",
+    "role": "vignette",
+    "alt": "L’allée de platanes du château Guiraud",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "5f1fc536319c9314",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "57% 61%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 85,
+      "width": 1024,
+      "height": 683,
+      "source": [
+        1024,
+        768
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-guiraud-400.webp",
+      "env-guiraud-640.webp"
+    ],
+    "poids": {
+      "env-guiraud-400.webp": 39840,
+      "env-guiraud-640.webp": 98572
+    },
+    "media": "c.media({ nom: 'env-guiraud', alt: \"L’allée de platanes du château Guiraud\", cadrage: '57% 61%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-hostens": {
+    "nom": "env-hostens",
+    "source": "recu/moins-100-m-21.jpg",
+    "role": "vignette",
+    "alt": "Les lacs d’Hostens sous un grand ciel",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "cdeba6a44a4c2e24",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 853,
+      "source": [
+        1280,
+        853
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-hostens-400.webp",
+      "env-hostens-640.webp"
+    ],
+    "poids": {
+      "env-hostens-400.webp": 20542,
+      "env-hostens-640.webp": 43004
+    },
+    "media": "c.media({ nom: 'env-hostens', alt: \"Les lacs d’Hostens sous un grand ciel\", cadrage: '49% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-arcachon": {
+    "nom": "env-arcachon",
+    "source": "recu/moins-100-m-24.jpg",
+    "role": "vignette",
+    "alt": "Cabane tchanquée sur le bassin d’Arcachon",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b5e59523a560fa5b",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 6.3,
+      "y": 31.7,
+      "l": 93.7,
+      "h": 36.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.72,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.62,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 1,
+      "width": 1181,
+      "height": 787,
+      "source": [
+        1181,
+        788
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1181 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-arcachon-400.webp",
+      "env-arcachon-640.webp"
+    ],
+    "poids": {
+      "env-arcachon-400.webp": 12426,
+      "env-arcachon-640.webp": 27016
+    },
+    "media": "c.media({ nom: 'env-arcachon', alt: \"Cabane tchanquée sur le bassin d’Arcachon\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-pilat": {
+    "nom": "env-pilat",
+    "source": "recu/moins-100-m.jpg",
+    "role": "vignette",
+    "alt": "La dune du Pilat vue du ciel",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c70bfcfab6a1827d",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "60% 40%",
+    "sujet": {
+      "x": 6.2,
+      "y": 4.5,
+      "l": 93.8,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 3,
+      "top": 0,
+      "width": 1997,
+      "height": 1331,
+      "source": [
+        2000,
+        1331
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-pilat-400.webp",
+      "env-pilat-640.webp"
+    ],
+    "poids": {
+      "env-pilat-400.webp": 9712,
+      "env-pilat-640.webp": 21342
+    },
+    "media": "c.media({ nom: 'env-pilat', alt: \"La dune du Pilat vue du ciel\", cadrage: '60% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-pauillac": {
+    "nom": "env-pauillac",
+    "source": "recu/moins-100-m-36.jpg",
+    "role": "vignette",
+    "alt": "L’estuaire de la Gironde depuis Pauillac",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "b0b0514f936494db",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 109,
+      "top": 0,
+      "width": 591,
+      "height": 394,
+      "source": [
+        700,
+        394
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "700 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,08 fois (source de 591 px après recadrage)"
+    ],
+    "fichiers": [
+      "env-pauillac-400.webp",
+      "env-pauillac-640.webp"
+    ],
+    "poids": {
+      "env-pauillac-400.webp": 22296,
+      "env-pauillac-640.webp": 50112
+    },
+    "media": "c.media({ nom: 'env-pauillac', alt: \"L’estuaire de la Gironde depuis Pauillac\", cadrage: '50% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-bordeaux": {
+    "nom": "env-bordeaux",
+    "source": "recu/moins-100-m-32.jpg",
+    "role": "vignette",
+    "alt": "Croisière sur la Garonne à Bordeaux",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "dfcec47144ebedc9",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 4.8,
+      "l": 100,
+      "h": 90.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 735,
+      "height": 490,
+      "source": [
+        780,
+        490
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "780 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-bordeaux-400.webp",
+      "env-bordeaux-640.webp"
+    ],
+    "poids": {
+      "env-bordeaux-400.webp": 19068,
+      "env-bordeaux-640.webp": 40388
+    },
+    "media": "c.media({ nom: 'env-bordeaux', alt: \"Croisière sur la Garonne à Bordeaux\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-montaigne": {
+    "nom": "env-montaigne",
+    "source": "recu/moins-100-m-25.jpg",
+    "role": "vignette",
+    "alt": "Le château Michel de Montaigne",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ccc8da8f047efb4c",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "43% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1050,
+      "height": 700,
+      "source": [
+        1300,
+        700
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-montaigne-400.webp",
+      "env-montaigne-640.webp"
+    ],
+    "poids": {
+      "env-montaigne-400.webp": 25480,
+      "env-montaigne-640.webp": 56874
+    },
+    "media": "c.media({ nom: 'env-montaigne', alt: \"Le château Michel de Montaigne\", cadrage: '43% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-arche": {
+    "nom": "env-arche",
+    "source": "recu/moins-100-m-37.jpg",
+    "role": "vignette",
+    "alt": "Le château d’Arche dans ses vignes",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "3bcfc48554b0a686",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 16,
+      "width": 600,
+      "height": 400,
+      "source": [
+        600,
+        450
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "600 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 600 px après recadrage)"
+    ],
+    "fichiers": [
+      "env-arche-400.webp",
+      "env-arche-640.webp"
+    ],
+    "poids": {
+      "env-arche-400.webp": 20730,
+      "env-arche-640.webp": 39460
+    },
+    "media": "c.media({ nom: 'env-arche', alt: \"Le château d’Arche dans ses vignes\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-rayne-vigneau": {
+    "nom": "env-rayne-vigneau",
+    "source": "recu/moins-100-m-33.jpg",
+    "role": "vignette",
+    "alt": "Dégustation perchée dans les arbres à Rayne Vigneau",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "ffae062b354bb819",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "44% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.2,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 689,
+      "height": 459,
+      "source": [
+        699,
+        459
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "699 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-rayne-vigneau-400.webp",
+      "env-rayne-vigneau-640.webp"
+    ],
+    "poids": {
+      "env-rayne-vigneau-400.webp": 33344,
+      "env-rayne-vigneau-640.webp": 62004
+    },
+    "media": "c.media({ nom: 'env-rayne-vigneau', alt: \"Dégustation perchée dans les arbres à Rayne Vigneau\", cadrage: '44% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-clos-haut-peyraguey": {
+    "nom": "env-clos-haut-peyraguey",
+    "source": "recu/moins-100-m-10.jpg",
+    "role": "vignette",
+    "alt": "Une bouteille du Clos Haut-Peyraguey",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d9b4e30cd2ee50a7",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "53% 40%",
+    "sujet": {
+      "x": 25,
+      "y": 13.6,
+      "l": 65.6,
+      "h": 59.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.68,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.59,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1701,
+      "height": 1134,
+      "source": [
+        1701,
+        1134
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-clos-haut-peyraguey-400.webp",
+      "env-clos-haut-peyraguey-640.webp"
+    ],
+    "poids": {
+      "env-clos-haut-peyraguey-400.webp": 8000,
+      "env-clos-haut-peyraguey-640.webp": 15934
+    },
+    "media": "c.media({ nom: 'env-clos-haut-peyraguey', alt: \"Une bouteille du Clos Haut-Peyraguey\", cadrage: '53% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-ciron-arbres": {
+    "nom": "env-ciron-arbres",
+    "source": "recu/moins-100-m-22.jpg",
+    "role": "vignette",
+    "alt": "Grimpe d’arbres au-dessus du Ciron",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "7d56a57f94a74c52",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "41% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 30.2,
+      "l": 96.9,
+      "h": 55.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 18,
+      "width": 1200,
+      "height": 800,
+      "source": [
+        1200,
+        854
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-ciron-arbres-400.webp",
+      "env-ciron-arbres-640.webp"
+    ],
+    "poids": {
+      "env-ciron-arbres-400.webp": 18650,
+      "env-ciron-arbres-640.webp": 31966
+    },
+    "media": "c.media({ nom: 'env-ciron-arbres', alt: \"Grimpe d’arbres au-dessus du Ciron\", cadrage: '41% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-villandraut": {
+    "nom": "env-villandraut",
+    "source": "recu/moins-100-m-34.jpg",
+    "role": "vignette",
+    "alt": "Les tours du château de Villandraut",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "24b058ab0d3aa513",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "37% 22%",
+    "sujet": {
+      "x": 3.6,
+      "y": 0,
+      "l": 96.4,
+      "h": 57.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 299,
+      "top": 0,
+      "width": 551,
+      "height": 367,
+      "source": [
+        850,
+        367
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "850 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,16 fois (source de 551 px après recadrage)"
+    ],
+    "fichiers": [
+      "env-villandraut-400.webp",
+      "env-villandraut-640.webp"
+    ],
+    "poids": {
+      "env-villandraut-400.webp": 28084,
+      "env-villandraut-640.webp": 56042
+    },
+    "media": "c.media({ nom: 'env-villandraut', alt: \"Les tours du château de Villandraut\", cadrage: '37% 22%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-saint-macaire": {
+    "nom": "env-saint-macaire",
+    "source": "recu/moins-100-m-35.jpg",
+    "role": "vignette",
+    "alt": "La cité médiévale de Saint-Macaire",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "ac95e29b072881f2",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 48,
+      "top": 0,
+      "width": 591,
+      "height": 394,
+      "source": [
+        700,
+        394
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "700 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,08 fois (source de 591 px après recadrage)"
+    ],
+    "fichiers": [
+      "env-saint-macaire-400.webp",
+      "env-saint-macaire-640.webp"
+    ],
+    "poids": {
+      "env-saint-macaire-400.webp": 26994,
+      "env-saint-macaire-640.webp": 57772
+    },
+    "media": "c.media({ nom: 'env-saint-macaire', alt: \"La cité médiévale de Saint-Macaire\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-uzeste": {
+    "nom": "env-uzeste",
+    "source": "recu/moins-100-m-11.jpg",
+    "role": "vignette",
+    "alt": "Vitrail de la collégiale d’Uzeste",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "fae8c0d7446486d1",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 9.4,
+      "y": 0.8,
+      "l": 81.3,
+      "h": 98.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 91,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1200
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-uzeste-400.webp",
+      "env-uzeste-640.webp"
+    ],
+    "poids": {
+      "env-uzeste-400.webp": 27860,
+      "env-uzeste-640.webp": 58234
+    },
+    "media": "c.media({ nom: 'env-uzeste', alt: \"Vitrail de la collégiale d’Uzeste\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-malrome": {
+    "nom": "env-malrome",
+    "source": "recu/moins-100-m-29.jpg",
+    "role": "vignette",
+    "alt": "Portrait d’Henri de Toulouse-Lautrec au château de Malromé",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "a426fc5ea03de251",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "53% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 91,
+      "width": 879,
+      "height": 586,
+      "source": [
+        879,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "879 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-malrome-400.webp",
+      "env-malrome-640.webp"
+    ],
+    "poids": {
+      "env-malrome-400.webp": 7330,
+      "env-malrome-640.webp": 12912
+    },
+    "media": "c.media({ nom: 'env-malrome', alt: \"Portrait d’Henri de Toulouse-Lautrec au château de Malromé\", cadrage: '53% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-smith-haut-lafitte": {
+    "nom": "env-smith-haut-lafitte",
+    "source": "recu/moins-100-m-20.jpg",
+    "role": "vignette",
+    "alt": "Le lièvre de bronze du château Smith Haut Lafitte",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "11ccab7095f69930",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 98.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.64,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 246,
+      "width": 1114,
+      "height": 743,
+      "source": [
+        1114,
+        1013
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1114 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-smith-haut-lafitte-400.webp",
+      "env-smith-haut-lafitte-640.webp"
+    ],
+    "poids": {
+      "env-smith-haut-lafitte-400.webp": 8398,
+      "env-smith-haut-lafitte-640.webp": 14994
+    },
+    "media": "c.media({ nom: 'env-smith-haut-lafitte', alt: \"Le lièvre de bronze du château Smith Haut Lafitte\", cadrage: '48% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-la-dominique": {
+    "nom": "env-la-dominique",
+    "source": "recu/moins-100-m-19.jpg",
+    "role": "vignette",
+    "alt": "Une bouteille du château La Dominique",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "df0b618358366081",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 147,
+      "width": 1182,
+      "height": 788,
+      "source": [
+        1182,
+        1061
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1182 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-la-dominique-400.webp",
+      "env-la-dominique-640.webp"
+    ],
+    "poids": {
+      "env-la-dominique-400.webp": 11798,
+      "env-la-dominique-640.webp": 20446
+    },
+    "media": "c.media({ nom: 'env-la-dominique', alt: \"Une bouteille du château La Dominique\", cadrage: '51% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-domaine-de-chevalier": {
+    "nom": "env-domaine-de-chevalier",
+    "source": "recu/moins-100-m-31.jpg",
+    "role": "vignette",
+    "alt": "Bouteilles du Domaine de Chevalier",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "e6bc9cbb3a1859fd",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 218,
+      "top": 0,
+      "width": 683,
+      "height": 455,
+      "source": [
+        948,
+        455
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "948 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "env-domaine-de-chevalier-400.webp",
+      "env-domaine-de-chevalier-640.webp"
+    ],
+    "poids": {
+      "env-domaine-de-chevalier-400.webp": 19330,
+      "env-domaine-de-chevalier-640.webp": 40490
+    },
+    "media": "c.media({ nom: 'env-domaine-de-chevalier', alt: \"Bouteilles du Domaine de Chevalier\", cadrage: '50% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-von-neipperg": {
+    "nom": "env-von-neipperg",
+    "source": "recu/vignobles-von-neipperg-mondotte.jpg",
+    "role": "vignette",
+    "alt": "Bouteilles des vignobles von Neipperg et une carafe",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f753e4f63c65e80a",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "49% 38%",
+    "sujet": {
+      "x": 3,
+      "y": 0,
+      "l": 97,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 1,
+      "top": 0,
+      "width": 1599,
+      "height": 1066,
+      "source": [
+        1600,
+        1066
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "env-von-neipperg-400.webp",
+      "env-von-neipperg-640.webp"
+    ],
+    "poids": {
+      "env-von-neipperg-400.webp": 16840,
+      "env-von-neipperg-640.webp": 33454
+    },
+    "media": "c.media({ nom: 'env-von-neipperg', alt: \"Bouteilles des vignobles von Neipperg et une carafe\", cadrage: '49% 38%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "env-malle": {
+    "nom": "env-malle",
+    "source": "recu/moins-100-m-30.png",
+    "role": "vignette",
+    "alt": "Promenade à vélo devant le château de Malle",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "71ffd9bfe3180bb0",
+    "ratio": "3:2",
+    "largeurs": [
+      400,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 90
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 349,
+      "top": 0,
+      "width": 653,
+      "height": 435,
+      "source": [
+        1500,
+        435
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "recadrage fort : 44 % de l'image gardée"
+    ],
+    "fichiers": [
+      "env-malle-400.webp",
+      "env-malle-640.webp"
+    ],
+    "poids": {
+      "env-malle-400.webp": 21628,
+      "env-malle-640.webp": 40214
+    },
+    "media": "c.media({ nom: 'env-malle', alt: \"Promenade à vélo devant le château de Malle\", cadrage: '50% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 2' })"
+  },
+  "vignes-brume": {
+    "nom": "vignes-brume",
+    "source": "recu/grok/vignes-brume.png",
+    "role": "ouverture",
+    "alt": "Vignes d’automne dans la brume du matin",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "6e9578c789a371f2",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 57%"
+    },
+    "cadrage": "45% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 174,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "vignes-brume-640.webp",
+      "vignes-brume-1280.webp",
+      "vignes-brume-1920.webp",
+      "vignes-brume-mobile-640.webp",
+      "vignes-brume-mobile-1080.webp"
+    ],
+    "poids": {
+      "vignes-brume-640.webp": 34452,
+      "vignes-brume-1280.webp": 99896,
+      "vignes-brume-1920.webp": 162900,
+      "vignes-brume-mobile-640.webp": 93230,
+      "vignes-brume-mobile-1080.webp": 170788
+    },
+    "media": "c.media({ nom: 'vignes-brume', alt: \"Vignes d’automne dans la brume du matin\", cadrage: '45% 38%', cadrageMobile: '50% 57%', sizes: '100vw', priorite: true })"
+  },
+  "verre-dore": {
+    "nom": "verre-dore",
+    "source": "recu/grok/verre-dore.png",
+    "role": "section-fond",
+    "alt": "Un verre de vin doré sur le rebord d’une fenêtre en pierre, au soleil du soir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e98b65f80ce1aed6",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 44%"
+    },
+    "cadrage": "65% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 99.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 130,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "verre-dore-640.webp",
+      "verre-dore-1280.webp",
+      "verre-dore-1920.webp",
+      "verre-dore-mobile-640.webp",
+      "verre-dore-mobile-1080.webp"
+    ],
+    "poids": {
+      "verre-dore-640.webp": 29848,
+      "verre-dore-1280.webp": 89112,
+      "verre-dore-1920.webp": 147034,
+      "verre-dore-mobile-640.webp": 70260,
+      "verre-dore-mobile-1080.webp": 131486
+    },
+    "media": "c.media({ nom: 'verre-dore', alt: \"Un verre de vin doré sur le rebord d’une fenêtre en pierre, au soleil du soir\", cadrage: '65% 50%', cadrageMobile: '50% 44%', sizes: '100vw' })"
+  },
+  "linge-satin": {
+    "nom": "linge-satin",
+    "source": "recu/grok/linge-satin.png",
+    "role": "carte-service",
+    "alt": "Draps de satin de coton blanc et deux oreillers",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7990173a55989d65",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.08,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 336,
+      "width": 1400,
+      "height": 1750,
+      "source": [
+        1400,
+        2086
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "linge-satin-480.webp",
+      "linge-satin-640.webp",
+      "linge-satin-784.webp"
+    ],
+    "poids": {
+      "linge-satin-480.webp": 25862,
+      "linge-satin-640.webp": 42662,
+      "linge-satin-784.webp": 59068
+    },
+    "media": "c.media({ nom: 'linge-satin', alt: \"Draps de satin de coton blanc et deux oreillers\", cadrage: '52% 58%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "vapeur": {
+    "nom": "vapeur",
+    "source": "recu/grok/vapeur.png",
+    "role": "section-fond",
+    "alt": "Vapeur douce devant un mur de pierre blonde, serviette pliée sur un banc",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8012c4ee41cd9898",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 48%"
+    },
+    "cadrage": "74% 50%",
+    "sujet": {
+      "x": 37.5,
+      "y": 0,
+      "l": 62.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.87,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.5,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 66,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "vapeur-640.webp",
+      "vapeur-1280.webp",
+      "vapeur-1920.webp",
+      "vapeur-mobile-640.webp"
+    ],
+    "poids": {
+      "vapeur-640.webp": 8690,
+      "vapeur-1280.webp": 43816,
+      "vapeur-1920.webp": 85778,
+      "vapeur-mobile-640.webp": 37536
+    },
+    "media": "c.media({ nom: 'vapeur', alt: \"Vapeur douce devant un mur de pierre blonde, serviette pliée sur un banc\", cadrage: '74% 50%', cadrageMobile: '50% 48%', sizes: '100vw' })"
+  },
+  "cle-ancienne": {
+    "nom": "cle-ancienne",
+    "source": "recu/grok/cle-ancienne.png",
+    "role": "404",
+    "alt": "Une vieille clé posée sur le seuil de pierre d’une porte entrouverte",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fc63c5b69a10c49a",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "71% 50%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 93.7,
+      "h": 99.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 33,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "cle-ancienne-800.webp",
+      "cle-ancienne-1600.webp"
+    ],
+    "poids": {
+      "cle-ancienne-800.webp": 44184,
+      "cle-ancienne-1600.webp": 114784
+    },
+    "media": "c.media({ nom: 'cle-ancienne', alt: \"Une vieille clé posée sur le seuil de pierre d’une porte entrouverte\", cadrage: '71% 50%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

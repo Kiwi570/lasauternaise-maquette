@@ -1,0 +1,14 @@
+[
+ {
+  "nom": "ordinateur",
+  "ecrans": 11.2,
+  "echantillons": 21,
+  "vides": []
+ },
+ {
+  "nom": "telephone",
+  "ecrans": 13.2,
+  "echantillons": 23,
+  "vides": []
+ }
+]

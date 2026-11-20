@@ -1,0 +1,7583 @@
+{
+  "dossier": "/home/claude/lasauternaise-maquette/recu",
+  "date": "2026-11-20T15:25:55.027Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg",
+    "planche-4.jpg",
+    "planche-5.jpg",
+    "planche-6.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [
+    {
+      "garder": "galerie-3.jpg",
+      "ecarter": "politique-confidentialite-chambres.webp",
+      "type": "doublon",
+      "distance": 5,
+      "ressemblance": 1
+    },
+    {
+      "garder": "booking-maison-hotes-sauternaise-3.jpg",
+      "ecarter": "luxury-b-b-bordeaux-5.webp",
+      "type": "doublon",
+      "distance": 9,
+      "ressemblance": 1
+    },
+    {
+      "garder": "galerie-13.jpg",
+      "ecarter": "chambres-tarifs-5.webp",
+      "type": "doublon",
+      "distance": 5,
+      "ressemblance": 1
+    }
+  ],
+  "images": [
+    {
+      "fichier": "logo.jpg",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 1181,
+      "hauteur": 1181,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 309335,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 21.9,
+        "l": 90.6,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        48
+      ],
+      "cadrage_css": "52% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        }
+      ],
+      "qualite": {
+        "nettete": 25,
+        "bruit": 0.22,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "44160b1331179422",
+      "drapeaux": [
+        "logo",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "tasse-cafe.jpg",
+      "nom": "tasse-cafe",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1600,
+      "ratio": "5:4",
+      "ratio_valeur": 1.25,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 259670,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 26.9,
+        "l": 56.3,
+        "h": 61.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        55
+      ],
+      "cadrage_css": "50% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        }
+      ],
+      "qualite": {
+        "nettete": 18.2,
+        "bruit": 0.62,
+        "compression": 1.39,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "69384c96968e0db1",
+      "drapeaux": [
+        "plat",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "maison-hotes.jpg",
+      "nom": "maison-hotes",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 439892,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        52
+      ],
+      "cadrage_css": "46% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 52.4,
+        "bruit": 0.72,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e2b256264352460b",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "bouteilles-vin.jpg",
+      "nom": "bouteilles-vin",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 156481,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 0,
+        "l": 84.4,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        45
+      ],
+      "cadrage_css": "57% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 8,
+        "bruit": 0.33,
+        "compression": 1.42,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9ceb6d36d9e6aa54",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "bouteille-champagne.jpg",
+      "nom": "bouteille-champagne",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 316462,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        49
+      ],
+      "cadrage_css": "54% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 23.8,
+        "bruit": 0.67,
+        "compression": 1.26,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "050c644dcc9c8d6d",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "luxury-b-b-bordeaux.png",
+      "nom": "luxury-b-b-bordeaux",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1857,
+      "ratio": "1.08",
+      "ratio_valeur": 1.077,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 7153152,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 96.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        51
+      ],
+      "cadrage_css": "50% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 23.1,
+        "bruit": 0.7,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c0391858d1931148",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "luxury-b-b-bordeaux-2.jpg",
+      "nom": "luxury-b-b-bordeaux-2",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 585166,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        46
+      ],
+      "cadrage_css": "44% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 70.7,
+        "bruit": 1.51,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6263e5f7f5f7b63d",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "luxury-b-b-bordeaux-3.jpg",
+      "nom": "luxury-b-b-bordeaux-3",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 500637,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        42
+      ],
+      "cadrage_css": "52% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 32.5,
+        "bruit": 0.56,
+        "compression": 1.16,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3e7cb4bcbcbcb363",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "maison-hotes-2.png",
+      "nom": "maison-hotes-2",
+      "drapeau": "lieu",
+      "largeur": 1181,
+      "hauteur": 1181,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 100507,
+      "transparence": true,
+      "sujet": {
+        "x": 12.5,
+        "y": 31.3,
+        "l": 21.9,
+        "h": 15.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        23,
+        43
+      ],
+      "cadrage_css": "23% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 4.3,
+        "bruit": 0.09,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1181 px de large",
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0000000000000000",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "floue",
+        "calme droite/bas/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "luxury-b-b-bordeaux-4.jpg",
+      "nom": "luxury-b-b-bordeaux-4",
+      "drapeau": "lieu",
+      "largeur": 1336,
+      "hauteur": 891,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 783939,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        51
+      ],
+      "cadrage_css": "48% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 60.7,
+        "bruit": 1.5,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "fccdcdadc4d3a30c",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "maison-hotes-3.jpg",
+      "nom": "maison-hotes-3",
+      "drapeau": "lieu",
+      "largeur": 805,
+      "hauteur": 763,
+      "ratio": "1.06",
+      "ratio_valeur": 1.055,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 193648,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 16.1,
+        "l": 100,
+        "h": 80.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        61
+      ],
+      "cadrage_css": "57% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "moyen",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 107.2,
+        "bruit": 1.31,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "805 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "60990ce128e8a8a1",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "luxury-b-b-bordeaux-5.webp",
+      "nom": "luxury-b-b-bordeaux-5",
+      "drapeau": "lieu",
+      "largeur": 895,
+      "hauteur": 597,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 59378,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 93.8,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        51
+      ],
+      "cadrage_css": "58% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 30.6,
+        "bruit": 0.84,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "895 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "63e3ca4a0202a6e3",
+      "doublon_de": {
+        "fichier": "booking-maison-hotes-sauternaise-3.jpg",
+        "type": "doublon",
+        "distance": 9,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "doublon de booking-maison-hotes-sauternaise-3.jpg"
+      ]
+    },
+    {
+      "fichier": "booking-maison-hotes-sauternaise.jpg",
+      "nom": "booking-maison-hotes-sauternaise",
+      "drapeau": "lieu",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 256484,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        57
+      ],
+      "cadrage_css": "51% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 20.7,
+        "bruit": 0.37,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d3d2f29800a0d0c3",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "booking-maison-hotes-sauternaise-2.jpg",
+      "nom": "booking-maison-hotes-sauternaise-2",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 249431,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        56
+      ],
+      "cadrage_css": "53% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 31,
+        "bruit": 0.48,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f2bbebeba2819490",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "booking-maison-hotes-sauternaise-3.jpg",
+      "nom": "booking-maison-hotes-sauternaise-3",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 350164,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 93.8,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        50
+      ],
+      "cadrage_css": "58% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 23.8,
+        "bruit": 0.6,
+        "compression": 1.25,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6343c2c24296a6e3",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "booking-maison-hotes-sauternaise-4.jpg",
+      "nom": "booking-maison-hotes-sauternaise-4",
+      "drapeau": "lieu",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 357881,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.4,
+        "l": 95.5,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        58
+      ],
+      "cadrage_css": "64% 58%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 29.5,
+        "bruit": 0.77,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "06031311e46358ce",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "galerie.jpg",
+      "nom": "galerie",
+      "drapeau": "autre",
+      "largeur": 1336,
+      "hauteur": 891,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 837975,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.1,
+        "l": 93.8,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        52
+      ],
+      "cadrage_css": "51% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 44.4,
+        "bruit": 1.55,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0f2bab8b9e1ed99",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "booking-maison-hotes-sauternaise-5.jpg",
+      "nom": "booking-maison-hotes-sauternaise-5",
+      "drapeau": "lieu",
+      "largeur": 1095,
+      "hauteur": 720,
+      "ratio": "3:2",
+      "ratio_valeur": 1.521,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 133929,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.8,
+        "l": 100,
+        "h": 95.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        49
+      ],
+      "cadrage_css": "53% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 48.6,
+        "bruit": 0.68,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "1095 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "676541c7f1f1671f",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "booking-maison-hotes-sauternaise-6.jpg",
+      "nom": "booking-maison-hotes-sauternaise-6",
+      "drapeau": "lieu",
+      "largeur": 1095,
+      "hauteur": 720,
+      "ratio": "3:2",
+      "ratio_valeur": 1.521,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 159068,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        44
+      ],
+      "cadrage_css": "59% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 47.6,
+        "bruit": 0.9,
+        "compression": 0.88,
+        "faible": true,
+        "raisons": [
+          "1095 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "4f4e6e0f4f71654d",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "booking-maison-hotes-sauternaise-7.jpg",
+      "nom": "booking-maison-hotes-sauternaise-7",
+      "drapeau": "lieu",
+      "largeur": 734,
+      "hauteur": 720,
+      "ratio": "1:1",
+      "ratio_valeur": 1.019,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 110787,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        59
+      ],
+      "cadrage_css": "51% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 74.6,
+        "bruit": 0.87,
+        "compression": 1.36,
+        "faible": true,
+        "raisons": [
+          "734 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "41476159c1802701",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "decollage-avion-coucher-soleil.jpg",
+      "nom": "decollage-avion-coucher-soleil",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 161096,
+      "transparence": false,
+      "sujet": {
+        "x": 34.4,
+        "y": 22.7,
+        "l": 43.8,
+        "h": 45.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        49
+      ],
+      "cadrage_css": "59% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.68,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "droite",
+          "score": 0.52,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 7.3,
+        "bruit": 0.29,
+        "compression": 1.74,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f8f8f8e8f8f8f8f8",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "avion-volant.jpg",
+      "nom": "avion-volant",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 293831,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        70
+      ],
+      "cadrage_css": "58% 70%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 54.2,
+        "bruit": 0.39,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c2e6e4e4f8f0f162",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "service-voiture-noire.jpg",
+      "nom": "service-voiture-noire",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 194672,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 43.8,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        28,
+        44
+      ],
+      "cadrage_css": "28% 44%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 11.7,
+        "bruit": 0.33,
+        "compression": 1.3,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6266c7cf8b83818b",
+      "drapeaux": [
+        "autre",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "train-gare-sncf-bordeaux.jpg",
+      "nom": "train-gare-sncf-bordeaux",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 556558,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        44
+      ],
+      "cadrage_css": "51% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 49.1,
+        "bruit": 1.27,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ece86b5775ebe2e6",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "contact-acces.jpg",
+      "nom": "contact-acces",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 508666,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        47
+      ],
+      "cadrage_css": "56% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 43.4,
+        "bruit": 0.98,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "461644c818664cc5",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "drapeau": "autre",
+      "largeur": 430,
+      "hauteur": 1670,
+      "ratio": "0.26",
+      "ratio_valeur": 0.257,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 104139,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 77.8,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        20,
+        43
+      ],
+      "cadrage_css": "20% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 54.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "430 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d7555552d0d0d0d0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "contact-acces-2.webp",
+      "nom": "contact-acces-2",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 6846,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 53.1,
+        "l": 12.5,
+        "h": 6.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        6,
+        56
+      ],
+      "cadrage_css": "6% 56%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.96,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        }
+      ],
+      "qualite": {
+        "nettete": 8,
+        "bruit": 0.15,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "0ba20668c9c8461c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-acces-3.webp",
+      "nom": "contact-acces-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 9492,
+      "transparence": false,
+      "sujet": {
+        "x": 34.4,
+        "y": 28.1,
+        "l": 46.9,
+        "h": 40.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        61
+      ],
+      "cadrage_css": "49% 61%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 9.6,
+        "bruit": 0.21,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "94a55166cf0e0e4a",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact-acces-4.webp",
+      "nom": "contact-acces-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 7912,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 46.9,
+        "l": 93.8,
+        "h": 40.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        69
+      ],
+      "cadrage_css": "45% 69%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 22.6,
+        "bruit": 0.13,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "302bac4414641c10",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-acces-5.webp",
+      "nom": "contact-acces-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 9690,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 18.8,
+        "l": 71.9,
+        "h": 40.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        38,
+        40
+      ],
+      "cadrage_css": "38% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.96,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.78,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 9.3,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "5091b004131370a1",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/droite/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-acces-6.webp",
+      "nom": "contact-acces-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 6900,
+      "transparence": false,
+      "sujet": {
+        "x": 53.1,
+        "y": 0,
+        "l": 6.3,
+        "h": 18.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        9
+      ],
+      "cadrage_css": "56% 9%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.96,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 7,
+        "bruit": 0.14,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "9568d2902664c181",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/bas/droite/haut"
+      ]
+    },
+    {
+      "fichier": "contact-acces-7.webp",
+      "nom": "contact-acces-7",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 8450,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 37.5,
+        "l": 12.5,
+        "h": 6.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        40
+      ],
+      "cadrage_css": "43% 40%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 7.8,
+        "bruit": 0.19,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6da848d841c69589",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-acces-8.webp",
+      "nom": "contact-acces-8",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 26794,
+      "transparence": false,
+      "sujet": {
+        "x": 40.6,
+        "y": 34.4,
+        "l": 31.3,
+        "h": 50,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        62
+      ],
+      "cadrage_css": "58% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "gauche",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 25.7,
+        "bruit": 0.29,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "56544c2d7654a6b3",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-acces-9.webp",
+      "nom": "contact-acces-9",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 26074,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 43.8,
+        "l": 9.4,
+        "h": 15.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        30,
+        52
+      ],
+      "cadrage_css": "30% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.92,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 7.4,
+        "bruit": 0.29,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "5226c3a3ab83a746",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut/bas/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-acces-10.webp",
+      "nom": "contact-acces-10",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 26754,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 6.3,
+        "l": 68.8,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        42
+      ],
+      "cadrage_css": "56% 42%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        }
+      ],
+      "qualite": {
+        "nettete": 41.9,
+        "bruit": 0.34,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "26abade6c4aa421a",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-acces-11.webp",
+      "nom": "contact-acces-11",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 29572,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 15.6,
+        "l": 90.6,
+        "h": 9.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        22
+      ],
+      "cadrage_css": "37% 22%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "gauche",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.81,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 10.4,
+        "bruit": 0.27,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "846223020b119511",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/droite/gauche/haut"
+      ]
+    },
+    {
+      "fichier": "contact-acces-12.webp",
+      "nom": "contact-acces-12",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 22796,
+      "transparence": false,
+      "sujet": {
+        "x": 43.8,
+        "y": 53.1,
+        "l": 56.3,
+        "h": 6.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        69,
+        56
+      ],
+      "cadrage_css": "69% 56%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 17,
+        "bruit": 0.18,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "638a880c2c6c8a96",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact-acces-13.webp",
+      "nom": "contact-acces-13",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 23804,
+      "transparence": false,
+      "sujet": {
+        "x": 46.9,
+        "y": 3.1,
+        "l": 15.6,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        28
+      ],
+      "cadrage_css": "54% 28%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 10,
+        "bruit": 0.33,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "044980046629434e",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/droite/haut/bas"
+      ]
+    },
+    {
+      "fichier": "contact-acces-14.webp",
+      "nom": "contact-acces-14",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 11776,
+      "transparence": false,
+      "sujet": {
+        "x": 18.8,
+        "y": 0,
+        "l": 59.4,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        43
+      ],
+      "cadrage_css": "44% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "haut",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 28.7,
+        "bruit": 0.24,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "31c3a3a10e28b913",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "contact-acces-15.webp",
+      "nom": "contact-acces-15",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 8734,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 90.6,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        60
+      ],
+      "cadrage_css": "65% 60%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 26.4,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6787c64687948baa",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "contact-acces-16.webp",
+      "nom": "contact-acces-16",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 8194,
+      "transparence": false,
+      "sujet": {
+        "x": 65.6,
+        "y": 71.9,
+        "l": 21.9,
+        "h": 6.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        76,
+        74
+      ],
+      "cadrage_css": "76% 74%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 8.1,
+        "bruit": 0.18,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "295c18918cab1958",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m.jpg",
+      "nom": "moins-100-m",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1331,
+      "ratio": "3:2",
+      "ratio_valeur": 1.503,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 386688,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 4.5,
+        "l": 93.8,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        40
+      ],
+      "cadrage_css": "60% 40%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 31,
+        "bruit": 0.7,
+        "compression": 1.89,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c2e030b4c2a692f3",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "environs.jpg",
+      "nom": "environs",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1328,
+      "ratio": "3:2",
+      "ratio_valeur": 1.506,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 535650,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        47
+      ],
+      "cadrage_css": "46% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 41.3,
+        "bruit": 1.11,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "806060d09cd9eeb6",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-2.jpg",
+      "nom": "moins-100-m-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 276259,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 90.6,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        53
+      ],
+      "cadrage_css": "45% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 13.9,
+        "bruit": 0.41,
+        "compression": 1.49,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d9b99c8ca6d0c43c",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-3.jpg",
+      "nom": "moins-100-m-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1330,
+      "ratio": "3:2",
+      "ratio_valeur": 1.504,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1113175,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 13.6,
+        "l": 84.4,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        59
+      ],
+      "cadrage_css": "50% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 105.8,
+        "bruit": 2.43,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f83a78f8e8e8e8b2",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-4.jpg",
+      "nom": "moins-100-m-4",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1330,
+      "ratio": "3:2",
+      "ratio_valeur": 1.504,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 485926,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        62
+      ],
+      "cadrage_css": "50% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 59.4,
+        "bruit": 1.14,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c3f025e5cf4960e8",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-5.jpg",
+      "nom": "moins-100-m-5",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1102,
+      "ratio": "16:9",
+      "ratio_valeur": 1.815,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 379600,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 5.6,
+        "l": 62.5,
+        "h": 72.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        45
+      ],
+      "cadrage_css": "47% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 57.1,
+        "bruit": 0.93,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "dc696160f1d0f8e8",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-6.jpg",
+      "nom": "moins-100-m-6",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1331,
+      "ratio": "3:2",
+      "ratio_valeur": 1.503,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 451179,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 18.2,
+        "l": 100,
+        "h": 77.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        64
+      ],
+      "cadrage_css": "50% 64%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.69,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 40.2,
+        "bruit": 0.77,
+        "compression": 1.22,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c870b6f0f0acecf0",
+      "drapeaux": [
+        "autre",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-7.jpg",
+      "nom": "moins-100-m-7",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1193,
+      "ratio": "1.68",
+      "ratio_valeur": 1.676,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 851844,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 5,
+        "l": 59.4,
+        "h": 80,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        40
+      ],
+      "cadrage_css": "49% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.51
+        }
+      ],
+      "qualite": {
+        "nettete": 101.9,
+        "bruit": 2.05,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "68e4e0f0f0f0e0e0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-8.jpg",
+      "nom": "moins-100-m-8",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 426895,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 93.8,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        49
+      ],
+      "cadrage_css": "58% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 26.6,
+        "bruit": 0.56,
+        "compression": 1.42,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8892f2a1b2f2f0d2",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-9.jpg",
+      "nom": "moins-100-m-9",
+      "drapeau": "autre",
+      "largeur": 1700,
+      "hauteur": 1138,
+      "ratio": "3:2",
+      "ratio_valeur": 1.494,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 750104,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 90.6,
+        "h": 72.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        30
+      ],
+      "cadrage_css": "44% 30%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "sombre",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 59.3,
+        "bruit": 1.49,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a68278c8f4f8c0d0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-10.jpg",
+      "nom": "moins-100-m-10",
+      "drapeau": "autre",
+      "largeur": 1701,
+      "hauteur": 1134,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 614006,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 13.6,
+        "l": 65.6,
+        "h": 59.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        40
+      ],
+      "cadrage_css": "53% 40%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.68,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "haut",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 32.9,
+        "bruit": 0.81,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "5c983060f0b1f264",
+      "drapeaux": [
+        "autre",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-11.jpg",
+      "nom": "moins-100-m-11",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 1200,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 657285,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 8.3,
+        "l": 81.3,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        52
+      ],
+      "cadrage_css": "50% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 57.7,
+        "bruit": 1.31,
+        "compression": 1.22,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7170d4f0f4dce8a2",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-12.jpg",
+      "nom": "moins-100-m-12",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 1200,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 856643,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        60
+      ],
+      "cadrage_css": "60% 60%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 61.1,
+        "bruit": 2.14,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8a6461a3e3667759",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-13.jpg",
+      "nom": "moins-100-m-13",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 1200,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1014079,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.5,
+        "l": 100,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        53
+      ],
+      "cadrage_css": "54% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 56.5,
+        "bruit": 2.98,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "cbe9ec137146f2d2",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-14.jpg",
+      "nom": "moins-100-m-14",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 857,
+      "ratio": "21:9",
+      "ratio_valeur": 2.334,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 287146,
+      "transparence": false,
+      "sujet": {
+        "x": 31.3,
+        "y": 7.1,
+        "l": 28.1,
+        "h": 92.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        44
+      ],
+      "cadrage_css": "48% 44%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 23.1,
+        "bruit": 0.72,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "72f0f0f036f4b272",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "vignobles-von-neipperg-mondotte.jpg",
+      "nom": "vignobles-von-neipperg-mondotte",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 1066,
+      "ratio": "3:2",
+      "ratio_valeur": 1.501,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 394874,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        38
+      ],
+      "cadrage_css": "49% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 30.5,
+        "bruit": 0.8,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d6d2cd8dc9c965cb",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-15.jpg",
+      "nom": "moins-100-m-15",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 1000,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 884358,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        57
+      ],
+      "cadrage_css": "49% 57%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "sombre",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 105.5,
+        "bruit": 2.34,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a4bcd8b66c6c65e1",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-16.jpg",
+      "nom": "moins-100-m-16",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 998,
+      "ratio": "3:2",
+      "ratio_valeur": 1.503,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 350461,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        56
+      ],
+      "cadrage_css": "45% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 25,
+        "bruit": 0.99,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0e1b39b1393930f8",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-17.jpg",
+      "nom": "moins-100-m-17",
+      "drapeau": "autre",
+      "largeur": 1488,
+      "hauteur": 992,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 441275,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 4.5,
+        "l": 68.8,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        57
+      ],
+      "cadrage_css": "42% 57%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "bas",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 12.6,
+        "bruit": 0.72,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c43cbaba9b998e8e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-18.jpg",
+      "nom": "moins-100-m-18",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 731,
+      "ratio": "2.74",
+      "ratio_valeur": 2.736,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 453334,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 91.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        57
+      ],
+      "cadrage_css": "48% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        }
+      ],
+      "qualite": {
+        "nettete": 62.9,
+        "bruit": 1.53,
+        "compression": 1.14,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "566c91cee7e6b0b0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-19.jpg",
+      "nom": "moins-100-m-19",
+      "drapeau": "autre",
+      "largeur": 1182,
+      "hauteur": 1061,
+      "ratio": "1.11",
+      "ratio_valeur": 1.114,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 166512,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        51
+      ],
+      "cadrage_css": "51% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 7.7,
+        "bruit": 0.36,
+        "compression": 0.9,
+        "faible": true,
+        "raisons": [
+          "1182 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "ccc646e6a7666626",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-20.jpg",
+      "nom": "moins-100-m-20",
+      "drapeau": "autre",
+      "largeur": 1114,
+      "hauteur": 1013,
+      "ratio": "1.1",
+      "ratio_valeur": 1.1,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 106372,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 16.7,
+        "l": 100,
+        "h": 80,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        61
+      ],
+      "cadrage_css": "48% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.64,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 17.1,
+        "bruit": 0.36,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "1114 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e5d8ca6f1cdba3d1",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-21.jpg",
+      "nom": "moins-100-m-21",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 853,
+      "ratio": "3:2",
+      "ratio_valeur": 1.501,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 194382,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        48
+      ],
+      "cadrage_css": "49% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 37.8,
+        "bruit": 1.01,
+        "compression": 1.56,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "fce2c0e2e2e0e8f6",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-22.jpg",
+      "nom": "moins-100-m-22",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 854,
+      "ratio": "1.41",
+      "ratio_valeur": 1.405,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 107788,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 30.4,
+        "l": 96.9,
+        "h": 52.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        49
+      ],
+      "cadrage_css": "41% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 17.2,
+        "bruit": 0.56,
+        "compression": 1.33,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "9b93b3a58d931337",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-23.jpg",
+      "nom": "moins-100-m-23",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 778,
+      "ratio": "1.65",
+      "ratio_valeur": 1.645,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 504571,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 5,
+        "l": 100,
+        "h": 90,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        47
+      ],
+      "cadrage_css": "49% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 101.3,
+        "bruit": 1.73,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "628d8d337efcbcec",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-24.jpg",
+      "nom": "moins-100-m-24",
+      "drapeau": "autre",
+      "largeur": 1181,
+      "hauteur": 788,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 485535,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 31.8,
+        "l": 93.8,
+        "h": 36.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        50
+      ],
+      "cadrage_css": "50% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        }
+      ],
+      "qualite": {
+        "nettete": 42.9,
+        "bruit": 1.2,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "1181 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "3c99babb3d7cf0fc",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-25.jpg",
+      "nom": "moins-100-m-25",
+      "drapeau": "autre",
+      "largeur": 1300,
+      "hauteur": 700,
+      "ratio": "1.86",
+      "ratio_valeur": 1.857,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 477672,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 93.8,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        41
+      ],
+      "cadrage_css": "35% 41%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        }
+      ],
+      "qualite": {
+        "nettete": 59.2,
+        "bruit": 1.85,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b2b2a3abb393d2d3",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-26.jpg",
+      "nom": "moins-100-m-26",
+      "drapeau": "autre",
+      "largeur": 1179,
+      "hauteur": 730,
+      "ratio": "16:10",
+      "ratio_valeur": 1.615,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 114852,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 85,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        32
+      ],
+      "cadrage_css": "48% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 13.9,
+        "bruit": 0.31,
+        "compression": 1.09,
+        "faible": true,
+        "raisons": [
+          "1179 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e4dcd9f464787830",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-27.jpg",
+      "nom": "moins-100-m-27",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 768,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 278196,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 8.3,
+        "l": 100,
+        "h": 91.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        65
+      ],
+      "cadrage_css": "57% 65%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 87,
+        "bruit": 2.78,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "99bb1b173333b7f1",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-28.jpg",
+      "nom": "moins-100-m-28",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 768,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 387256,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 71.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        58
+      ],
+      "cadrage_css": "49% 58%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        }
+      ],
+      "qualite": {
+        "nettete": 66.4,
+        "bruit": 1.91,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d0307292d4b0f0d0",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-29.jpg",
+      "nom": "moins-100-m-29",
+      "drapeau": "autre",
+      "largeur": 879,
+      "hauteur": 800,
+      "ratio": "1.1",
+      "ratio_valeur": 1.099,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 99613,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 96.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        48
+      ],
+      "cadrage_css": "53% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 10.5,
+        "bruit": 0.44,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "879 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "9999999d9c9c1c38",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-30.png",
+      "nom": "moins-100-m-30",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 435,
+      "ratio": "3.45",
+      "ratio_valeur": 3.448,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1168271,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 90,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        41
+      ],
+      "cadrage_css": "45% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 36.3,
+        "bruit": 1.35,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e9e6f3b1d98ccccc",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-31.jpg",
+      "nom": "moins-100-m-31",
+      "drapeau": "autre",
+      "largeur": 948,
+      "hauteur": 455,
+      "ratio": "2.08",
+      "ratio_valeur": 2.084,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 187826,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        56
+      ],
+      "cadrage_css": "59% 56%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 58.9,
+        "bruit": 1.02,
+        "compression": 1.16,
+        "faible": true,
+        "raisons": [
+          "948 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "12cb8732d8c32f38",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-32.jpg",
+      "nom": "moins-100-m-32",
+      "drapeau": "autre",
+      "largeur": 780,
+      "hauteur": 490,
+      "ratio": "16:10",
+      "ratio_valeur": 1.592,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 128509,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.8,
+        "l": 100,
+        "h": 90.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        52
+      ],
+      "cadrage_css": "47% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 56.5,
+        "bruit": 1.01,
+        "compression": 1.31,
+        "faible": true,
+        "raisons": [
+          "780 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "c68989f3eb849689",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-33.jpg",
+      "nom": "moins-100-m-33",
+      "drapeau": "autre",
+      "largeur": 699,
+      "hauteur": 459,
+      "ratio": "3:2",
+      "ratio_valeur": 1.523,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 123589,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 93.8,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        55
+      ],
+      "cadrage_css": "43% 55%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 37.9,
+        "bruit": 1.87,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "699 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "9999daa9268acd4d",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-34.jpg",
+      "nom": "moins-100-m-34",
+      "drapeau": "autre",
+      "largeur": 850,
+      "hauteur": 367,
+      "ratio": "21:9",
+      "ratio_valeur": 2.316,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 147011,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 0,
+        "l": 62.5,
+        "h": 57.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        22
+      ],
+      "cadrage_css": "59% 22%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 54.3,
+        "bruit": 2.71,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "850 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "33315153d4cd9cdc",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-35.jpg",
+      "nom": "moins-100-m-35",
+      "drapeau": "autre",
+      "largeur": 700,
+      "hauteur": 394,
+      "ratio": "16:9",
+      "ratio_valeur": 1.777,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 176495,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        50
+      ],
+      "cadrage_css": "49% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 76.5,
+        "bruit": 2.21,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "700 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f488985565dc9e8e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-36.jpg",
+      "nom": "moins-100-m-36",
+      "drapeau": "autre",
+      "largeur": 700,
+      "hauteur": 394,
+      "ratio": "16:9",
+      "ratio_valeur": 1.777,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 153298,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        54
+      ],
+      "cadrage_css": "58% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 94.7,
+        "bruit": 1.81,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "700 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "f4e0eab2f0e8b2c2",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "moins-100-m-37.jpg",
+      "nom": "moins-100-m-37",
+      "drapeau": "autre",
+      "largeur": 600,
+      "hauteur": 450,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 53992,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        48
+      ],
+      "cadrage_css": "50% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 38.1,
+        "bruit": 1.29,
+        "compression": 1.14,
+        "faible": true,
+        "raisons": [
+          "600 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "d66c61bfddf87272",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "galerie-2.jpg",
+      "nom": "galerie-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1291,
+      "ratio": "1.55",
+      "ratio_valeur": 1.549,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 614382,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        46
+      ],
+      "cadrage_css": "51% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 84.9,
+        "bruit": 1.58,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3736373135b1b1d0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-3.jpg",
+      "nom": "galerie-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 753253,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        52
+      ],
+      "cadrage_css": "51% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.12,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 103.8,
+        "bruit": 1.46,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8d7812a6a1a58483",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-4.jpg",
+      "nom": "galerie-4",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 487,
+      "ratio": "4.11",
+      "ratio_valeur": 4.107,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 118319,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 12.5,
+        "l": 59.4,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        50
+      ],
+      "cadrage_css": "55% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        }
+      ],
+      "qualite": {
+        "nettete": 29.8,
+        "bruit": 0.49,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e46a6a6a3232b2b2",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-5.jpg",
+      "nom": "galerie-5",
+      "drapeau": "autre",
+      "largeur": 1600,
+      "hauteur": 2000,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 350884,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 96.2,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        44
+      ],
+      "cadrage_css": "43% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 19.6,
+        "bruit": 0.83,
+        "compression": 1.23,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1e1c1bd9f6ce9819",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-6.jpg",
+      "nom": "galerie-6",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 287905,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 77.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        38,
+        36
+      ],
+      "cadrage_css": "38% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 29.6,
+        "bruit": 0.5,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e9fbdecee6ebe6c3",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-7.jpg",
+      "nom": "galerie-7",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 459007,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        56
+      ],
+      "cadrage_css": "49% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 41,
+        "bruit": 0.9,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0e0624202393a92",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-8.jpg",
+      "nom": "galerie-8",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 335820,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        51
+      ],
+      "cadrage_css": "49% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 27.9,
+        "bruit": 0.65,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c42080b1989b999a",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-9.jpg",
+      "nom": "galerie-9",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 338507,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 13.6,
+        "l": 68.8,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        55
+      ],
+      "cadrage_css": "52% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 32.2,
+        "bruit": 0.61,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7183c6739b1f3f24",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-10.jpg",
+      "nom": "galerie-10",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 500331,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 12.5,
+        "l": 93.8,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        59
+      ],
+      "cadrage_css": "43% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "gauche",
+          "score": 0.03,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        }
+      ],
+      "qualite": {
+        "nettete": 42.9,
+        "bruit": 1.07,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "90e494909e871158",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-11.jpg",
+      "nom": "galerie-11",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 549013,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 12.5,
+        "l": 100,
+        "h": 83.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        63
+      ],
+      "cadrage_css": "55% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 61.9,
+        "bruit": 0.72,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c5339ac563e3e160",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-12.jpg",
+      "nom": "galerie-12",
+      "drapeau": "autre",
+      "largeur": 1444,
+      "hauteur": 964,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 1266451,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        44
+      ],
+      "cadrage_css": "56% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 121.2,
+        "bruit": 2.71,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a1181c3c1c1c1c39",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-13.jpg",
+      "nom": "galerie-13",
+      "drapeau": "autre",
+      "largeur": 1399,
+      "hauteur": 923,
+      "ratio": "3:2",
+      "ratio_valeur": 1.516,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 304966,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        58
+      ],
+      "cadrage_css": "48% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 31.4,
+        "bruit": 1.12,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "58741e565e64c6a8",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-14.png",
+      "nom": "galerie-14",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 844,
+      "ratio": "16:9",
+      "ratio_valeur": 1.777,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2538550,
+      "transparence": true,
+      "sujet": {
+        "x": 18.8,
+        "y": 0,
+        "l": 81.3,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        78,
+        53
+      ],
+      "cadrage_css": "78% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 56.5,
+        "bruit": 2.64,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "dbd3f3d3f3abb67b",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "galerie-15.jpg",
+      "nom": "galerie-15",
+      "drapeau": "autre",
+      "largeur": 891,
+      "hauteur": 1336,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 997270,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 6.3,
+        "l": 95.5,
+        "h": 78.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        45
+      ],
+      "cadrage_css": "47% 45%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 47.3,
+        "bruit": 3.15,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "891 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "120c1687a353f471",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "luxury-b-b-bordeaux-6.jpg",
+      "nom": "luxury-b-b-bordeaux-6",
+      "drapeau": "produit",
+      "largeur": 1336,
+      "hauteur": 891,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 877592,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 0,
+        "l": 84.4,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        44
+      ],
+      "cadrage_css": "51% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        }
+      ],
+      "qualite": {
+        "nettete": 51.6,
+        "bruit": 1.87,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0e0e4e4e474e84a",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "galerie-16.png",
+      "nom": "galerie-16",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 450,
+      "ratio": "3.33",
+      "ratio_valeur": 3.333,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1235843,
+      "transparence": true,
+      "sujet": {
+        "x": 6.3,
+        "y": 0,
+        "l": 93.8,
+        "h": 90,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        46
+      ],
+      "cadrage_css": "41% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.67
+        }
+      ],
+      "qualite": {
+        "nettete": 31.9,
+        "bruit": 1.85,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9999999989696d67",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "chambres-tarifs.jpg",
+      "nom": "chambres-tarifs",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 822,
+      "ratio": "2.43",
+      "ratio_valeur": 2.433,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 240055,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 92.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        54
+      ],
+      "cadrage_css": "44% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.93
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 46.4,
+        "bruit": 0.72,
+        "compression": 1.25,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a2aaaaae66e7e3cb",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "chambres-tarifs-2.jpg",
+      "nom": "chambres-tarifs-2",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 469389,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        50
+      ],
+      "cadrage_css": "46% 50%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 32.2,
+        "bruit": 1.12,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "98cce434e0ecc7d9",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "chambres-tarifs-3.jpg",
+      "nom": "chambres-tarifs-3",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 313421,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 13.6,
+        "l": 100,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        69
+      ],
+      "cadrage_css": "50% 69%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 32.3,
+        "bruit": 0.61,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c91393af9a716176",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "chambres-tarifs-4.jpg",
+      "nom": "chambres-tarifs-4",
+      "drapeau": "produit",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 253288,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        52
+      ],
+      "cadrage_css": "58% 52%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 24.6,
+        "bruit": 0.34,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "58686828202c0850",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "soyez-assures-ecoute-toutes.png",
+      "nom": "soyez-assures-ecoute-toutes",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1666,
+      "ratio": "1.2",
+      "ratio_valeur": 1.2,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 6537171,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 14.8,
+        "l": 100,
+        "h": 81.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        61
+      ],
+      "cadrage_css": "44% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.4,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        }
+      ],
+      "qualite": {
+        "nettete": 9.4,
+        "bruit": 1.07,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e0e2a82b67e6c6ac",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "chambres-tarifs-5.webp",
+      "nom": "chambres-tarifs-5",
+      "drapeau": "produit",
+      "largeur": 1048,
+      "hauteur": 691,
+      "ratio": "3:2",
+      "ratio_valeur": 1.517,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 91566,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        57
+      ],
+      "cadrage_css": "48% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 47.8,
+        "bruit": 0.99,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1048 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "58545e5e5e66c6aa",
+      "doublon_de": {
+        "fichier": "galerie-13.jpg",
+        "type": "doublon",
+        "distance": 5,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "produit",
+        "petite",
+        "doublon de galerie-13.jpg"
+      ]
+    },
+    {
+      "fichier": "vin-rouge.jpg",
+      "nom": "vin-rouge",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 291139,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 9.1,
+        "l": 100,
+        "h": 86.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        43
+      ],
+      "cadrage_css": "64% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "gauche",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 24.8,
+        "bruit": 0.63,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b1c5ae3e39e6c433",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "intolerants-gluten-lactose.jpg",
+      "nom": "intolerants-gluten-lactose",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1394,
+      "ratio": "1.43",
+      "ratio_valeur": 1.435,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 480302,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        51
+      ],
+      "cadrage_css": "49% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 14.2,
+        "bruit": 0.89,
+        "compression": 1.4,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c64e4c763698cc61",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "salon-aquitaine-documentation.jpg",
+      "nom": "salon-aquitaine-documentation",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 756220,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        57
+      ],
+      "cadrage_css": "45% 57%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 88.4,
+        "bruit": 1.42,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "58445107276c5c59",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "cocktails.jpg",
+      "nom": "cocktails",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1334,
+      "ratio": "3:2",
+      "ratio_valeur": 1.499,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 337071,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 13.6,
+        "l": 78.1,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        43
+      ],
+      "cadrage_css": "43% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 28.4,
+        "bruit": 0.77,
+        "compression": 1.28,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e4e426ae66269cac",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "services.jpg",
+      "nom": "services",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 435073,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 18.9,
+        "bruit": 0.76,
+        "compression": 1.3,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "144cd2996d640646",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "intolerants-gluten-lactose-2.jpg",
+      "nom": "intolerants-gluten-lactose-2",
+      "drapeau": "lieu",
+      "largeur": 1328,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.664,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 230159,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        56
+      ],
+      "cadrage_css": "47% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 7.7,
+        "bruit": 0.38,
+        "compression": 1.4,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "168731e8a6c5e0f1",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "petit-dejeuner-francais.jpg",
+      "nom": "petit-dejeuner-francais",
+      "drapeau": "plat",
+      "largeur": 2000,
+      "hauteur": 1595,
+      "ratio": "5:4",
+      "ratio_valeur": 1.254,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 482890,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.8,
+        "l": 96.9,
+        "h": 92.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        52
+      ],
+      "cadrage_css": "49% 52%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.86
+        }
+      ],
+      "qualite": {
+        "nettete": 21.5,
+        "bruit": 1.17,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9698087034664660",
+      "drapeaux": [
+        "plat"
+      ]
+    },
+    {
+      "fichier": "inconditionnels-demande-lors-reservation.jpg",
+      "nom": "inconditionnels-demande-lors-reservation",
+      "drapeau": "autre",
+      "largeur": 1943,
+      "hauteur": 2000,
+      "ratio": "0.97",
+      "ratio_valeur": 0.972,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 920931,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 100,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        47
+      ],
+      "cadrage_css": "45% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 31.7,
+        "bruit": 1.11,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "82a300d2932e3481",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "boissons.jpg",
+      "nom": "boissons",
+      "drapeau": "autre",
+      "largeur": 1702,
+      "hauteur": 2000,
+      "ratio": "0.85",
+      "ratio_valeur": 0.851,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 250860,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.4,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        38
+      ],
+      "cadrage_css": "45% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 9.7,
+        "bruit": 0.35,
+        "compression": 0.96,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ccccd8ccc0c4408e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "sauternaise-pourquoi-comment.jpg",
+      "nom": "sauternaise-pourquoi-comment",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 240116,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 18.2,
+        "l": 65.6,
+        "h": 77.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        58
+      ],
+      "cadrage_css": "54% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 17.1,
+        "bruit": 0.61,
+        "compression": 1.33,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "92d9c8e849893939",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "sommes-nous.png",
+      "nom": "sommes-nous",
+      "drapeau": "autre",
+      "largeur": 1060,
+      "hauteur": 1183,
+      "ratio": "0.9",
+      "ratio_valeur": 0.896,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 2478573,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 96.6,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        59
+      ],
+      "cadrage_css": "44% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 9.3,
+        "bruit": 1.12,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1060 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "1d9d8b8f072c7d19",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "sommes-nous-2.png",
+      "nom": "sommes-nous-2",
+      "drapeau": "autre",
+      "largeur": 995,
+      "hauteur": 1011,
+      "ratio": "1:1",
+      "ratio_valeur": 0.984,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 1614270,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        49
+      ],
+      "cadrage_css": "46% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 60.7,
+        "bruit": 1.7,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "995 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "989c1e60f3f1d1d1",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "politique-confidentialite-chambres.webp",
+      "nom": "politique-confidentialite-chambres",
+      "drapeau": "lieu",
+      "largeur": 1035,
+      "hauteur": 691,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 205390,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 4.5,
+        "l": 100,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        52
+      ],
+      "cadrage_css": "51% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 133.1,
+        "bruit": 1.5,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1035 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "cd781aa6c1a58683",
+      "doublon_de": {
+        "fichier": "galerie-3.jpg",
+        "type": "doublon",
+        "distance": 5,
+        "ressemblance": 1
+      },
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "doublon de galerie-3.jpg"
+      ]
+    }
+  ]
+}

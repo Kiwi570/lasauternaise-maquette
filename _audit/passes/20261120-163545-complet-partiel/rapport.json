@@ -1,0 +1,174 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1000×560",
+      "mode": "normal",
+      "selecteur": "section#debut > div.hero-texte > p.info-cle:nth-of-type(4) « Arrivée autonome dès 16 h · petit-déjeuner compris »",
+      "lieux": [
+        "1000×560 normal",
+        "1000×560 sansWebgl",
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#chambres « LES CHAMBRES Quatre chambres, quatre grands vins C »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.conteneur.pile-grille > div.pile:nth-of-type(2) > figure.pile-tirage:nth-of-type(2) > figcaption « Pierre et lin »",
+      "lieux": [
+        "768×1024 normal",
+        "768×1024 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#chambres « LES CHAMBRES Quatre chambres, quatre grands vins C »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.conteneur.pile-grille > div.pile:nth-of-type(2) > figure.pile-tirage:nth-of-type(4) > figcaption « Le mur ocre »",
+      "lieux": [
+        "768×1024 normal",
+        "768×1024 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/acces",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouv-carte-grille > div:nth-of-type(1) > p.info-cle:nth-of-type(4) « Bordeaux 30 min · gare Saint-Jean 38 min · aéropor »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/environs",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur:nth-of-type(2) > div:nth-of-type(2) > p.info-cle:nth-of-type(4) « Bordeaux à 30 min · Saint-Émilion à 50 km »",
+      "lieux": [
+        "320×568 normal",
+        "375×667 normal",
+        "320×568 sansWebgl",
+        "375×667 sansJs",
+        "375×667 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/la-maison",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-texte > p.info-cle:nth-of-type(4) « 22 rue Principale, place de l’Église, Sauternes »",
+      "lieux": [
+        "320×568 normal",
+        "375×667 normal",
+        "320×568 sansJs",
+        "375×667 sansJs",
+        "320×568 sansWebgl",
+        "375×667 sansWebgl"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "acces.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "reserver.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/acces",
+      "taille": "1024×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-carte-grille > div.itineraire:nth-of-type(2) > p.itineraire-legende « Schéma, pas à l’échelle »",
+      "lieux": [
+        "1024×768 normal",
+        "1280×720 normal",
+        "1366×768 normal",
+        "1440×900 normal",
+        "1728×1000 normal",
+        "1920×1080 normal",
+        "2560×1440 normal",
+        "1024×768 sansJs",
+        "1280×720 sansJs",
+        "1024×768 sansWebgl",
+        "1366×768 sansJs",
+        "1440×900 sansJs",
+        "1280×720 sansWebgl",
+        "1728×1000 sansJs",
+        "1366×768 sansWebgl",
+        "1920×1080 sansJs",
+        "1440×900 sansWebgl",
+        "2560×1440 sansJs",
+        "1728×1000 sansWebgl",
+        "1920×1080 sansWebgl",
+        "2560×1440 sansWebgl"
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "mesures": 273,
+    "balayage": 6,
+    "tient dans l’écran": 8,
+    "films des épinglages": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 6 étape(s) notée(s), 110 min de travail pour 115 min de budget, 14 min d’attente de l’utilisateur.",
+    "Journal : « construction : contact et page de catégorie » 37 min pour 10 prévues.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Tient dans l'écran / : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /acces : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /environs : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /la-maison : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /reserver : aucune section épinglée ou plein écran."
+  ],
+  "grille": []
+}

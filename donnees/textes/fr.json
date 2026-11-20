@@ -1,0 +1,436 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Réserver",
+    "appeler": "Appeler",
+    "sommaire": "Sommaire",
+    "confort": "Suivre la maison",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : demandes et réservations simulées, rien n’est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Maison d’hôtes · Sauternes",
+    "adresseTitre": "La maison",
+    "legal": "Mentions légales · Politique de confidentialité · Conditions générales de vente : à compléter",
+    "labels": "Vignobles & Découvertes · Route des Vins · Bacchus",
+    "restaurant": "Notre restaurant : Les Granges",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "nouvelOnglet": "(nouvel onglet)",
+    "logoAlt": "La Sauternaise, maison d’hôtes à Sauternes",
+    "barreReserver": "Réserver"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "La Sauternaise : maison d’hôtes de charme et de bien-être à Sauternes",
+      "description": "Quatre chambres aux noms de grands vins, chacune avec sa salle de bains bien-être, dans l’ancien Office de dégustation de Sauternes. Réservation directe.",
+      "nav": "Accueil",
+      "partageAlt": "La façade de La Sauternaise, ancien Office de dégustation de Sauternes",
+      "accroche": "Charme et bien-être au cœur de Sauternes"
+    },
+    "chambres": {
+      "titre": "Les chambres : La Sauternaise, Sauternes",
+      "description": "Or de Bordeaux, Reflets de Saint-Émilion, Terre de Margaux, Lettre de Sauternes : quatre chambres, hammam, sauna infrarouge, balnéo ou douche hydromassante.",
+      "nav": "Les chambres",
+      "partageAlt": "Une chambre de La Sauternaise",
+      "accroche": "Quatre chambres, quatre grands vins"
+    },
+    "la-maison": {
+      "titre": "La maison et vos hôtes : La Sauternaise, Sauternes",
+      "description": "L’ancien Office de dégustation de Sauternes, Pascale et Didier, le petit-déjeuner, la cave et le salon Aquitaine.",
+      "nav": "La maison",
+      "partageAlt": "La photo d’archive de la maison tenue devant sa façade d’aujourd’hui",
+      "accroche": "Une maison légendaire qui vient de renaître"
+    },
+    "environs": {
+      "titre": "Les environs : La Sauternaise, Sauternes",
+      "description": "39 visites autour de la maison, de 100 m à 100 km : grands crus de Sauternes à pied, châteaux, nature, Bordeaux, Saint-Émilion et le bassin d’Arcachon.",
+      "nav": "Les environs",
+      "partageAlt": "Vignes d’automne dans la brume du matin",
+      "accroche": "Yquem à 2 km, à pied"
+    },
+    "reserver": {
+      "titre": "Réserver en direct : La Sauternaise, Sauternes",
+      "description": "Demandez vos dates directement : 5 à 10 € de moins par nuit qu’en passant par les plateformes, -5 % dès 4 nuits avec le code 4N.",
+      "nav": "Réserver",
+      "partageAlt": "La cour de La Sauternaise",
+      "accroche": "Réservez en direct, au meilleur tarif"
+    },
+    "acces": {
+      "titre": "Accès et contact : La Sauternaise, Sauternes",
+      "description": "22 rue Principale, place de l’Église, 33210 Sauternes. À 30 minutes de Bordeaux, itinéraire, parking, horaires d’arrivée et contact.",
+      "nav": "Accès & contact",
+      "partageAlt": "La façade de La Sauternaise côté place de l’Église",
+      "accroche": "Venir à Sauternes"
+    },
+    "404": {
+      "titre": "Page introuvable : La Sauternaise",
+      "description": "Cette page n’existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Maison d’hôtes · XVIIIe siècle · Sauternes",
+      "titre1": "Charme et bien-être",
+      "titre2": "au cœur de",
+      "titre3": "Sauternes",
+      "texte": "Quatre chambres aux noms de grands vins, chacune avec sa salle de bains bien-être, dans l’ancien Office de dégustation du village.",
+      "action": "Réserver en direct",
+      "action2": "Voir les chambres",
+      "info": "Arrivée autonome dès 16 h · petit-déjeuner compris"
+    },
+    "hier": {
+      "surtitre": "Hier et aujourd’hui",
+      "citation": "Une maison légendaire qui vient de renaître.",
+      "source": "Jean-Pierre Stahl, grand reporter, France 3 Régions",
+      "texte": "Pascale et Didier ont découvert la maison au fil de leurs promenades du dimanche : l’ancien Office de dégustation de Sauternes, une demeure du XVIIIe siècle derrière l’église. Ils l’ont rénovée pour recevoir avec l’esprit d’une maison d’hôtes et le confort d’un hôtel haut de gamme.",
+      "autrefois": "Autrefois",
+      "aujourdhui": "Aujourd’hui",
+      "consigne": "Faites glisser la photo d’archive",
+      "consigneTactile": "Glissez la photo d’archive",
+      "bouton": "Écarter la photo d’archive",
+      "lien": "L’histoire de la maison"
+    },
+    "chambres": {
+      "surtitre": "Les chambres",
+      "titre1": "Quatre chambres,",
+      "titre2": "quatre grands vins",
+      "texte": "Chacune a son ambiance : murs de pierre, cheminées, portes anciennes, tableaux d’artistes, tissus Nobilis et Casamance. Literie Simmons en queen ou king size, draps en satin de coton Linvosges.",
+      "clim": "Climatisée",
+      "lien": "Découvrir les chambres"
+    },
+    "bienetre": {
+      "surtitre": "Le bien-être",
+      "titre1": "Une salle de bains",
+      "titre2": "pour se détendre",
+      "texte": "Chaque salle de bains privative a été pensée pour votre bien-être, avec l’un de ces quatre équipements.",
+      "consigne": "Passez la souris sur la photo pour essuyer la buée",
+      "consigneTactile": "Touchez la photo pour essuyer la buée",
+      "e1": "Hammam",
+      "m1": "Effegibi",
+      "e2": "Sauna infrarouge",
+      "m2": "Tylö",
+      "e3": "Baignoire balnéo",
+      "m3": "Kinedo",
+      "e4": "Douche hydromassante",
+      "m4": "Hansgrohe"
+    },
+    "matin": {
+      "surtitre": "Le matin",
+      "titre1": "Le petit-déjeuner,",
+      "titre2": "compris",
+      "texte": "Servi en général de 8 h 30 à 10 h, dans la salle à manger ou au jardin quand il fait beau.",
+      "l1": "Café d’une sélection de grands crus, thés Dammann Frères, chocolat chaud à l’ancienne",
+      "l2": "Jus d’orange pressé, salade de fruits frais, yaourts",
+      "l3": "Croissants, baguette, pain aux céréales, confitures artisanales",
+      "l4": "Sur demande : œuf à la coque, jambon, fromage, et une table sans gluten ni lactose",
+      "pros": "Professionnels : dès 7 h 30, sur demande à la réservation."
+    },
+    "hotes": {
+      "surtitre": "Vos hôtes",
+      "titre1": "Pascale",
+      "titre2": "et Didier",
+      "citation": "Nous nous devions d’honorer cet héritage, ce lieu authentique et plein de charme.",
+      "didier": "Quatrième génération dans le vin, Didier œuvre depuis plus de dix ans à faire connaître le Sauternes au Château Guiraud, premier grand cru classé en 1855. Il est Commandeur d’Honneur de la Commanderie du Bontemps.",
+      "pascale": "Après une carrière dans le vin, du merchandising au marketing, Pascale a pensé l’agencement, l’équipement et la décoration de la maison.",
+      "lien": "La maison et ses services"
+    },
+    "pied": {
+      "surtitre": "Autour de la maison",
+      "titre1": "Yquem à 2 km,",
+      "titre2": "à pied",
+      "texte": "Les grands crus de Sauternes commencent au bout de la rue. Didier partage volontiers ses adresses pour visiter caves et propriétés.",
+      "rdv": "sur rendez-vous",
+      "plusLoin": "Et plus loin",
+      "lien": "Les 39 visites des environs",
+      "echelle": "Distances depuis la maison"
+    },
+    "reserver": {
+      "surtitre": "Réservez en direct",
+      "titre1": "Le meilleur tarif,",
+      "titre2": "chez nous",
+      "c1": "5 à 10 €",
+      "t1": "de moins par nuit qu’en passant par les plateformes",
+      "c2": "48 h",
+      "t2": "pour annuler, aux mêmes conditions",
+      "c3": "-5 %",
+      "t3": "dès 4 nuits dans la même chambre, avec le code 4N",
+      "texte": "Tarifs selon la saison et la chambre, donnés à la demande. Réponse sous 24 h.",
+      "action": "Demander mes dates",
+      "acces": "À 30 minutes de Bordeaux · 22 rue Principale, place de l’Église",
+      "lienAcces": "Venir à Sauternes"
+    }
+  },
+  "chambres": {
+    "tete": {
+      "surtitre": "Les chambres",
+      "titre1": "Quatre chambres,",
+      "titre2": "quatre grands vins",
+      "texte": "Une maison du XVIIIe siècle, quatre ambiances, et dans chaque salle de bains un équipement pour se détendre.",
+      "action": "Demander mes dates",
+      "info": "Petit-déjeuner compris · arrivée dès 16 h"
+    },
+    "noms": {
+      "titre": "Choisissez votre cru",
+      "texte": "Toutes les chambres ont leur salle de bains privative avec un équipement bien-être, une literie Simmons et un plateau de courtoisie. Certaines ont une isolation phonique renforcée ou une entrée indépendante : dites-nous ce qui compte pour vous.",
+      "commun": "Salle de bains bien-être · literie Simmons · plateau de courtoisie",
+      "photo": "En photo",
+      "choisir": "Demander cette chambre"
+    },
+    "galerie": {
+      "titre": "Les chambres en images",
+      "texte": "Pierre blonde, couleurs franches, cheminées et mezzanines : quelques vues des quatre chambres.",
+      "region": "Galerie des chambres, défilement horizontal",
+      "glisser": "Faites glisser"
+    },
+    "bienetre": {
+      "surtitre": "Le bien-être",
+      "titre": "Hammam, sauna, balnéo",
+      "texte": "Chacune des salles de bains a été conçue pour votre bien-être, avec un hammam Effegibi, un sauna infrarouge Tylö, une baignoire balnéo Kinedo ou une douche hydromassante Hansgrohe, selon vos préférences.",
+      "d1": "La vapeur douce, comme au bain.",
+      "d2": "Une chaleur qui détend en profondeur.",
+      "d3": "Un bain massant, sans sortir de la chambre.",
+      "d4": "Des jets pour se réveiller ou se relâcher.",
+      "photos": "Les salles de bains"
+    },
+    "linge": {
+      "surtitre": "Le sommeil",
+      "titre": "Un lit d’hôtel, une chambre de maison",
+      "l1": "Draps en satin de coton Linvosges, Collection Hôtellerie",
+      "l2": "Literie Simmons, en queen ou king size",
+      "l3": "Deux types d’oreillers",
+      "l4": "Climatisation dans Or de Bordeaux et Reflets de Saint-Émilion"
+    },
+    "plateau": {
+      "titre": "Dans la chambre",
+      "offert": "Offert",
+      "offertTexte": "Eau minérale, thés et tisanes, café et déca soluble.",
+      "minibar": "Au minibar",
+      "minibarTexte": "Eau gazeuse, sodas, jus de fruits, bières, demi-bouteilles de champagne ou de Sauternes, snacks sucrés ou salés, en supplément."
+    },
+    "fin": {
+      "titre": "Quelle chambre vous tente ?",
+      "texte": "Dites-nous vos dates et ce qui compte pour vous : climatisation, entrée indépendante, isolation renforcée, équipement bien-être.",
+      "action": "Demander mes dates"
+    }
+  },
+  "maison": {
+    "tete": {
+      "surtitre": "La maison",
+      "titre1": "Une maison légendaire",
+      "titre2": "qui vient de renaître",
+      "source": "Jean-Pierre Stahl, France 3 Régions",
+      "info": "22 rue Principale, place de l’Église, Sauternes",
+      "action": "Voir les chambres"
+    },
+    "histoire": {
+      "surtitre": "L’histoire",
+      "titre": "L’ancien Office de dégustation",
+      "texte": "Au cœur du village, derrière l’église, la maison abritait l’Office de dégustation de Sauternes : l’inscription peinte est toujours sur la façade. Pascale et Didier l’ont découverte au fil de leurs promenades du dimanche, à leur arrivée dans la région, puis l’ont achetée quelques années plus tard.",
+      "nom": "Et le nom ? Le maire du village avait surnommé l’un des enfants nés à la maison « la vraie Sauternaise ».",
+      "autrefois": "Autrefois",
+      "aujourdhui": "Aujourd’hui"
+    },
+    "hotes": {
+      "surtitre": "Vos hôtes",
+      "titre": "Pascale et Didier",
+      "didierNom": "Didier",
+      "didier": "Arrière-petit-fils de pépiniériste, petit-fils de viticulteur à Saint-Émilion, fils de négociant : quatrième génération dans le vin. Diplômé de Bordeaux Sciences Agro et du DUAD, il travaille depuis plus de dix ans au Château Guiraud, premier grand cru classé en 1855. Commandeur d’Honneur de la Commanderie du Bontemps.",
+      "didierCitation": "Depuis plus de dix ans, j’œuvre pour partager, promouvoir, valoriser et renforcer la marque Sauternes.",
+      "pascaleNom": "Pascale",
+      "pascale": "Une carrière dans la distribution du vin, le merchandising puis le marketing. Elle s’est consacrée à ses enfants, Charles et Rachèle, avant de se lancer dans l’accueil, qui réunit son goût de recevoir et sa passion de la gastronomie.",
+      "pascaleCitation": "J’ai longuement réfléchi à l’agencement, l’équipement et la décoration de la maison."
+    },
+    "matin": {
+      "surtitre": "Le petit-déjeuner",
+      "titre": "Compris, au jardin ou en salle",
+      "texte": "Servi en général de 8 h 30 à 10 h. Pour les professionnels, dès 7 h 30 sur demande à la réservation, selon les disponibilités.",
+      "boissons": "Boissons",
+      "b": "Café long ou court, d’une sélection de grands crus · thés Dammann Frères, nature ou aromatisés, noirs ou verts · chocolat chaud à l’ancienne · jus d’orange pressé",
+      "table": "Sur la table",
+      "t": "Tartines de pain aux céréales et baguette · croissants · confitures artisanales · salade de fruits frais · céréales · yaourts",
+      "demande": "Sur demande",
+      "d": "Œuf à la coque · jambon · fromage",
+      "sans": "Sans gluten ni lactose",
+      "s": "Pain multicéréales à la farine de riz, brioche à la fécule de pomme de terre, au maïs et au tapioca, lait de riz ou de soja, margarine sans lait, yaourts au soja. À signaler à la réservation."
+    },
+    "services": {
+      "surtitre": "Dans la maison",
+      "titre": "Le café, la cave, le salon",
+      "cafeTitre": "Café et gourmandises",
+      "cafe": "Bouilloire et machine Nespresso dans la salle à manger, toute la journée, avec de petites gourmandises.",
+      "caveTitre": "Boutique et cave des hôtes",
+      "cave": "Sauternes, Barsac, Saint-Émilion, Pessac-Léognan et Médoc, en bouteilles et demi-bouteilles, à emporter ou servis à la bonne température. Expéditions possibles. Et des produits du Sud-Ouest : foie gras de canard, cou farci, miel, safran, pruneaux.",
+      "salonTitre": "Le salon Aquitaine",
+      "salon": "Un petit salon privatif : canapés, télévision, ordinateur à écran tactile et une bibliothèque d’ouvrages régionaux, sur le vin et la gastronomie. Didier y partage ses adresses de caves et de propriétés."
+    },
+    "jardin": {
+      "titre": "La cour et le jardin",
+      "texte": "Le petit-déjeuner y est servi quand il fait beau."
+    },
+    "table": {
+      "titre": "Et pour dîner ?",
+      "texte": "Notre restaurant, Les Granges, a son propre site. Plusieurs restaurants réputés sont aussi à pied ou à 1 km.",
+      "lien": "Le site des Granges"
+    },
+    "fin": {
+      "titre": "Venez la découvrir",
+      "action": "Demander mes dates",
+      "action2": "Les environs"
+    }
+  },
+  "environs": {
+    "tete": {
+      "surtitre": "Les environs",
+      "titre1": "De 100 m",
+      "titre2": "à 100 km",
+      "chiffre": "2 km",
+      "legende": "jusqu’au Château d’Yquem, à pied",
+      "texte": "39 visites autour de la maison : les grands crus de Sauternes au bout de la rue, des châteaux et des villages, la nature des Landes de Gascogne, Bordeaux et le bassin d’Arcachon.",
+      "action": "Voir les visites",
+      "info": "Bordeaux à 30 min · Saint-Émilion à 50 km"
+    },
+    "outil": {
+      "titre": "Choisissez votre sortie",
+      "distance": "Distance",
+      "theme": "Envie",
+      "tout": "Tout",
+      "zpied": "Moins de 3 km",
+      "z30": "8 à 25 km",
+      "z60": "25 à 50 km",
+      "zloin": "50 à 100 km",
+      "tcrus": "Grands crus",
+      "tpatrimoine": "Châteaux et patrimoine",
+      "tnature": "Nature et loisirs",
+      "tvilles": "Villes et villages",
+      "resultat": "{n} visites",
+      "un": "1 visite",
+      "aucun": "Aucune visite pour ce choix : élargissez la distance.",
+      "rdv": "Sur rendez-vous",
+      "region": "Liste des visites"
+    },
+    "conseil": {
+      "titre": "Demandez à Didier",
+      "texte": "Professionnel du vin, Didier partage volontiers ses adresses pour visiter caves et propriétés. Les vélos se louent à l’Office de tourisme, à moins de 100 m, de mai à septembre."
+    },
+    "fin": {
+      "titre": "Une base au cœur du vignoble",
+      "action": "Demander mes dates",
+      "action2": "Venir à Sauternes"
+    }
+  },
+  "reserver": {
+    "tete": {
+      "surtitre": "Réserver en direct",
+      "titre1": "Demandez",
+      "titre2": "vos dates",
+      "texte": "En direct, vous payez 5 à 10 € de moins par nuit qu’en passant par les plateformes, avec les mêmes conditions d’annulation (48 h). Réponse sous 24 h maximum.",
+      "info": "-5 % dès 4 nuits avec le code 4N"
+    },
+    "form": {
+      "etape1": "Vos dates",
+      "arrivee": "Arrivée",
+      "depart": "Départ",
+      "nuits0": "Choisissez vos dates",
+      "nuits": "{n} nuits",
+      "nuit": "1 nuit",
+      "erreurDates": "Le départ doit être après l’arrivée.",
+      "etape2": "La chambre",
+      "chambre": "Chambre souhaitée",
+      "indifferent": "Peu importe, conseillez-nous",
+      "personnes": "Nombre de personnes",
+      "etape3": "Vos souhaits",
+      "o1": "Petit-déjeuner dès 7 h 30 (professionnels)",
+      "o2": "Petit-déjeuner sans gluten ni lactose",
+      "o3": "Chambre climatisée",
+      "o4": "Entrée indépendante ou isolation renforcée",
+      "message": "Un mot pour nous (facultatif)",
+      "etape4": "Vos coordonnées",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "email": "E-mail",
+      "telephone": "Téléphone",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "envoyer": "Envoyer ma demande",
+      "envoye": "Demande simulée : rien n’a été envoyé. Sur le site final, Pascale et Didier vous répondront sous 24 h.",
+      "recap": "Votre séjour",
+      "recapDates": "Dates",
+      "recapChambre": "Chambre",
+      "recapRemise": "Code 4N : -5 % sur le séjour",
+      "recapRemise0": "Dès 4 nuits : -5 % avec le code 4N",
+      "recapTarif": "Le tarif vous est donné avec la réponse, selon la saison et la chambre.",
+      "recapInclus": "Petit-déjeuner compris"
+    },
+    "conditions": {
+      "titre": "Bon à savoir",
+      "c1": "Arrivée autonome à partir de 16 h : nous vous prévenons dès que la chambre est prête.",
+      "c2": "Départ avant 11 h.",
+      "c3": "Annulation possible jusqu’à 48 h avant l’arrivée.",
+      "c4": "Professionnels : arrivée autonome jusqu’à 22 h, petit-déjeuner dès 7 h 30.",
+      "c5": "Les animaux ne sont pas acceptés.",
+      "tel": "Vous préférez appeler ?"
+    }
+  },
+  "acces": {
+    "tete": {
+      "surtitre": "Accès & contact",
+      "titre1": "Venir",
+      "titre2": "à Sauternes",
+      "texte": "La maison est au cœur du village, place de l’Église, à 44 km au sud de Bordeaux.",
+      "info": "Bordeaux 30 min · gare Saint-Jean 38 min · aéroport 42 min",
+      "action": "Itinéraire depuis Bordeaux",
+      "bordeaux": "Bordeaux",
+      "rocade": "Rocade, sortie 19",
+      "a62": "A62",
+      "langon": "Sortie 3, Langon",
+      "d8": "D8, Fargues",
+      "d125": "D125",
+      "sauternes": "Sauternes"
+    },
+    "route": {
+      "titre": "Par la route",
+      "itineraire": "Depuis Bordeaux",
+      "i1": "Rocade, sortie 19 vers l’A62, l’autoroute des Deux Mers.",
+      "i2": "Sortie n° 3, Langon. Depuis Toulouse, c’est la même sortie.",
+      "i3": "Suivre la D8 vers Fargues et Sauternes.",
+      "i4": "Puis la D125 vers Sauternes, Bommes et Pujols.",
+      "temps": "Temps de route"
+    },
+    "train": {
+      "titre": "En train ou en avion",
+      "texte": "Gare de Bordeaux Saint-Jean à environ 38 minutes, aéroport de Bordeaux-Mérignac à environ 42 minutes, avec location de voiture sur place."
+    },
+    "arriver": {
+      "titre": "En arrivant",
+      "parking": "Garez-vous sur le parking de l’église, face au restaurant L’Auberge les Vignes.",
+      "entree": "L’entrée principale est côté place de l’Église.",
+      "horaires": "Arrivée autonome dès 16 h, départ avant 11 h."
+    },
+    "contact": {
+      "titre": "Une question ?",
+      "texte": "Écrivez-nous ou appelez Pascale et Didier : réponse sous 24 h maximum.",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "email": "E-mail",
+      "message": "Votre message",
+      "envoyer": "Envoyer",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre message. Politique de confidentialité : à compléter.",
+      "envoye": "Message simulé : rien n’a été envoyé. Sur le site final, il partira vers Pascale et Didier.",
+      "adresse": "Adresse",
+      "telephone": "Téléphone"
+    }
+  },
+  "introuvable": {
+    "titre": "Cette porte ne mène nulle part",
+    "texte": "La page que vous cherchez n’existe pas ou plus. La maison, elle, est toujours là.",
+    "retour": "Retour à l’accueil"
+  }
+}

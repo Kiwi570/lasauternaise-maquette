@@ -1,0 +1,975 @@
+[
+ {
+  "source": "recu/logo.jpg",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "La Sauternaise, Luxury B and B"
+ },
+ {
+  "source": "recu/galerie-11.jpg",
+  "nom": "facade",
+  "role": "ouverture",
+  "mobile": "4:5",
+  "cadrage": [
+   33,
+   52
+  ],
+  "beaute": 5,
+  "page": "accueil",
+  "alt": "La façade de La Sauternaise, ancien Office de dégustation de Sauternes, avec son inscription peinte et ses volets gris",
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ]
+ },
+ {
+  "source": "recu/galerie-2.jpg",
+  "nom": "archive",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ],
+  "cadrage": [
+   44,
+   48
+  ],
+  "beaute": 4,
+  "alt": "La même maison autrefois : l’Office de dégustation de Sauternes sur une photo d’archive en noir et blanc"
+ },
+ {
+  "source": "recu/galerie-3.jpg",
+  "nom": "facade-face",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ],
+  "cadrage": [
+   36,
+   50
+  ],
+  "beaute": 4,
+  "alt": "La façade aujourd’hui, restaurée, sous un ciel bleu"
+ },
+ {
+  "source": "recu/galerie-9.jpg",
+  "nom": "bain-balneo",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "cadrage": [
+   34,
+   50
+  ],
+  "beaute": 4,
+  "alt": "Salle de bains aux carreaux de ciment avec baignoire balnéo et verrière"
+ },
+ {
+  "source": "recu/luxury-b-b-bordeaux.png",
+  "nom": "petit-dejeuner",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "cadrage": [
+   52,
+   62
+  ],
+  "beaute": 4,
+  "alt": "Petit-déjeuner au jardin : croissant, confiture et café sous les fleurs"
+ },
+ {
+  "source": "recu/sauternaise-pourquoi-comment.jpg",
+  "nom": "pascale-didier",
+  "role": "portrait",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "cadrage": [
+   48,
+   34
+  ],
+  "beaute": 4,
+  "alt": "Pascale et Didier, vos hôtes, en tenue de soirée"
+ },
+ {
+  "source": "recu/moins-100-m-8.jpg",
+  "nom": "grappes",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "4:5",
+  "cadrage": [
+   70,
+   40
+  ],
+  "beaute": 4,
+  "alt": "Grappes de raisin noir sur de vieux ceps"
+ },
+ {
+  "source": "recu/luxury-b-b-bordeaux-3.jpg",
+  "nom": "cour",
+  "role": "ouverture",
+  "ratio": "4:3",
+  "mobile": "4:5",
+  "cadrage": [
+   40,
+   50
+  ],
+  "beaute": 4,
+  "alt": "La cour ombragée : table, verres de vin blanc et banc rouge sous la marquise"
+ },
+ {
+  "source": "recu/maison-hotes.jpg",
+  "nom": "chambre-terre-de-margaux",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ],
+  "cadrage": [
+   50,
+   55
+  ],
+  "beaute": 5,
+  "alt": "La chambre Terre de Margaux : mur terracotta, mezzanine et grand lit"
+ },
+ {
+  "source": "recu/galerie-10.jpg",
+  "nom": "chambre-pierre",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ],
+  "cadrage": [
+   47,
+   50
+  ],
+  "beaute": 4,
+  "alt": "Chambre aux murs de pierre, lit en lin et cheminée ancienne"
+ },
+ {
+  "source": "recu/booking-maison-hotes-sauternaise-2.jpg",
+  "nom": "chambre-blanche",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ],
+  "cadrage": [
+   50,
+   60
+  ],
+  "beaute": 4,
+  "alt": "Chambre blanche et grise, cheminée de marbre et verrière vers la salle de bains"
+ },
+ {
+  "source": "recu/galerie-14.png",
+  "nom": "chambre-ocre",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1500
+  ],
+  "cadrage": [
+   54,
+   50
+  ],
+  "beaute": 4,
+  "alt": "Chambre au mur ocre, grand tableau et lits jumeaux"
+ },
+ {
+  "source": "recu/galerie-13.jpg",
+  "nom": "chambre-poutres",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   44,
+   53
+  ],
+  "beaute": 4,
+  "alt": "Chambre sous les poutres, pierre blonde et lampes de chevet"
+ },
+ {
+  "source": "recu/booking-maison-hotes-sauternaise.jpg",
+  "nom": "chambre-mezzanine",
+  "role": "carte-service",
+  "ratio": "2:3",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "cadrage": [
+   51,
+   55
+  ],
+  "beaute": 4,
+  "alt": "Chambre à mezzanine, mur rouge et verrière d’atelier"
+ },
+ {
+  "source": "recu/luxury-b-b-bordeaux-4.jpg",
+  "nom": "chambre-grise",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   40,
+   50
+  ],
+  "beaute": 4,
+  "alt": "Chambre au mur gris anthracite, tableau coloré et salle de bains vitrée"
+ },
+ {
+  "source": "recu/galerie.jpg",
+  "nom": "chambre-jaune",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   50,
+   55
+  ],
+  "beaute": 4,
+  "alt": "Chambre au mur jaune et mur de pierre, lits jumeaux et lumière du jour"
+ },
+ {
+  "source": "recu/chambres-tarifs.jpg",
+  "nom": "chambres-bandeau",
+  "role": "ouverture",
+  "ratio": "21:9",
+  "largeurs": [
+   800,
+   1600,
+   2000
+  ],
+  "cadrage": [
+   40,
+   45
+  ],
+  "beaute": 4,
+  "source_mobile": "recu/booking-maison-hotes-sauternaise.jpg",
+  "mobile": "4:5",
+  "page": "chambres",
+  "alt": "Une chambre de La Sauternaise en panoramique : lit blanc, cheminée et armoire ancienne"
+ },
+ {
+  "source": "recu/chambres-tarifs-3.jpg",
+  "nom": "chambre-douce",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   54,
+   45
+  ],
+  "beaute": 4,
+  "alt": "Chambre aux tons crème, lit capitonné et lumière chaude"
+ },
+ {
+  "source": "recu/chambres-tarifs-4.jpg",
+  "nom": "sauna",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800
+  ],
+  "cadrage": [
+   45,
+   60
+  ],
+  "beaute": 4,
+  "alt": "Sauna infrarouge en bois clair dans une salle de bains"
+ },
+ {
+  "source": "recu/chambres-tarifs-2.jpg",
+  "nom": "bain-rouge",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800
+  ],
+  "cadrage": [
+   48,
+   53
+  ],
+  "beaute": 4,
+  "alt": "Salle de bains au mur rouge, douche vitrée et carreaux de ciment"
+ },
+ {
+  "source": "recu/booking-maison-hotes-sauternaise-3.jpg",
+  "nom": "porte-peignoir",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800
+  ],
+  "cadrage": [
+   62,
+   50
+  ],
+  "beaute": 4,
+  "alt": "Porte ancienne en bois et peignoir blanc dans une salle de bains en pierre"
+ },
+ {
+  "source": "recu/contact-acces.jpg",
+  "nom": "hier-aujourdhui",
+  "role": "ouverture",
+  "mobile": "4:5",
+  "cadrage": [
+   40,
+   35
+  ],
+  "beaute": 4,
+  "page": "la-maison",
+  "alt": "Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »"
+ },
+ {
+  "source": "recu/galerie-7.jpg",
+  "nom": "salle-a-manger",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ],
+  "cadrage": [
+   41,
+   45
+  ],
+  "beaute": 4,
+  "alt": "La salle à manger : lustre, grande table et sol en damier"
+ },
+ {
+  "source": "recu/galerie-8.jpg",
+  "nom": "salon-escalier",
+  "role": "galerie",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "cadrage": [
+   45,
+   50
+  ],
+  "beaute": 4,
+  "alt": "L’escalier blanc en colimaçon au-dessus du salon"
+ },
+ {
+  "source": "recu/galerie-6.jpg",
+  "nom": "cuisine",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   40,
+   45
+  ],
+  "beaute": 3,
+  "alt": "Cuisine claire, mur rouge et carreaux de ciment"
+ },
+ {
+  "source": "recu/galerie-12.jpg",
+  "nom": "jardin",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280
+  ],
+  "cadrage": [
+   54,
+   47
+  ],
+  "beaute": 4,
+  "alt": "Le jardin : grand arbre, palmier et façade arrière"
+ },
+ {
+  "source": "recu/luxury-b-b-bordeaux-2.jpg",
+  "nom": "cave-lampe",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "cadrage": [
+   45,
+   50
+  ],
+  "beaute": 4,
+  "alt": "Une bouteille de Sauternes et un verre à la lumière d’une lampe"
+ },
+ {
+  "source": "recu/sommes-nous.png",
+  "nom": "pascale",
+  "role": "vignette",
+  "ratio": "4:5",
+  "largeurs": [
+   400,
+   640
+  ],
+  "cadrage": [
+   55,
+   30
+  ],
+  "beaute": 3,
+  "alt": "Pascale en cuisine"
+ },
+ {
+  "source": "recu/sommes-nous-2.png",
+  "nom": "didier",
+  "role": "vignette",
+  "ratio": "4:5",
+  "largeurs": [
+   400,
+   640
+  ],
+  "cadrage": [
+   52,
+   30
+  ],
+  "beaute": 3,
+  "alt": "Didier en robe de la Commanderie du Bontemps"
+ },
+ {
+  "source": "recu/environs.jpg",
+  "nom": "env-saint-emilion",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "Saint-Émilion, son clocher et ses toits au soleil couchant",
+  "cadrage": [
+   45,
+   40
+  ]
+ },
+ {
+  "source": "recu/moins-100-m-9.jpg",
+  "nom": "env-filhot",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "Le château Filhot dans la lumière du soir"
+ },
+ {
+  "source": "recu/moins-100-m-7.jpg",
+  "nom": "env-margaux",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "Le château Margaux au bout de son allée"
+ },
+ {
+  "source": "recu/moins-100-m-6.jpg",
+  "nom": "env-cadillac",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "Le château de Cadillac vu du ciel"
+ },
+ {
+  "source": "recu/moins-100-m-4.jpg",
+  "nom": "env-sauve-majeure",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "L’abbaye de La Sauve-Majeure et son clocher roman"
+ },
+ {
+  "source": "recu/moins-100-m-17.jpg",
+  "nom": "env-la-brede",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "Le château de La Brède entouré de ses douves"
+ },
+ {
+  "source": "recu/moins-100-m-18.jpg",
+  "nom": "env-cazeneuve",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Le château royal de Cazeneuve"
+ },
+ {
+  "source": "recu/moins-100-m-15.jpg",
+  "nom": "env-canal-garonne",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "Péniche et cyclistes au bord du canal de Garonne"
+ },
+ {
+  "source": "recu/moins-100-m-12.jpg",
+  "nom": "env-huitres-fossiles",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Le banc d’huîtres fossiles de Sainte-Croix-du-Mont"
+ },
+ {
+  "source": "recu/moins-100-m-13.jpg",
+  "nom": "env-boeuf-bazas",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Bœufs de Bazas dans un pré"
+ },
+ {
+  "source": "recu/moins-100-m-3.jpg",
+  "nom": "env-roquetaillade",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "Le plafond peint de la chapelle du château de Roquetaillade"
+ },
+ {
+  "source": "recu/moins-100-m-14.jpg",
+  "nom": "env-lafaurie-peyraguey",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 4,
+  "alt": "Le chai à barriques du château Lafaurie-Peyraguey"
+ },
+ {
+  "source": "recu/moins-100-m-16.jpg",
+  "nom": "env-eglise-sauternes",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "L’église Saint-Pierre-ès-Liens de Sauternes et ses autels de marbre"
+ },
+ {
+  "source": "recu/moins-100-m-23.jpg",
+  "nom": "env-velos",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Balade à vélo dans les vignes"
+ },
+ {
+  "source": "recu/moins-100-m-28.jpg",
+  "nom": "env-canoe-ciron",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Canoë sur le Ciron sous les arbres"
+ },
+ {
+  "source": "recu/moins-100-m-27.jpg",
+  "nom": "env-guiraud",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "L’allée de platanes du château Guiraud"
+ },
+ {
+  "source": "recu/moins-100-m-21.jpg",
+  "nom": "env-hostens",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Les lacs d’Hostens sous un grand ciel"
+ },
+ {
+  "source": "recu/moins-100-m-24.jpg",
+  "nom": "env-arcachon",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Cabane tchanquée sur le bassin d’Arcachon"
+ },
+ {
+  "source": "recu/moins-100-m.jpg",
+  "nom": "env-pilat",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "La dune du Pilat vue du ciel"
+ },
+ {
+  "source": "recu/moins-100-m-36.jpg",
+  "nom": "env-pauillac",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "L’estuaire de la Gironde depuis Pauillac"
+ },
+ {
+  "source": "recu/moins-100-m-32.jpg",
+  "nom": "env-bordeaux",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Croisière sur la Garonne à Bordeaux"
+ },
+ {
+  "source": "recu/moins-100-m-25.jpg",
+  "nom": "env-montaigne",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Le château Michel de Montaigne"
+ },
+ {
+  "source": "recu/moins-100-m-37.jpg",
+  "nom": "env-arche",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Le château d’Arche dans ses vignes"
+ },
+ {
+  "source": "recu/moins-100-m-33.jpg",
+  "nom": "env-rayne-vigneau",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Dégustation perchée dans les arbres à Rayne Vigneau"
+ },
+ {
+  "source": "recu/moins-100-m-10.jpg",
+  "nom": "env-clos-haut-peyraguey",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Une bouteille du Clos Haut-Peyraguey"
+ },
+ {
+  "source": "recu/moins-100-m-22.jpg",
+  "nom": "env-ciron-arbres",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Grimpe d’arbres au-dessus du Ciron"
+ },
+ {
+  "source": "recu/moins-100-m-34.jpg",
+  "nom": "env-villandraut",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Les tours du château de Villandraut"
+ },
+ {
+  "source": "recu/moins-100-m-35.jpg",
+  "nom": "env-saint-macaire",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "La cité médiévale de Saint-Macaire"
+ },
+ {
+  "source": "recu/moins-100-m-11.jpg",
+  "nom": "env-uzeste",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Vitrail de la collégiale d’Uzeste"
+ },
+ {
+  "source": "recu/moins-100-m-29.jpg",
+  "nom": "env-malrome",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Portrait d’Henri de Toulouse-Lautrec au château de Malromé"
+ },
+ {
+  "source": "recu/moins-100-m-20.jpg",
+  "nom": "env-smith-haut-lafitte",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Le lièvre de bronze du château Smith Haut Lafitte"
+ },
+ {
+  "source": "recu/moins-100-m-19.jpg",
+  "nom": "env-la-dominique",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Une bouteille du château La Dominique"
+ },
+ {
+  "source": "recu/moins-100-m-31.jpg",
+  "nom": "env-domaine-de-chevalier",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 2,
+  "alt": "Bouteilles du Domaine de Chevalier"
+ },
+ {
+  "source": "recu/vignobles-von-neipperg-mondotte.jpg",
+  "nom": "env-von-neipperg",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Bouteilles des vignobles von Neipperg et une carafe"
+ },
+ {
+  "source": "recu/moins-100-m-30.png",
+  "nom": "env-malle",
+  "role": "vignette",
+  "ratio": "3:2",
+  "largeurs": [
+   400,
+   640
+  ],
+  "beaute": 3,
+  "alt": "Promenade à vélo devant le château de Malle"
+ },
+ {
+  "source": "recu/grok/vignes-brume.png",
+  "source_mobile": "recu/grok/vignes-brume-mobile.png",
+  "nom": "vignes-brume",
+  "role": "ouverture",
+  "mobile": "9:16",
+  "zone_texte": "bas",
+  "beaute": 5,
+  "page": "environs",
+  "emplacement": "Les environs · ouverture (2 km jusqu’à Yquem)",
+  "priorite": "Indispensable",
+  "gabarit": "lieu",
+  "scene": "old vineyard rows on gentle slopes in early autumn at sunrise, golden and russet leaves, a soft morning mist rising from a small wooded river valley at the bottom of the slope, a few tall oaks emerging from the mist",
+  "alt": "Vignes d’automne dans la brume du matin"
+ },
+ {
+  "source": "recu/grok/verre-dore.png",
+  "source_mobile": "recu/grok/verre-dore-mobile.png",
+  "nom": "verre-dore",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "beaute": 4,
+  "page": "accueil",
+  "emplacement": "Accueil · appel final « Réserver en direct »",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "consigne_scene": "A single stemmed wine glass half filled with a luminous golden sweet white wine, standing on a worn blond limestone windowsill, late-afternoon sun shining through the wine and casting a warm golden light spot on the stone, an out-of-focus vineyard beyond the open window, no bottle, no label, nobody",
+  "alt": "Un verre de vin doré sur le rebord d’une fenêtre en pierre, au soleil du soir"
+ },
+ {
+  "source": "recu/grok/linge-satin.png",
+  "nom": "linge-satin",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "beaute": 4,
+  "page": "chambres",
+  "emplacement": "Les chambres · literie et linge",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "alt": "Draps de satin de coton blanc et deux oreillers",
+  "consigne_scene": "Close-up of a neatly made bed with crisp white cotton sateen sheets catching a soft sheen, two plump pillows of different shapes against a pale linen headboard, a soft beige wool throw folded across the foot of the bed, calm and immaculate, nobody"
+ },
+ {
+  "source": "recu/grok/vapeur.png",
+  "nom": "vapeur",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "beaute": 4,
+  "page": "chambres",
+  "emplacement": "Les chambres · bandeau bien-être",
+  "priorite": "Conseillée",
+  "gabarit": "texture",
+  "consigne_scene": "Soft warm steam drifting slowly in front of a pale blond limestone wall, a neatly folded thick white towel on a small oak bench in the lower right corner, gentle golden side light making the steam glow, calm, lots of empty space on the left, nobody",
+  "alt": "Vapeur douce devant un mur de pierre blonde, serviette pliée sur un banc"
+ },
+ {
+  "source": "recu/grok/cle-ancienne.png",
+  "nom": "cle-ancienne",
+  "role": "404",
+  "zone_texte": "gauche",
+  "beaute": 4,
+  "page": "404",
+  "emplacement": "Page 404",
+  "priorite": "Conseillée",
+  "gabarit": "404",
+  "consigne_scene": "An antique wrought iron door key resting alone on a worn blond limestone doorstep, in front of an old oak door slightly ajar, soft late-afternoon light, calm, a gentle touch of humour, nobody",
+  "alt": "Une vieille clé posée sur le seuil de pierre d’une porte entrouverte"
+ }
+]

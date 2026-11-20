@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les environs : La Sauternaise, Sauternes</title>
+<meta name="description" content="39 visites autour de la maison, de 100 m à 100 km : grands crus de Sauternes à pied, châteaux, nature, Bordeaux, Saint-Émilion et le bassin d’Arcachon.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://lasauternaise-maquette.vercel.app/environs">
+<style>:root{--fond:#F6F1E7;--texte:#2A211C;--voile-fond:#E6D9C1;--ouverture-fond:#F6F1E7;--menu-fond:#EDE3CF}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/ibarra-real-nova-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hanken-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F6F1E7">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="La Sauternaise">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les environs : La Sauternaise, Sauternes">
+<meta property="og:description" content="39 visites autour de la maison, de 100 m à 100 km : grands crus de Sauternes à pied, châteaux, nature, Bordeaux, Saint-Émilion et le bassin d’Arcachon.">
+<meta property="og:url" content="https://lasauternaise-maquette.vercel.app/environs">
+<meta property="og:image" content="https://lasauternaise-maquette.vercel.app/assets/partage/environs-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Vignes d’automne dans la brume du matin">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BedAndBreakfast","name":"La Sauternaise","url":"https://lasauternaise-maquette.vercel.app/","telephone":"+33678006418","image":"https://lasauternaise-maquette.vercel.app/assets/images/facade-1280.webp","description":"Maison d’hôtes de charme dans une demeure du XVIIIe siècle, ancien Office de dégustation de Sauternes : quatre chambres avec salle de bains bien-être, petit-déjeuner compris.","address":{"@type":"PostalAddress","streetAddress":"22 rue Principale, place de l’Église","postalCode":"33210","addressLocality":"Sauternes","addressCountry":"FR"},"checkinTime":"16:00","checkoutTime":"11:00","numberOfRooms":4,"petsAllowed":false,"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Petit-déjeuner compris","value":true},{"@type":"LocationFeatureSpecification","name":"Hammam, sauna infrarouge, baignoire balnéo ou douche hydromassante selon la chambre","value":true}],"sameAs":["https://www.instagram.com/lasauternaise/","https://www.facebook.com/lasauternaise/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" data-gouttiere="#E6D9C1" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-couleur-320.webp" alt="" width="320" height="203"><span data-voile-libelle>Les environs</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-couleur-640.webp" alt="" width="640" height="405" data-ouverture-objet>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Maison d’hôtes · Sauternes</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-couleur-320.webp" alt="" width="320" height="203"><span class="visuellement-cache">La Sauternaise</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/chambres" data-libelle="Les chambres">Les chambres</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/environs" data-libelle="Les environs" aria-current="page">Les environs</a></li><li><a href="/acces" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/reserver" data-libelle="Réserver">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/chambres" class="menu-lien" data-libelle="Les chambres">Les chambres</a></li><li style="--i:2"><a href="/la-maison" class="menu-lien" data-libelle="La maison">La maison</a></li><li style="--i:3"><a href="/environs" class="menu-lien" data-libelle="Les environs" aria-current="page">Les environs</a></li><li style="--i:4"><a href="/acces" class="menu-lien" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33678006418">Appeler 06 78 00 64 18</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv-chiffre" id="debut">
+  <figure class="media " style="--cadrage:45% 38%;--cadrage-mobile:50% 57%;background-image:url(data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoYAA4APu1mqk4ppaOiMAgBMB2JYgCdABeisG5OI6uHigAA/gXXa2Du+fSGApIC0vM13RYXbDrxhnr5byDTDUGYZZLzBs1F1kEhilv3BtAAAA==);background-size:cover;background-position:45% 38%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/vignes-brume-mobile-640.webp 640w, /assets/images/vignes-brume-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/vignes-brume-1280.webp" srcset="/assets/images/vignes-brume-640.webp 640w, /assets/images/vignes-brume-1280.webp 1280w, /assets/images/vignes-brume-1920.webp 1920w" sizes="100vw" alt="Vignes d’automne dans la brume du matin" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  <div class="brume" aria-hidden="true" data-effet="brume" data-audit-ignorer><span style="left:-10%;top:40%"></span><span style="left:30%;top:60%"></span><span style="left:55%;top:30%"></span></div>
+  <div class="conteneur">
+    <div>
+      <p class="chiffre-geant" data-iris-centre aria-hidden="true">2 km<span class="chiffre-legende">jusqu’au Château d’Yquem, à pied</span></p>
+    </div>
+    <div>
+      <p class="surtitre">Les environs</p>
+      <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">De 100 m</span></span><span class="ligne-masque"><span class="hero-ligne"><em>à 100 km</em></span></span></h1>
+      <p class="chapo masque-ecran-bas">39 visites autour de la maison : les grands crus de Sauternes au bout de la rue, des châteaux et des villages, la nature des Landes de Gascogne, Bordeaux et le bassin d’Arcachon.</p>
+      <p class="actions"><a href="/environs#visites" class="bouton" data-libelle="Les environs" data-action-principale data-sans-transition>Voir les visites</a></p>
+      <p class="info-cle" data-info-cle style="margin-top:14px">Bordeaux à 30 min · Saint-Émilion à 50 km</p>
+    </div>
+  </div>
+</section>
+<section class="section" id="visites" aria-labelledby="visites-titre">
+  <div class="conteneur">
+    <h2 class="titre-section" id="visites-titre" data-anime="lignes">Choisissez votre sortie</h2>
+    <div class="filtres" data-filtres>
+      <fieldset class="filtres-groupe" data-groupe="distance">
+        <legend>Distance</legend>
+        <button type="button" class="filtre" data-valeur="" aria-pressed="true">Tout</button>
+        <button type="button" class="filtre" data-valeur="pied" aria-pressed="false">Moins de 3 km</button><button type="button" class="filtre" data-valeur="30" aria-pressed="false">8 à 25 km</button><button type="button" class="filtre" data-valeur="60" aria-pressed="false">25 à 50 km</button><button type="button" class="filtre" data-valeur="loin" aria-pressed="false">50 à 100 km</button>
+      </fieldset>
+      <fieldset class="filtres-groupe" data-groupe="envie">
+        <legend>Envie</legend>
+        <button type="button" class="filtre" data-valeur="" aria-pressed="true">Tout</button>
+        <button type="button" class="filtre" data-valeur="crus" aria-pressed="false">Grands crus</button><button type="button" class="filtre" data-valeur="patrimoine" aria-pressed="false">Châteaux et patrimoine</button><button type="button" class="filtre" data-valeur="nature" aria-pressed="false">Nature et loisirs</button><button type="button" class="filtre" data-valeur="villes" aria-pressed="false">Villes et villages</button>
+      </fieldset>
+    </div>
+    <p class="resultat" aria-live="polite" data-resultat data-modele="{n} visites" data-un="1 visite">39 visites</p>
+    <ul class="visites" data-visites data-effet="filtres-environs" data-anime="cascade" aria-label="Liste des visites">
+      <li class="visite" id="velos" data-zone="pied" data-theme="nature">
+        <figure class="media " style="--cadrage:50% 47%">
+  <picture>
+    <img src="/assets/images/env-velos-640.webp" srcset="/assets/images/env-velos-400.webp 400w, /assets/images/env-velos-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Balade à vélo dans les vignes" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">moins de 100 m</span>
+          <h3>Location de vélos</h3>
+          <p>VTC et VTT à l’Office de tourisme, de mai à septembre, dès 8 € la demi-journée.</p>
+        </div>
+      </li><li class="visite" id="eglise" data-zone="pied" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:45% 56%">
+  <picture>
+    <img src="/assets/images/env-eglise-sauternes-640.webp" srcset="/assets/images/env-eglise-sauternes-400.webp 400w, /assets/images/env-eglise-sauternes-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="L’église Saint-Pierre-ès-Liens de Sauternes et ses autels de marbre" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">moins de 100 m</span>
+          <h3>Église Saint-Pierre-ès-Liens</h3>
+          <p>Ses autels en marbre blanc, juste derrière la maison.</p>
+        </div>
+      </li><li class="visite" id="arche" data-zone="pied" data-theme="crus">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/env-arche-640.webp" srcset="/assets/images/env-arche-400.webp 400w, /assets/images/env-arche-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le château d’Arche dans ses vignes" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">500 m</span>
+          <h3>Château d’Arche</h3>
+          <p>Second grand cru classé : balade pédagogique dans les vignes.</p>
+        </div>
+      </li><li class="visite" id="guiraud" data-zone="pied" data-theme="crus">
+        <figure class="media " style="--cadrage:57% 61%">
+  <picture>
+    <img src="/assets/images/env-guiraud-640.webp" srcset="/assets/images/env-guiraud-400.webp 400w, /assets/images/env-guiraud-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="L’allée de platanes du château Guiraud" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">800 m</span>
+          <h3>Château Guiraud</h3>
+          <p>Premier grand cru classé, certifié bio : visites et randonnée botanique.</p>
+          <span class="visite-rdv">Sur rendez-vous</span>
+        </div>
+      </li><li class="visite" id="filhot" data-zone="pied" data-theme="crus">
+        <figure class="media " style="--cadrage:44% 30%">
+  <picture>
+    <img src="/assets/images/env-filhot-640.webp" srcset="/assets/images/env-filhot-400.webp 400w, /assets/images/env-filhot-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le château Filhot dans la lumière du soir" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">900 m</span>
+          <h3>Château Filhot</h3>
+          <p>Second grand cru classé, château néoclassique et parc à l’anglaise.</p>
+        </div>
+      </li><li class="visite" id="rayne-vigneau" data-zone="pied" data-theme="crus">
+        <figure class="media " style="--cadrage:44% 55%">
+  <picture>
+    <img src="/assets/images/env-rayne-vigneau-640.webp" srcset="/assets/images/env-rayne-vigneau-400.webp 400w, /assets/images/env-rayne-vigneau-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Dégustation perchée dans les arbres à Rayne Vigneau" width="640" height="426" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">1,4 km</span>
+          <h3>Château Rayne Vigneau</h3>
+          <p>Premier grand cru classé : dégustation dans les arbres, randonnées équestres, jeux de piste.</p>
+        </div>
+      </li><li class="visite" id="clos-haut-peyraguey" data-zone="pied" data-theme="crus">
+        <figure class="media " style="--cadrage:53% 40%">
+  <picture>
+    <img src="/assets/images/env-clos-haut-peyraguey-640.webp" srcset="/assets/images/env-clos-haut-peyraguey-400.webp 400w, /assets/images/env-clos-haut-peyraguey-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Une bouteille du Clos Haut-Peyraguey" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">1,5 km</span>
+          <h3>Clos Haut-Peyraguey</h3>
+          <p>Premier grand cru classé.</p>
+          <span class="visite-rdv">Sur rendez-vous</span>
+        </div>
+      </li><li class="visite" id="yquem" data-zone="pied" data-theme="crus">
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-corps">
+          <span class="visite-distance">2 km</span>
+          <h3>Château d’Yquem</h3>
+          <p>Premier grand cru classé supérieur.</p>
+          <span class="visite-rdv">Sur rendez-vous</span>
+        </div>
+      </li><li class="visite" id="lafaurie-peyraguey" data-zone="pied" data-theme="crus">
+        <figure class="media " style="--cadrage:50% 44%">
+  <picture>
+    <img src="/assets/images/env-lafaurie-peyraguey-640.webp" srcset="/assets/images/env-lafaurie-peyraguey-400.webp 400w, /assets/images/env-lafaurie-peyraguey-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le chai à barriques du château Lafaurie-Peyraguey" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">2,2 km</span>
+          <h3>Château Lafaurie-Peyraguey</h3>
+          <p>Un grand cru et ses vestiges médiévaux.</p>
+        </div>
+      </li><li class="visite" id="ciron" data-zone="pied" data-theme="nature">
+        <figure class="media " style="--cadrage:49% 53%">
+  <picture>
+    <img src="/assets/images/env-canoe-ciron-640.webp" srcset="/assets/images/env-canoe-ciron-400.webp 400w, /assets/images/env-canoe-ciron-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Canoë sur le Ciron sous les arbres" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">3 km</span>
+          <h3>Le Ciron</h3>
+          <p>Rivière bordée d’une hêtraie ancienne : parc d’aventures, grimpe d’arbres, canoë-kayak.</p>
+        </div>
+      </li><li class="visite" id="malle" data-zone="30" data-theme="crus">
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-corps">
+          <span class="visite-distance">8 km</span>
+          <h3>Château de Malle</h3>
+          <p>À Preignac : jardins à l’italienne et dégustation.</p>
+        </div>
+      </li><li class="visite" id="roquetaillade" data-zone="30" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:50% 59%">
+  <picture>
+    <img src="/assets/images/env-roquetaillade-640.webp" srcset="/assets/images/env-roquetaillade-400.webp 400w, /assets/images/env-roquetaillade-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le plafond peint de la chapelle du château de Roquetaillade" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">9 km</span>
+          <h3>Château de Roquetaillade</h3>
+          <p>Château fort médiéval classé, restauré par Viollet-le-Duc.</p>
+        </div>
+      </li><li class="visite" id="villandraut" data-zone="30" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:37% 22%">
+  <picture>
+    <img src="/assets/images/env-villandraut-640.webp" srcset="/assets/images/env-villandraut-400.webp 400w, /assets/images/env-villandraut-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Les tours du château de Villandraut" width="640" height="426" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">11 km</span>
+          <h3>Château de Villandraut</h3>
+          <p>Palais fortifié du pape Clément V, avec de nombreux événements culturels.</p>
+        </div>
+      </li><li class="visite" id="hostens" data-zone="30" data-theme="nature">
+        <figure class="media " style="--cadrage:49% 48%">
+  <picture>
+    <img src="/assets/images/env-hostens-640.webp" srcset="/assets/images/env-hostens-400.webp 400w, /assets/images/env-hostens-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Les lacs d’Hostens sous un grand ciel" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">12 km</span>
+          <h3>Lacs d’Hostens</h3>
+          <p>Randonnée, baignade et activités nautiques, à l’entrée du Parc naturel des Landes de Gascogne.</p>
+        </div>
+      </li><li class="visite" id="saint-macaire" data-zone="30" data-theme="villes">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/env-saint-macaire-640.webp" srcset="/assets/images/env-saint-macaire-400.webp 400w, /assets/images/env-saint-macaire-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="La cité médiévale de Saint-Macaire" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">13 km</span>
+          <h3>Saint-Macaire</h3>
+          <p>Cité médiévale au bord de la Garonne.</p>
+        </div>
+      </li><li class="visite" id="malagar" data-zone="30" data-theme="patrimoine">
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-corps">
+          <span class="visite-distance">13 km</span>
+          <h3>Malagar, centre François-Mauriac</h3>
+          <p>Maison d’écrivain, parc et balades littéraires.</p>
+        </div>
+      </li><li class="visite" id="uzeste" data-zone="30" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/env-uzeste-640.webp" srcset="/assets/images/env-uzeste-400.webp 400w, /assets/images/env-uzeste-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Vitrail de la collégiale d’Uzeste" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">14 km</span>
+          <h3>Collégiale d’Uzeste</h3>
+          <p>Le tombeau du pape Clément V.</p>
+        </div>
+      </li><li class="visite" id="golf" data-zone="30" data-theme="nature">
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-corps">
+          <span class="visite-distance">15 km</span>
+          <h3>Golf de Saint-Pardon-de-Conques</h3>
+          <p>Parcours 18 trous et practice couvert.</p>
+        </div>
+      </li><li class="visite" id="cadillac" data-zone="30" data-theme="villes">
+        <figure class="media " style="--cadrage:50% 64%">
+  <picture>
+    <img src="/assets/images/env-cadillac-640.webp" srcset="/assets/images/env-cadillac-400.webp 400w, /assets/images/env-cadillac-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le château de Cadillac vu du ciel" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">15 km</span>
+          <h3>Cadillac</h3>
+          <p>Bastide, château et musée de la vigne et du vin.</p>
+        </div>
+      </li><li class="visite" id="sainte-croix-du-mont" data-zone="30" data-theme="nature">
+        <figure class="media " style="--cadrage:60% 55%">
+  <picture>
+    <img src="/assets/images/env-huitres-fossiles-640.webp" srcset="/assets/images/env-huitres-fossiles-400.webp 400w, /assets/images/env-huitres-fossiles-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le banc d’huîtres fossiles de Sainte-Croix-du-Mont" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">16 km</span>
+          <h3>Sainte-Croix-du-Mont</h3>
+          <p>Vignoble et banc d’huîtres fossiles vieux de 22 millions d’années.</p>
+        </div>
+      </li><li class="visite" id="malrome" data-zone="30" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:53% 50%">
+  <picture>
+    <img src="/assets/images/env-malrome-640.webp" srcset="/assets/images/env-malrome-400.webp 400w, /assets/images/env-malrome-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Portrait d’Henri de Toulouse-Lautrec au château de Malromé" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">17 km</span>
+          <h3>Château de Malromé</h3>
+          <p>La demeure familiale d’Henri de Toulouse-Lautrec.</p>
+        </div>
+      </li><li class="visite" id="canal" data-zone="30" data-theme="nature">
+        <figure class="media " style="--cadrage:49% 57%">
+  <picture>
+    <img src="/assets/images/env-canal-garonne-640.webp" srcset="/assets/images/env-canal-garonne-400.webp 400w, /assets/images/env-canal-garonne-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Péniche et cyclistes au bord du canal de Garonne" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">19 km</span>
+          <h3>Voie verte du canal de Garonne</h3>
+          <p>À vélo ou à pied, le long du canal.</p>
+        </div>
+      </li><li class="visite" id="hamel" data-zone="30" data-theme="patrimoine">
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-corps">
+          <span class="visite-distance">19 km</span>
+          <h3>Château du Hamel</h3>
+          <p>À Castets-en-Dorthe.</p>
+          <span class="visite-rdv">Sur rendez-vous</span>
+        </div>
+      </li><li class="visite" id="bazas" data-zone="30" data-theme="villes">
+        <figure class="media " style="--cadrage:54% 47%">
+  <picture>
+    <img src="/assets/images/env-boeuf-bazas-640.webp" srcset="/assets/images/env-boeuf-bazas-400.webp 400w, /assets/images/env-boeuf-bazas-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Bœufs de Bazas dans un pré" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">20 km</span>
+          <h3>Bazas</h3>
+          <p>Remparts, cathédrale classée au patrimoine mondial, marché le samedi matin et bœuf de Bazas.</p>
+        </div>
+      </li><li class="visite" id="cazeneuve" data-zone="30" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:50% 57%">
+  <picture>
+    <img src="/assets/images/env-cazeneuve-640.webp" srcset="/assets/images/env-cazeneuve-400.webp 400w, /assets/images/env-cazeneuve-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le château royal de Cazeneuve" width="640" height="426" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">23 km</span>
+          <h3>Château royal de Cazeneuve</h3>
+          <p>Meublé d’époque, dans un parc de 40 ha.</p>
+        </div>
+      </li><li class="visite" id="la-brede" data-zone="60" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:42% 57%">
+  <picture>
+    <img src="/assets/images/env-la-brede-640.webp" srcset="/assets/images/env-la-brede-400.webp 400w, /assets/images/env-la-brede-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le château de La Brède entouré de ses douves" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">32 km</span>
+          <h3>Château de La Brède</h3>
+          <p>Là où Montesquieu est né et a écrit.</p>
+        </div>
+      </li><li class="visite" id="sauve-majeure" data-zone="60" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:50% 62%">
+  <picture>
+    <img src="/assets/images/env-sauve-majeure-640.webp" srcset="/assets/images/env-sauve-majeure-400.webp 400w, /assets/images/env-sauve-majeure-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="L’abbaye de La Sauve-Majeure et son clocher roman" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">35 km</span>
+          <h3>Abbaye de La Sauve-Majeure</h3>
+          <p>Un grand ensemble roman.</p>
+        </div>
+      </li><li class="visite" id="chevalier" data-zone="60" data-theme="crus">
+        <figure class="media " style="--cadrage:50% 56%">
+  <picture>
+    <img src="/assets/images/env-domaine-de-chevalier-640.webp" srcset="/assets/images/env-domaine-de-chevalier-400.webp 400w, /assets/images/env-domaine-de-chevalier-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Bouteilles du Domaine de Chevalier" width="640" height="426" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">38 km</span>
+          <h3>Domaine de Chevalier</h3>
+          <p>Un cru de Pessac-Léognan.</p>
+        </div>
+      </li><li class="visite" id="smith-haut-lafitte" data-zone="60" data-theme="crus">
+        <figure class="media " style="--cadrage:48% 50%">
+  <picture>
+    <img src="/assets/images/env-smith-haut-lafitte-640.webp" srcset="/assets/images/env-smith-haut-lafitte-400.webp 400w, /assets/images/env-smith-haut-lafitte-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le lièvre de bronze du château Smith Haut Lafitte" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">39 km</span>
+          <h3>Château Smith Haut Lafitte</h3>
+          <p>Un cru de Pessac-Léognan.</p>
+        </div>
+      </li><li class="visite" id="bordeaux" data-zone="60" data-theme="villes">
+        <figure class="media " style="--cadrage:50% 52%">
+  <picture>
+    <img src="/assets/images/env-bordeaux-640.webp" srcset="/assets/images/env-bordeaux-400.webp 400w, /assets/images/env-bordeaux-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Croisière sur la Garonne à Bordeaux" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">44 km</span>
+          <h3>Bordeaux</h3>
+          <p>Croisières sur la Garonne, centre historique et musées.</p>
+        </div>
+      </li><li class="visite" id="von-neipperg" data-zone="60" data-theme="crus">
+        <figure class="media " style="--cadrage:49% 38%">
+  <picture>
+    <img src="/assets/images/env-von-neipperg-640.webp" srcset="/assets/images/env-von-neipperg-400.webp 400w, /assets/images/env-von-neipperg-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Bouteilles des vignobles von Neipperg et une carafe" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">49 km</span>
+          <h3>Vignobles von Neipperg</h3>
+          <p>Dans le Libournais.</p>
+        </div>
+      </li><li class="visite" id="saint-emilion" data-zone="60" data-theme="villes">
+        <figure class="media " style="--cadrage:45% 40%">
+  <picture>
+    <img src="/assets/images/env-saint-emilion-640.webp" srcset="/assets/images/env-saint-emilion-400.webp 400w, /assets/images/env-saint-emilion-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Saint-Émilion, son clocher et ses toits au soleil couchant" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">50 km</span>
+          <h3>Saint-Émilion</h3>
+          <p>Site classé au patrimoine mondial.</p>
+        </div>
+      </li><li class="visite" id="la-dominique" data-zone="loin" data-theme="crus">
+        <figure class="media " style="--cadrage:51% 50%">
+  <picture>
+    <img src="/assets/images/env-la-dominique-640.webp" srcset="/assets/images/env-la-dominique-400.webp 400w, /assets/images/env-la-dominique-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Une bouteille du château La Dominique" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">58 km</span>
+          <h3>Château La Dominique</h3>
+          <p>Grand cru classé de Saint-Émilion.</p>
+        </div>
+      </li><li class="visite" id="evangile" data-zone="loin" data-theme="crus">
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-corps">
+          <span class="visite-distance">61 km</span>
+          <h3>Château l’Évangile</h3>
+          <p>À Pomerol.</p>
+        </div>
+      </li><li class="visite" id="montaigne" data-zone="loin" data-theme="patrimoine">
+        <figure class="media " style="--cadrage:43% 41%">
+  <picture>
+    <img src="/assets/images/env-montaigne-640.webp" srcset="/assets/images/env-montaigne-400.webp 400w, /assets/images/env-montaigne-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le château Michel de Montaigne" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">62 km</span>
+          <h3>Château Michel de Montaigne</h3>
+          <p>Le château de l’auteur des Essais.</p>
+        </div>
+      </li><li class="visite" id="margaux" data-zone="loin" data-theme="crus">
+        <figure class="media " style="--cadrage:50% 40%">
+  <picture>
+    <img src="/assets/images/env-margaux-640.webp" srcset="/assets/images/env-margaux-400.webp 400w, /assets/images/env-margaux-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le château Margaux au bout de son allée" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">77 km</span>
+          <h3>Château Margaux</h3>
+          <p>Dans le Médoc.</p>
+        </div>
+      </li><li class="visite" id="pilat" data-zone="loin" data-theme="nature">
+        <figure class="media " style="--cadrage:60% 40%">
+  <picture>
+    <img src="/assets/images/env-pilat-640.webp" srcset="/assets/images/env-pilat-400.webp 400w, /assets/images/env-pilat-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="La dune du Pilat vue du ciel" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">85 km</span>
+          <h3>Dune du Pilat</h3>
+          <p>La plus haute dune d’Europe, qui avance de 1 à 5 m par an.</p>
+        </div>
+      </li><li class="visite" id="arcachon" data-zone="loin" data-theme="villes">
+        <figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/env-arcachon-640.webp" srcset="/assets/images/env-arcachon-400.webp 400w, /assets/images/env-arcachon-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Cabane tchanquée sur le bassin d’Arcachon" width="640" height="426" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">87 km</span>
+          <h3>Arcachon</h3>
+          <p>Le bassin et ses huîtres.</p>
+        </div>
+      </li><li class="visite" id="pauillac" data-zone="loin" data-theme="villes">
+        <figure class="media " style="--cadrage:50% 54%">
+  <picture>
+    <img src="/assets/images/env-pauillac-640.webp" srcset="/assets/images/env-pauillac-400.webp 400w, /assets/images/env-pauillac-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="L’estuaire de la Gironde depuis Pauillac" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <div class="visite-corps">
+          <span class="visite-distance">100 km</span>
+          <h3>Pauillac</h3>
+          <p>Vins du Médoc et estuaire de la Gironde.</p>
+        </div>
+      </li>
+    </ul>
+    <p class="aucun" data-aucun hidden>Aucune visite pour ce choix : élargissez la distance.</p>
+  </div>
+</section>
+<section class="section fond-pierre" id="conseil" aria-labelledby="conseil-titre">
+  <div class="conteneur conseil">
+    <figure class="media conseil-portrait" data-fx="zoom" style="--cadrage:50% 30%">
+  <picture>
+    <img src="/assets/images/didier-640.webp" srcset="/assets/images/didier-400.webp 400w, /assets/images/didier-640.webp 640w" sizes="220px" alt="Didier en robe de la Commanderie du Bontemps" width="640" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <h2 class="titre-section" id="conseil-titre" data-anime="lignes">Demandez à Didier</h2>
+      <p class="chapo" data-anime>Professionnel du vin, Didier partage volontiers ses adresses pour visiter caves et propriétés. Les vélos se louent à l’Office de tourisme, à moins de 100 m, de mai à septembre.</p>
+    </div>
+  </div>
+</section>
+<section class="section fin-page" id="fin" aria-labelledby="fin-titre">
+  <div class="conteneur">
+    <div class="eventail" data-effet="eventail" aria-hidden="true"><figure class="tirage-mini"><figure class="media " style="--cadrage:45% 40%">
+  <picture>
+    <img src="/assets/images/env-saint-emilion-640.webp" srcset="/assets/images/env-saint-emilion-400.webp 400w, /assets/images/env-saint-emilion-640.webp 640w" sizes="170px" alt="Saint-Émilion, son clocher et ses toits au soleil couchant" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure></figure><figure class="tirage-mini"><figure class="media " style="--cadrage:44% 30%">
+  <picture>
+    <img src="/assets/images/env-filhot-640.webp" srcset="/assets/images/env-filhot-400.webp 400w, /assets/images/env-filhot-640.webp 640w" sizes="170px" alt="Le château Filhot dans la lumière du soir" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure></figure><figure class="tirage-mini"><figure class="media " style="--cadrage:60% 40%">
+  <picture>
+    <img src="/assets/images/env-pilat-640.webp" srcset="/assets/images/env-pilat-400.webp 400w, /assets/images/env-pilat-640.webp 640w" sizes="170px" alt="La dune du Pilat vue du ciel" width="640" height="427" loading="lazy" decoding="async">
+  </picture>
+</figure></figure></div>
+    <h2 class="titre-section" id="fin-titre" data-anime="lignes">Une base au cœur du vignoble</h2>
+    <p class="actions" data-anime>
+      <a href="/reserver" class="bouton" data-libelle="Réserver" data-survol="magnetique">Demander mes dates</a>
+      <a href="/acces" class="bouton bouton--contour" data-libelle="Accès &amp; contact">Venir à Sauternes</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-maison">
+      <img class="pied-logo" src="/assets/images/logo-creme-320.webp" alt="La Sauternaise, maison d’hôtes à Sauternes" width="320" height="203" loading="lazy">
+      <p>22 rue Principale, place de l’Église, 33210 Sauternes<br><a href="tel:+33678006418">+33 6 78 00 64 18</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/chambres" data-libelle="Les chambres">Les chambres</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/environs" data-libelle="Les environs" aria-current="page">Les environs</a></li><li><a href="/acces" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre la maison</p>
+      <ul>
+        <li><a href="https://www.instagram.com/lasauternaise/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.facebook.com/lasauternaise/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.les-granges-de-sauternes.com/" target="_blank" rel="noopener">Notre restaurant : Les Granges<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Vignobles &amp; Découvertes · Route des Vins · Bacchus</p><p>Mentions légales · Politique de confidentialité · Conditions générales de vente : à compléter</p><p>Maquette : demandes et réservations simulées, rien n’est envoyé.</p><p>© La Sauternaise</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33678006418">Appeler</a>
+  <a class="bouton" href="/reserver" data-libelle="Réserver">Réserver</a>
+</div>
+</body>
+</html>

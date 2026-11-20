@@ -1,0 +1,103 @@
+{
+  "client": "La Sauternaise",
+  "activite": "hébergement",
+  "direction": "L'Office de dégustation",
+  "date": "2026-11-20T15:24:00.393Z",
+  "images": [
+    {
+      "nom": "vignes-brume",
+      "fichier": "vignes-brume.png",
+      "page": "environs",
+      "emplacement": "Les environs · ouverture (2 km jusqu’à Yquem) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "lieu",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Landscape around the stay at first light: old vineyard rows on gentle slopes in early autumn at sunrise, golden and russet leaves, a soft morning mist rising from a small wooded river valley at the bottom of the slope, a few tall oaks emerging from the mist, gentle mist, no buildings, no roads, no vehicles, an atmospheric mood image, not a portrait of the real establishment. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Contemporary editorial hospitality photography, quiet and slow, calm, elegant and warm, a classic eighteenth-century French country house, quiet luxury mood, palette of lime-washed white, blond limestone, soft honey gold, a touch of deep wine red, soft warm golden light, tactile blond limestone, lime plaster, aged oak and crisp white cotton, set in a gentle wine-growing countryside of south-west France on an early autumn day, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. A gentle wine-growing countryside of south-west France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "vignes-brume",
+      "fichier": "vignes-brume-mobile.png",
+      "page": "environs",
+      "emplacement": "Les environs · ouverture (2 km jusqu’à Yquem) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "lieu",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Landscape around the stay at first light: old vineyard rows on gentle slopes in early autumn at sunrise, golden and russet leaves, a soft morning mist rising from a small wooded river valley at the bottom of the slope, a few tall oaks emerging from the mist, gentle mist, no buildings, no roads, no vehicles, an atmospheric mood image, not a portrait of the real establishment. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, calm, elegant and warm, a classic eighteenth-century French country house, quiet luxury mood, palette of lime-washed white, blond limestone, soft honey gold, a touch of deep wine red, soft warm golden light, tactile blond limestone, lime plaster, aged oak and crisp white cotton, set in a gentle wine-growing countryside of south-west France on an early autumn day, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. A gentle wine-growing countryside of south-west France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "verre-dore",
+      "fichier": "verre-dore.png",
+      "page": "accueil",
+      "emplacement": "Accueil · appel final « Réserver en direct » (ordinateur)",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A single stemmed wine glass half filled with a luminous golden sweet white wine, standing on a worn blond limestone windowsill, late-afternoon sun shining through the wine and casting a warm golden light spot on the stone, an out-of-focus vineyard beyond the open window, no bottle, no label, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, elegant and warm, a classic eighteenth-century French country house, quiet luxury mood, palette of lime-washed white, blond limestone, soft honey gold, a touch of deep wine red, soft warm golden light, tactile blond limestone, lime plaster, aged oak and crisp white cotton, set in a gentle wine-growing countryside of south-west France on an early autumn day, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "verre-dore",
+      "fichier": "verre-dore-mobile.png",
+      "page": "accueil",
+      "emplacement": "Accueil · appel final « Réserver en direct » (téléphone)",
+      "role": "section-fond",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A single stemmed wine glass half filled with a luminous golden sweet white wine, standing on a worn blond limestone windowsill, late-afternoon sun shining through the wine and casting a warm golden light spot on the stone, an out-of-focus vineyard beyond the open window, no bottle, no label, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, calm, elegant and warm, a classic eighteenth-century French country house, quiet luxury mood, palette of lime-washed white, blond limestone, soft honey gold, a touch of deep wine red, soft warm golden light, tactile blond limestone, lime plaster, aged oak and crisp white cotton, set in a gentle wine-growing countryside of south-west France on an early autumn day, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "linge-satin",
+      "fichier": "linge-satin.png",
+      "page": "chambres",
+      "emplacement": "Les chambres · literie et linge",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close-up of a neatly made bed with crisp white cotton sateen sheets catching a soft sheen, two plump pillows of different shapes against a pale linen headboard, a soft beige wool throw folded across the foot of the bed, calm and immaculate, nobody. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Contemporary editorial hospitality photography, quiet and slow, calm, elegant and warm, a classic eighteenth-century French country house, quiet luxury mood, palette of lime-washed white, blond limestone, soft honey gold, a touch of deep wine red, soft warm golden light, tactile blond limestone, lime plaster, aged oak and crisp white cotton, set in a gentle wine-growing countryside of south-west France on an early autumn day, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "vapeur",
+      "fichier": "vapeur.png",
+      "page": "chambres",
+      "emplacement": "Les chambres · bandeau bien-être",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "texture",
+      "pieges": [],
+      "consigne": "Soft warm steam drifting slowly in front of a pale blond limestone wall, a neatly folded thick white towel on a small oak bench in the lower right corner, gentle golden side light making the steam glow, calm, lots of empty space on the left, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, elegant and warm, a classic eighteenth-century French country house, quiet luxury mood, palette of lime-washed white, blond limestone, soft honey gold, a touch of deep wine red, soft warm golden light, tactile blond limestone, lime plaster, aged oak and crisp white cotton, set in a gentle wine-growing countryside of south-west France on an early autumn day, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "cle-ancienne",
+      "fichier": "cle-ancienne.png",
+      "page": "404",
+      "emplacement": "Page 404",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "An antique wrought iron door key resting alone on a worn blond limestone doorstep, in front of an old oak door slightly ajar, soft late-afternoon light, calm, a gentle touch of humour, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, elegant and warm, a classic eighteenth-century French country house, quiet luxury mood, palette of lime-washed white, blond limestone, soft honey gold, a touch of deep wine red, soft warm golden light, tactile blond limestone, lime plaster, aged oak and crisp white cotton, set in a gentle wine-growing countryside of south-west France on an early autumn day, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

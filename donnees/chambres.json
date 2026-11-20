@@ -1,0 +1,6 @@
+[
+  { "id": "or-de-bordeaux", "nom": "Or de Bordeaux", "clim": true, "teinte": "#B0923F", "photo": null },
+  { "id": "reflets-de-saint-emilion", "nom": "Reflets de Saint-Émilion", "clim": true, "teinte": "#7E1F33", "photo": null },
+  { "id": "terre-de-margaux", "nom": "Terre de Margaux", "clim": false, "teinte": "#A4553A", "photo": "chambre-terre-de-margaux" },
+  { "id": "lettre-de-sauternes", "nom": "Lettre de Sauternes", "clim": false, "teinte": "#C29A3A", "photo": null }
+]

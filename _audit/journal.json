@@ -1,0 +1,111 @@
+{
+  "projet": "lasauternaise-maquette",
+  "client": "La Sauternaise",
+  "siteActuel": "https://www.lasauternaise.com",
+  "versions": [
+    {
+      "version": 1,
+      "skill": "v11.1.1",
+      "perimetre": [
+        "accueil",
+        "chambres",
+        "la-maison",
+        "environs",
+        "reserver",
+        "acces",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse, bibliothèque et questions",
+          "budget": 20,
+          "debut": "2026-11-20T16:11:00+01:00",
+          "fin": "2026-11-20T16:21:00+01:00"
+        },
+        {
+          "etape": "plans, images du site et document Grok",
+          "budget": 10,
+          "debut": "2026-11-20T16:22:00+01:00",
+          "fin": "2026-11-20T16:24:57+01:00"
+        },
+        {
+          "etape": "construction : accueil",
+          "budget": 40,
+          "debut": "2026-11-20T16:25:00+01:00",
+          "fin": "2026-11-20T16:44:00+01:00"
+        },
+        {
+          "etape": "aperçu de l'accueil en films (attente de la réponse notée à part)",
+          "budget": 5,
+          "debut": "2026-11-20T16:44:00+01:00",
+          "fin": "2026-11-20T16:48:17+01:00"
+        },
+        {
+          "etape": "construction : pages d'onglet",
+          "budget": 30,
+          "debut": "2026-11-20T16:36:00+01:00",
+          "fin": "2026-11-20T17:12:50+01:00"
+        },
+        {
+          "etape": "construction : contact et page de catégorie",
+          "budget": 10,
+          "debut": "2026-11-20T16:36:00+01:00",
+          "fin": "2026-11-20T17:12:50+01:00"
+        },
+        {
+          "etape": "audit, regard neuf et corrections",
+          "budget": 25,
+          "debut": "2026-11-20T17:12:50+01:00",
+          "fin": "2026-11-20T18:13:10+01:00"
+        },
+        {
+          "etape": "livraison",
+          "budget": 5,
+          "debut": "2026-11-20T18:13:10+01:00",
+          "fin": "2026-11-20T18:13:45+01:00"
+        }
+      ],
+      "attentes": [
+        {
+          "pour": "images du site (zip)",
+          "debut": "2026-11-20T16:11:00+01:00",
+          "fin": "2026-11-20T16:13:00+01:00"
+        },
+        {
+          "pour": "réponses aux questions",
+          "debut": "2026-11-20T16:21:00+01:00",
+          "fin": "2026-11-20T16:22:00+01:00"
+        },
+        {
+          "pour": "images Grok",
+          "debut": "2026-11-20T16:24:57+01:00",
+          "fin": "2026-11-20T16:34:18+01:00"
+        },
+        {
+          "pour": "réponse à l aperçu de l accueil",
+          "debut": "2026-11-20T16:48:17+01:00",
+          "fin": "2026-11-20T16:49:27+01:00"
+        }
+      ],
+      "allersRetours": 0,
+      "modules": [],
+      "audit": {
+        "niveau": "standard + passe des formats (complet mesures et écran)",
+        "echecsPremierPassage": 31,
+        "relances": 6,
+        "corrections": [
+          "textes sous 12 px",
+          "masques des titres en clip-path",
+          "contraste des ouvertures sur photo",
+          "intro du tirage en transformations seules (CLS)",
+          "règle des distances espacée régulièrement sur téléphone",
+          "premier écran des petits téléphones et écrans bas",
+          "aperçus flous des images d ouverture"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Pages : 6 + 404. Grok : 5 images (7 fichiers). Audit standard sans échec ; passe des formats sans échec après corrections."
+    }
+  ]
+}

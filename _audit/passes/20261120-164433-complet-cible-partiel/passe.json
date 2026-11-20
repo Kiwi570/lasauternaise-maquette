@@ -1,0 +1,16 @@
+{
+ "id": "20261120-164433-complet-cible-partiel",
+ "date": "2026-11-20T16:48:43.580Z",
+ "niveau": "complet",
+ "pages": "/,/acces,/environs,/la-maison",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 5,
+ "aRegarder": 2,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

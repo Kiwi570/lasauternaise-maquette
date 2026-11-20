@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Réserver en direct : La Sauternaise, Sauternes</title>
+<meta name="description" content="Demandez vos dates directement : 5 à 10 € de moins par nuit qu’en passant par les plateformes, -5 % dès 4 nuits avec le code 4N.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://lasauternaise-maquette.vercel.app/reserver">
+<style>:root{--fond:#F6F1E7;--texte:#2A211C;--voile-fond:#E6D9C1;--ouverture-fond:#F6F1E7;--menu-fond:#EDE3CF}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/ibarra-real-nova-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hanken-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F6F1E7">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="La Sauternaise">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Réserver en direct : La Sauternaise, Sauternes">
+<meta property="og:description" content="Demandez vos dates directement : 5 à 10 € de moins par nuit qu’en passant par les plateformes, -5 % dès 4 nuits avec le code 4N.">
+<meta property="og:url" content="https://lasauternaise-maquette.vercel.app/reserver">
+<meta property="og:image" content="https://lasauternaise-maquette.vercel.app/assets/partage/reserver-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La cour de La Sauternaise">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BedAndBreakfast","name":"La Sauternaise","url":"https://lasauternaise-maquette.vercel.app/","telephone":"+33678006418","image":"https://lasauternaise-maquette.vercel.app/assets/images/facade-1280.webp","description":"Maison d’hôtes de charme dans une demeure du XVIIIe siècle, ancien Office de dégustation de Sauternes : quatre chambres avec salle de bains bien-être, petit-déjeuner compris.","address":{"@type":"PostalAddress","streetAddress":"22 rue Principale, place de l’Église","postalCode":"33210","addressLocality":"Sauternes","addressCountry":"FR"},"checkinTime":"16:00","checkoutTime":"11:00","numberOfRooms":4,"petsAllowed":false,"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Petit-déjeuner compris","value":true},{"@type":"LocationFeatureSpecification","name":"Hammam, sauna infrarouge, baignoire balnéo ou douche hydromassante selon la chambre","value":true}],"sameAs":["https://www.instagram.com/lasauternaise/","https://www.facebook.com/lasauternaise/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" data-gouttiere="#E6D9C1" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-couleur-320.webp" alt="" width="320" height="203"><span data-voile-libelle>Réserver</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-couleur-640.webp" alt="" width="640" height="405" data-ouverture-objet>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Maison d’hôtes · Sauternes</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-couleur-320.webp" alt="" width="320" height="203"><span class="visuellement-cache">La Sauternaise</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/chambres" data-libelle="Les chambres">Les chambres</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/environs" data-libelle="Les environs">Les environs</a></li><li><a href="/acces" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/reserver" data-libelle="Réserver">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/chambres" class="menu-lien" data-libelle="Les chambres">Les chambres</a></li><li style="--i:2"><a href="/la-maison" class="menu-lien" data-libelle="La maison">La maison</a></li><li style="--i:3"><a href="/environs" class="menu-lien" data-libelle="Les environs">Les environs</a></li><li style="--i:4"><a href="/acces" class="menu-lien" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33678006418">Appeler 06 78 00 64 18</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv-outil" id="debut">
+  <div class="conteneur">
+    <p class="surtitre">Réserver en direct</p>
+    <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">Demandez <em>vos dates</em></span></span></h1>
+    <p class="chapo">En direct, vous payez 5 à 10 € de moins par nuit qu’en passant par les plateformes, avec les mêmes conditions d’annulation (48 h). Réponse sous 24 h maximum.</p>
+    <div class="reserver-grille">
+      <form class="formulaire" data-formulaire data-sejour novalidate aria-labelledby="debut-form" data-anime="cascade">
+        <h2 class="visuellement-cache" id="debut-form">Réserver</h2>
+        <fieldset>
+          <legend><span>1</span>Vos dates</legend>
+          <div class="champs-2">
+            <div class="champ"><label for="arrivee">Arrivée</label><input id="arrivee" name="arrivee" type="date" required data-action-principale></div>
+            <div class="champ"><label for="depart">Départ</label><input id="depart" name="depart" type="date" required></div>
+          </div>
+          <p class="nuits-direct" data-nuits aria-live="polite" data-info-cle data-zero="Choisissez vos dates" data-modele="{n} nuits" data-un="1 nuit" data-erreur="Le départ doit être après l’arrivée.">Choisissez vos dates</p>
+        </fieldset>
+        <fieldset>
+          <legend><span>2</span>La chambre</legend>
+          <div class="choix-chambres" role="radiogroup" aria-label="Chambre souhaitée">
+            <label class="choix"><input type="radio" name="chambre" value="or-de-bordeaux"><span>Or de Bordeaux<small>Climatisée</small></span></label><label class="choix"><input type="radio" name="chambre" value="reflets-de-saint-emilion"><span>Reflets de Saint-Émilion<small>Climatisée</small></span></label><label class="choix"><input type="radio" name="chambre" value="terre-de-margaux"><span>Terre de Margaux</span></label><label class="choix"><input type="radio" name="chambre" value="lettre-de-sauternes"><span>Lettre de Sauternes</span></label>
+            <label class="choix"><input type="radio" name="chambre" value="indifferent" checked><span>Peu importe, conseillez-nous</span></label>
+          </div>
+          <div class="champ" style="max-width:240px"><label for="personnes">Nombre de personnes</label><input id="personnes" name="personnes" type="number" min="1" max="8" value="2" inputmode="numeric"></div>
+        </fieldset>
+        <fieldset>
+          <legend><span>3</span>Vos souhaits</legend>
+          <div class="cases">
+            <label class="case"><input type="checkbox" name="souhait-1" value="Petit-déjeuner dès 7 h 30 (professionnels)">Petit-déjeuner dès 7 h 30 (professionnels)</label><label class="case"><input type="checkbox" name="souhait-2" value="Petit-déjeuner sans gluten ni lactose">Petit-déjeuner sans gluten ni lactose</label><label class="case"><input type="checkbox" name="souhait-3" value="Chambre climatisée">Chambre climatisée</label><label class="case"><input type="checkbox" name="souhait-4" value="Entrée indépendante ou isolation renforcée">Entrée indépendante ou isolation renforcée</label>
+          </div>
+          <div class="champ"><label for="message">Un mot pour nous (facultatif)</label><textarea id="message" name="message" rows="3"></textarea></div>
+        </fieldset>
+        <fieldset>
+          <legend><span>4</span>Vos coordonnées</legend>
+          <div class="champs-2">
+            <div class="champ"><label for="prenom">Prénom</label><input id="prenom" name="prenom" autocomplete="given-name" required></div>
+            <div class="champ"><label for="nom">Nom</label><input id="nom" name="nom" autocomplete="family-name" required></div>
+            <div class="champ"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+            <div class="champ"><label for="telephone">Téléphone</label><input id="telephone" name="telephone" type="tel" autocomplete="tel"></div>
+          </div>
+          <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+        </fieldset>
+        <p><button class="bouton" type="submit">Envoyer ma demande</button></p>
+        <p data-message-envoi tabindex="-1" hidden data-texte="Demande simulée : rien n’a été envoyé. Sur le site final, Pascale et Didier vous répondront sous 24 h."></p>
+      </form>
+      <aside class="recap" aria-labelledby="recap-titre">
+        <div class="recap-carte">
+          <figure class="media " data-iris-centre style="--cadrage:40% 50%;--cadrage-mobile:50% 50%;background-image:url(data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBQCdASoYABIAPu1iqE2ppaOiMAgBMB2JYwDHJvIDNiC3keE9bXk0+bVF5Rcs7e4AAP7LuQm5UMh9liow1hQELzxpO05bPxUP1kCi154+sMvlYzO48+VHNPreikjp4SVEGpFllyREtTsZ/w/axPREAAA=);background-size:cover;background-position:40% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/cour-mobile-640.webp 640w, /assets/images/cour-mobile-1080.webp 1080w" sizes="(max-width: 960px) 92vw, 30vw">
+    <img src="/assets/images/cour-1280.webp" srcset="/assets/images/cour-640.webp 640w, /assets/images/cour-1280.webp 1280w, /assets/images/cour-1920.webp 1920w" sizes="(max-width: 960px) 92vw, 30vw" alt="La cour ombragée : table, verres de vin blanc et banc rouge sous la marquise" width="1280" height="960" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+          <div class="recap-corps">
+            <h2 id="recap-titre">Votre séjour</h2>
+            <p class="recap-nuits" data-recap-nuits>—</p>
+            <dl>
+              <dt>Dates</dt><dd data-recap-dates>—</dd>
+              <dt>Chambre</dt><dd data-recap-chambre>Peu importe, conseillez-nous</dd>
+            </dl>
+            <p class="recap-remise" data-recap-remise data-actif="Code 4N : -5 % sur le séjour" data-inactif="Dès 4 nuits : -5 % avec le code 4N">Dès 4 nuits : -5 % avec le code 4N</p>
+            <p class="recap-tarif">Petit-déjeuner compris · Le tarif vous est donné avec la réponse, selon la saison et la chambre.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+<section class="section fond-pierre" id="conditions" aria-labelledby="conditions-titre">
+  <div class="conteneur conditions-grille">
+    <div>
+      <h2 class="titre-section" id="conditions-titre" data-anime="lignes">Bon à savoir</h2>
+      <ul class="conditions" data-anime="cascade"><li>Arrivée autonome à partir de 16 h : nous vous prévenons dès que la chambre est prête.</li><li>Départ avant 11 h.</li><li>Annulation possible jusqu’à 48 h avant l’arrivée.</li><li>Professionnels : arrivée autonome jusqu’à 22 h, petit-déjeuner dès 7 h 30.</li><li>Les animaux ne sont pas acceptés.</li></ul>
+      <p style="margin-top:2em" class="actions" data-anime>
+        <span>Vous préférez appeler ?</span>
+        <a class="bouton bouton--contour" href="tel:+33678006418">Appeler 06 78 00 64 18</a>
+      </p>
+    </div>
+    <figure class="media " data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/porte-peignoir-800.webp" srcset="/assets/images/porte-peignoir-480.webp 480w, /assets/images/porte-peignoir-800.webp 800w" sizes="(max-width: 860px) 92vw, 30vw" alt="Porte ancienne en bois et peignoir blanc dans une salle de bains en pierre" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-maison">
+      <img class="pied-logo" src="/assets/images/logo-creme-320.webp" alt="La Sauternaise, maison d’hôtes à Sauternes" width="320" height="203" loading="lazy">
+      <p>22 rue Principale, place de l’Église, 33210 Sauternes<br><a href="tel:+33678006418">+33 6 78 00 64 18</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/chambres" data-libelle="Les chambres">Les chambres</a></li><li><a href="/la-maison" data-libelle="La maison">La maison</a></li><li><a href="/environs" data-libelle="Les environs">Les environs</a></li><li><a href="/acces" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li><li><a href="/reserver" data-libelle="Réserver" aria-current="page">Réserver</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre la maison</p>
+      <ul>
+        <li><a href="https://www.instagram.com/lasauternaise/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.facebook.com/lasauternaise/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.les-granges-de-sauternes.com/" target="_blank" rel="noopener">Notre restaurant : Les Granges<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Vignobles &amp; Découvertes · Route des Vins · Bacchus</p><p>Mentions légales · Politique de confidentialité · Conditions générales de vente : à compléter</p><p>Maquette : demandes et réservations simulées, rien n’est envoyé.</p><p>© La Sauternaise</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33678006418">Appeler</a>
+  <a class="bouton" href="/reserver" data-libelle="Réserver">Réserver</a>
+</div>
+</body>
+</html>

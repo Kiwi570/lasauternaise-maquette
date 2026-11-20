@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BedAndBreakfast",
+  "name": "La Sauternaise",
+  "url": "https://lasauternaise-maquette.vercel.app/",
+  "telephone": "+33678006418",
+  "image": "https://lasauternaise-maquette.vercel.app/assets/images/facade-1280.webp",
+  "description": "Maison d’hôtes de charme dans une demeure du XVIIIe siècle, ancien Office de dégustation de Sauternes : quatre chambres avec salle de bains bien-être, petit-déjeuner compris.",
+  "address": { "@type": "PostalAddress", "streetAddress": "22 rue Principale, place de l’Église", "postalCode": "33210", "addressLocality": "Sauternes", "addressCountry": "FR" },
+  "checkinTime": "16:00",
+  "checkoutTime": "11:00",
+  "numberOfRooms": 4,
+  "petsAllowed": false,
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Petit-déjeuner compris", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Hammam, sauna infrarouge, baignoire balnéo ou douche hydromassante selon la chambre", "value": true }
+  ],
+  "sameAs": ["https://www.instagram.com/lasauternaise/", "https://www.facebook.com/lasauternaise/"]
+}

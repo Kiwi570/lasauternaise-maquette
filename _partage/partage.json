@@ -1,0 +1,215 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "acces",
+      "langue": "fr",
+      "fichier": "assets/partage/acces-fr.jpg",
+      "gabarit": "droite",
+      "image": "facade-face-1280.webp",
+      "poids": 111264,
+      "sujet": {
+        "x": 600,
+        "y": 28,
+        "l": 600,
+        "h": 573
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 96
+        },
+        {
+          "x": 64,
+          "y": 315,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "facade-1280.webp",
+      "poids": 99860,
+      "sujet": {
+        "x": 600,
+        "y": 79,
+        "l": 600,
+        "h": 525
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 96
+        },
+        {
+          "x": 64,
+          "y": 251,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "chambres",
+      "langue": "fr",
+      "fichier": "assets/partage/chambres-fr.jpg",
+      "gabarit": "droite",
+      "image": "chambre-terre-de-margaux-1280.webp",
+      "poids": 76247,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 602
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 96
+        },
+        {
+          "x": 64,
+          "y": 283,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "environs",
+      "langue": "fr",
+      "fichier": "assets/partage/environs-fr.jpg",
+      "gabarit": "droite",
+      "image": "vignes-brume-1280.webp",
+      "poids": 77176,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 596
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 96
+        },
+        {
+          "x": 64,
+          "y": 283,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "la-maison",
+      "langue": "fr",
+      "fichier": "assets/partage/la-maison-fr.jpg",
+      "gabarit": "droite",
+      "image": "hier-aujourdhui-1280.webp",
+      "poids": 80668,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 96
+        },
+        {
+          "x": 64,
+          "y": 251,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "reserver",
+      "langue": "fr",
+      "fichier": "assets/partage/reserver-fr.jpg",
+      "gabarit": "droite",
+      "image": "cour-1280.webp",
+      "poids": 100137,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 96
+        },
+        {
+          "x": 64,
+          "y": 283,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La maison et vos hôtes : La Sauternaise, Sauternes</title>
+<meta name="description" content="L’ancien Office de dégustation de Sauternes, Pascale et Didier, le petit-déjeuner, la cave et le salon Aquitaine.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://lasauternaise-maquette.vercel.app/la-maison">
+<style>:root{--fond:#F6F1E7;--texte:#2A211C;--voile-fond:#E6D9C1;--ouverture-fond:#F6F1E7;--menu-fond:#EDE3CF}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/ibarra-real-nova-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hanken-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F6F1E7">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="La Sauternaise">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="La maison et vos hôtes : La Sauternaise, Sauternes">
+<meta property="og:description" content="L’ancien Office de dégustation de Sauternes, Pascale et Didier, le petit-déjeuner, la cave et le salon Aquitaine.">
+<meta property="og:url" content="https://lasauternaise-maquette.vercel.app/la-maison">
+<meta property="og:image" content="https://lasauternaise-maquette.vercel.app/assets/partage/la-maison-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La photo d’archive de la maison tenue devant sa façade d’aujourd’hui">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BedAndBreakfast","name":"La Sauternaise","url":"https://lasauternaise-maquette.vercel.app/","telephone":"+33678006418","image":"https://lasauternaise-maquette.vercel.app/assets/images/facade-1280.webp","description":"Maison d’hôtes de charme dans une demeure du XVIIIe siècle, ancien Office de dégustation de Sauternes : quatre chambres avec salle de bains bien-être, petit-déjeuner compris.","address":{"@type":"PostalAddress","streetAddress":"22 rue Principale, place de l’Église","postalCode":"33210","addressLocality":"Sauternes","addressCountry":"FR"},"checkinTime":"16:00","checkoutTime":"11:00","numberOfRooms":4,"petsAllowed":false,"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Petit-déjeuner compris","value":true},{"@type":"LocationFeatureSpecification","name":"Hammam, sauna infrarouge, baignoire balnéo ou douche hydromassante selon la chambre","value":true}],"sameAs":["https://www.instagram.com/lasauternaise/","https://www.facebook.com/lasauternaise/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" data-gouttiere="#E6D9C1" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-couleur-320.webp" alt="" width="320" height="203"><span data-voile-libelle>La maison</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-couleur-640.webp" alt="" width="640" height="405" data-ouverture-objet>
+  <span class="ouverture-trait"></span>
+  <p class="ouverture-ligne">Maison d’hôtes · Sauternes</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-couleur-320.webp" alt="" width="320" height="203"><span class="visuellement-cache">La Sauternaise</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/chambres" data-libelle="Les chambres">Les chambres</a></li><li><a href="/la-maison" data-libelle="La maison" aria-current="page">La maison</a></li><li><a href="/environs" data-libelle="Les environs">Les environs</a></li><li><a href="/acces" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/reserver" data-libelle="Réserver">Réserver</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/chambres" class="menu-lien" data-libelle="Les chambres">Les chambres</a></li><li style="--i:2"><a href="/la-maison" class="menu-lien" data-libelle="La maison" aria-current="page">La maison</a></li><li style="--i:3"><a href="/environs" class="menu-lien" data-libelle="Les environs">Les environs</a></li><li style="--i:4"><a href="/acces" class="menu-lien" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33678006418">Appeler 06 78 00 64 18</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv-plein" id="debut">
+  <figure class="media " data-iris-centre data-effet="plein-cadre" style="--cadrage:40% 47%;--cadrage-mobile:50% 35%;background-image:url(data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoYAA4APu1orU2ppqSiMAgBMB2JYwCw7CFeRjOekvAPBAAA/u4sAroo4oLYrTyxsTdszubACAq2PsL0f1Zt2u4hd26K89xPhdw7I7trE3rhx5brL9a6qAAA);background-size:cover;background-position:40% 47%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/hier-aujourdhui-mobile-640.webp 640w, /assets/images/hier-aujourdhui-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/hier-aujourdhui-1280.webp" srcset="/assets/images/hier-aujourdhui-640.webp 640w, /assets/images/hier-aujourdhui-1280.webp 1280w, /assets/images/hier-aujourdhui-1920.webp 1920w" sizes="100vw" alt="Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  <div class="conteneur ouv-texte">
+    <p class="surtitre">La maison</p>
+    <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">«&nbsp;Une maison légendaire</span></span><span class="ligne-masque"><span class="hero-ligne"><em>qui vient de renaître</em>&nbsp;»</span></span></h1>
+    <p class="ouv-source">Jean-Pierre Stahl, France 3 Régions</p>
+    <p class="actions">
+      <a href="/reserver" class="bouton" data-libelle="Réserver" data-action-principale data-survol="magnetique">Réserver</a>
+      <a href="/chambres" class="bouton bouton--contour" data-libelle="Les chambres">Voir les chambres</a>
+    </p>
+    <p class="info-cle" data-info-cle style="margin-top:14px">22 rue Principale, place de l’Église, Sauternes</p>
+  </div>
+</section>
+<section class="section" id="histoire" aria-labelledby="histoire-titre">
+  <div class="conteneur deux">
+    <div>
+      <p class="surtitre">L’histoire</p>
+      <h2 class="titre-section" id="histoire-titre" data-anime="lignes">L’ancien Office de dégustation</h2>
+      <p class="chapo" data-anime>Au cœur du village, derrière l’église, la maison abritait l’Office de dégustation de Sauternes : l’inscription peinte est toujours sur la façade. Pascale et Didier l’ont découverte au fil de leurs promenades du dimanche, à leur arrivée dans la région, puis l’ont achetée quelques années plus tard.</p>
+      <p data-anime><em>Et le nom ? Le maire du village avait surnommé l’un des enfants nés à la maison « la vraie Sauternaise ».</em></p>
+    </div>
+    <div class="revelateur" data-effet="revelateur" data-superpose>
+      <figure class="media revelateur-archive" style="--cadrage:45% 48%">
+  <picture>
+    <img src="/assets/images/archive-1280.webp" srcset="/assets/images/archive-640.webp 640w, /assets/images/archive-1280.webp 1280w, /assets/images/archive-1800.webp 1800w" sizes="(max-width: 860px) 92vw, 46vw" alt="La même maison autrefois : l’Office de dégustation de Sauternes sur une photo d’archive en noir et blanc" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media revelateur-couleur" style="--cadrage:36% 50%">
+  <picture>
+    <img src="/assets/images/facade-face-1280.webp" srcset="/assets/images/facade-face-640.webp 640w, /assets/images/facade-face-1280.webp 1280w, /assets/images/facade-face-1800.webp 1800w" sizes="(max-width: 860px) 92vw, 46vw" alt="La façade aujourd’hui, restaurée, sous un ciel bleu" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="revelateur-etiquettes" aria-hidden="true"><span>Autrefois</span><span>Aujourd’hui</span></p>
+    </div>
+  </div>
+</section>
+<section class="section fond-pierre" id="hotes" aria-labelledby="hotes-titre">
+  <div class="conteneur">
+    <p class="surtitre">Vos hôtes</p>
+    <h2 class="titre-section" id="hotes-titre" data-anime="lignes">Pascale et Didier</h2>
+    <div class="portraits" data-anime="cascade">
+      <figure class="media " style="--cadrage:50% 34%">
+  <picture>
+    <img src="/assets/images/pascale-didier-1100.webp" srcset="/assets/images/pascale-didier-480.webp 480w, /assets/images/pascale-didier-800.webp 800w, /assets/images/pascale-didier-1100.webp 1100w" sizes="(max-width: 960px) 92vw, 36vw" alt="Pascale et Didier, vos hôtes, en tenue de soirée" width="1100" height="1376" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <article class="portrait">
+        <figure class="media " style="--cadrage:50% 30%">
+  <picture>
+    <img src="/assets/images/didier-640.webp" srcset="/assets/images/didier-400.webp 400w, /assets/images/didier-640.webp 640w" sizes="180px" alt="Didier en robe de la Commanderie du Bontemps" width="640" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Didier</h3>
+        <p>Arrière-petit-fils de pépiniériste, petit-fils de viticulteur à Saint-Émilion, fils de négociant : quatrième génération dans le vin. Diplômé de Bordeaux Sciences Agro et du DUAD, il travaille depuis plus de dix ans au Château Guiraud, premier grand cru classé en 1855. Commandeur d’Honneur de la Commanderie du Bontemps.</p>
+        <blockquote>«&nbsp;Depuis plus de dix ans, j’œuvre pour partager, promouvoir, valoriser et renforcer la marque Sauternes.&nbsp;»</blockquote>
+      </article>
+      <article class="portrait">
+        <figure class="media " style="--cadrage:50% 30%">
+  <picture>
+    <img src="/assets/images/pascale-640.webp" srcset="/assets/images/pascale-400.webp 400w, /assets/images/pascale-640.webp 640w" sizes="180px" alt="Pascale en cuisine" width="640" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Pascale</h3>
+        <p>Une carrière dans la distribution du vin, le merchandising puis le marketing. Elle s’est consacrée à ses enfants, Charles et Rachèle, avant de se lancer dans l’accueil, qui réunit son goût de recevoir et sa passion de la gastronomie.</p>
+        <blockquote>«&nbsp;J’ai longuement réfléchi à l’agencement, l’équipement et la décoration de la maison.&nbsp;»</blockquote>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="section" id="petit-dejeuner" aria-labelledby="matin-titre">
+  <div class="conteneur deux deux--inverse">
+    <div>
+      <p class="surtitre">Le petit-déjeuner</p>
+      <h2 class="titre-section" id="matin-titre" data-anime="lignes">Compris, au jardin ou en salle</h2>
+      <p class="chapo" data-anime>Servi en général de 8 h 30 à 10 h. Pour les professionnels, dès 7 h 30 sur demande à la réservation, selon les disponibilités.</p>
+      <div class="colonnes-matin" data-anime="cascade">
+        <div><h3>Boissons</h3><p>Café long ou court, d’une sélection de grands crus · thés Dammann Frères, nature ou aromatisés, noirs ou verts · chocolat chaud à l’ancienne · jus d’orange pressé</p></div>
+        <div><h3>Sur la table</h3><p>Tartines de pain aux céréales et baguette · croissants · confitures artisanales · salade de fruits frais · céréales · yaourts</p></div>
+        <div><h3>Sur demande</h3><p>Œuf à la coque · jambon · fromage</p></div>
+        <div><h3>Sans gluten ni lactose</h3><p>Pain multicéréales à la farine de riz, brioche à la fécule de pomme de terre, au maïs et au tapioca, lait de riz ou de soja, margarine sans lait, yaourts au soja. À signaler à la réservation.</p></div>
+      </div>
+    </div>
+    <figure class="media " data-fx="parallaxe" style="--cadrage:50% 62%">
+  <picture>
+    <img src="/assets/images/petit-dejeuner-1100.webp" srcset="/assets/images/petit-dejeuner-480.webp 480w, /assets/images/petit-dejeuner-800.webp 800w, /assets/images/petit-dejeuner-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 44vw" alt="Petit-déjeuner au jardin : croissant, confiture et café sous les fleurs" width="1100" height="1375" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="section fond-cave" id="services" aria-labelledby="services-titre">
+  <div class="conteneur">
+    <p class="surtitre">Dans la maison</p>
+    <h2 class="titre-section" id="services-titre" data-anime="lignes">Le café, la cave, le salon</h2>
+    <div class="cartes-3" data-anime="cascade">
+      <article class="carte-service"><figure class="media " style="--cadrage:41% 45%">
+  <picture>
+    <img src="/assets/images/salle-a-manger-1280.webp" srcset="/assets/images/salle-a-manger-640.webp 640w, /assets/images/salle-a-manger-1280.webp 1280w, /assets/images/salle-a-manger-1800.webp 1800w" sizes="(max-width: 860px) 92vw, 30vw" alt="La salle à manger : lustre, grande table et sol en damier" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure><h3>Café et gourmandises</h3><p>Bouilloire et machine Nespresso dans la salle à manger, toute la journée, avec de petites gourmandises.</p></article>
+      <article class="carte-service"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/cave-lampe-1100.webp" srcset="/assets/images/cave-lampe-480.webp 480w, /assets/images/cave-lampe-800.webp 800w, /assets/images/cave-lampe-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 30vw" alt="Une bouteille de Sauternes et un verre à la lumière d’une lampe" width="1100" height="1375" loading="lazy" decoding="async">
+  </picture>
+</figure><h3>Boutique et cave des hôtes</h3><p>Sauternes, Barsac, Saint-Émilion, Pessac-Léognan et Médoc, en bouteilles et demi-bouteilles, à emporter ou servis à la bonne température. Expéditions possibles. Et des produits du Sud-Ouest : foie gras de canard, cou farci, miel, safran, pruneaux.</p></article>
+      <article class="carte-service"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/salon-escalier-1100.webp" srcset="/assets/images/salon-escalier-480.webp 480w, /assets/images/salon-escalier-800.webp 800w, /assets/images/salon-escalier-1100.webp 1100w" sizes="(max-width: 860px) 92vw, 30vw" alt="L’escalier blanc en colimaçon au-dessus du salon" width="1100" height="1376" loading="lazy" decoding="async">
+  </picture>
+</figure><h3>Le salon Aquitaine</h3><p>Un petit salon privatif : canapés, télévision, ordinateur à écran tactile et une bibliothèque d’ouvrages régionaux, sur le vin et la gastronomie. Didier y partage ses adresses de caves et de propriétés.</p></article>
+    </div>
+  </div>
+</section>
+<section class="section" id="jardin" aria-labelledby="jardin-titre">
+  <div class="conteneur deux">
+    <div>
+      <h2 class="titre-section" id="jardin-titre" data-anime="lignes">La cour et le jardin</h2>
+      <p class="chapo" data-anime>Le petit-déjeuner y est servi quand il fait beau.</p>
+      <div class="table-granges" data-anime>
+        <h3 style="font-size:1.7rem;margin-top:1.4em">Et pour dîner ?</h3>
+        <p>Notre restaurant, Les Granges, a son propre site. Plusieurs restaurants réputés sont aussi à pied ou à 1 km.</p>
+        <p><a class="lien-fleche" href="https://www.les-granges-de-sauternes.com/" target="_blank" rel="noopener">Le site des Granges<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+      </div>
+    </div>
+    <div class="duo-photos" >
+      <figure class="media " data-fx="parallaxe" style="--cadrage:40% 50%;--cadrage-mobile:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/cour-mobile-640.webp 640w, /assets/images/cour-mobile-1080.webp 1080w" sizes="(max-width: 860px) 56vw, 26vw">
+    <img src="/assets/images/cour-1280.webp" srcset="/assets/images/cour-640.webp 640w, /assets/images/cour-1280.webp 1280w, /assets/images/cour-1920.webp 1920w" sizes="(max-width: 860px) 56vw, 26vw" alt="La cour ombragée : table, verres de vin blanc et banc rouge sous la marquise" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media " data-fx="parallaxe" data-fx-force="16" style="--cadrage:54% 47%">
+  <picture>
+    <img src="/assets/images/jardin-1280.webp" srcset="/assets/images/jardin-640.webp 640w, /assets/images/jardin-1280.webp 1280w" sizes="(max-width: 860px) 40vw, 20vw" alt="Le jardin : grand arbre, palmier et façade arrière" width="1280" height="854" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="section fin-page fond-pierre" id="fin" aria-labelledby="fin-titre">
+  <div class="conteneur">
+    <div class="eventail" data-effet="eventail" aria-hidden="true"><figure class="tirage-mini"><figure class="media " style="--cadrage:41% 45%">
+  <picture>
+    <img src="/assets/images/salle-a-manger-1280.webp" srcset="/assets/images/salle-a-manger-640.webp 640w, /assets/images/salle-a-manger-1280.webp 1280w, /assets/images/salle-a-manger-1800.webp 1800w" sizes="170px" alt="La salle à manger : lustre, grande table et sol en damier" width="1280" height="853" loading="lazy" decoding="async">
+  </picture>
+</figure></figure><figure class="tirage-mini"><figure class="media " style="--cadrage:54% 47%">
+  <picture>
+    <img src="/assets/images/jardin-1280.webp" srcset="/assets/images/jardin-640.webp 640w, /assets/images/jardin-1280.webp 1280w" sizes="170px" alt="Le jardin : grand arbre, palmier et façade arrière" width="1280" height="854" loading="lazy" decoding="async">
+  </picture>
+</figure></figure><figure class="tirage-mini"><figure class="media " style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/cave-lampe-1100.webp" srcset="/assets/images/cave-lampe-480.webp 480w, /assets/images/cave-lampe-800.webp 800w, /assets/images/cave-lampe-1100.webp 1100w" sizes="170px" alt="Une bouteille de Sauternes et un verre à la lumière d’une lampe" width="1100" height="1375" loading="lazy" decoding="async">
+  </picture>
+</figure></figure></div>
+    <h2 class="titre-section" id="fin-titre" data-anime="lignes">Venez la découvrir</h2>
+    <p class="actions" data-anime>
+      <a href="/reserver" class="bouton" data-libelle="Réserver" data-survol="magnetique">Demander mes dates</a>
+      <a href="/environs" class="bouton bouton--contour" data-libelle="Les environs">Les environs</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-maison">
+      <img class="pied-logo" src="/assets/images/logo-creme-320.webp" alt="La Sauternaise, maison d’hôtes à Sauternes" width="320" height="203" loading="lazy">
+      <p>22 rue Principale, place de l’Église, 33210 Sauternes<br><a href="tel:+33678006418">+33 6 78 00 64 18</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/chambres" data-libelle="Les chambres">Les chambres</a></li><li><a href="/la-maison" data-libelle="La maison" aria-current="page">La maison</a></li><li><a href="/environs" data-libelle="Les environs">Les environs</a></li><li><a href="/acces" data-libelle="Accès &amp; contact">Accès &amp; contact</a></li><li><a href="/reserver" data-libelle="Réserver">Réserver</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre la maison</p>
+      <ul>
+        <li><a href="https://www.instagram.com/lasauternaise/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.facebook.com/lasauternaise/" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://www.les-granges-de-sauternes.com/" target="_blank" rel="noopener">Notre restaurant : Les Granges<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Vignobles &amp; Découvertes · Route des Vins · Bacchus</p><p>Mentions légales · Politique de confidentialité · Conditions générales de vente : à compléter</p><p>Maquette : demandes et réservations simulées, rien n’est envoyé.</p><p>© La Sauternaise</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33678006418">Appeler</a>
+  <a class="bouton" href="/reserver" data-libelle="Réserver">Réserver</a>
+</div>
+</body>
+</html>

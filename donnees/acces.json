@@ -1,0 +1,9 @@
+[
+  { "ville": "Bordeaux", "temps": "30 min", "km": "44 km" },
+  { "ville": "Biarritz", "temps": "2 h", "km": "187 km" },
+  { "ville": "Toulouse", "temps": "2 h", "km": "208 km" },
+  { "ville": "Cauterets", "temps": "2 h 30", "km": "250 km" },
+  { "ville": "Barcelone", "temps": "5 h 45", "km": "600 km" },
+  { "ville": "Paris", "temps": "6 h", "km": "630 km" },
+  { "ville": "Madrid", "temps": "7 h 20", "km": "675 km" }
+]
