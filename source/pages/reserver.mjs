@@ -12,7 +12,7 @@ export default (c) => {
 <section class="ouv ouv-outil" id="debut">
   <div class="conteneur">
     <p class="surtitre">${c.t('reserver.tete.surtitre')}</p>
-    <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">${c.t('reserver.tete.titre1')} <em>${c.t('reserver.tete.titre2')}</em></span></span></h1>
+    <h1 data-anime="gsap" class="ouv-titre" data-iris-centre><span class="ligne-masque"><span class="hero-ligne">${c.t('reserver.tete.titre1')} <em>${c.t('reserver.tete.titre2')}</em></span></span></h1>
     <p class="chapo">${c.t('reserver.tete.texte')}</p>
     <div class="reserver-grille">
       <form class="formulaire" data-formulaire data-sejour novalidate aria-labelledby="debut-form" data-anime="cascade">
@@ -24,6 +24,7 @@ export default (c) => {
             <div class="champ"><label for="depart">${f('depart')}</label><input id="depart" name="depart" type="date" required></div>
           </div>
           <p class="nuits-direct" data-nuits aria-live="polite" data-info-cle data-zero="${s('nuits0')}" data-modele="${s('nuits')}" data-un="${s('nuit')}" data-erreur="${s('erreurDates')}">${f('nuits0')}</p>
+          <div class="calendrier" data-calendrier aria-label="${s('calendrier')}" role="group" data-precedent="${s('precedent')}" data-suivant="${s('suivant')}"></div>
         </fieldset>
         <fieldset>
           <legend><span>2</span>${f('etape2')}</legend>
@@ -55,8 +56,24 @@ export default (c) => {
       </form>
       <aside class="recap" aria-labelledby="recap-titre">
         <div class="recap-carte">
-          ${img(c, 'cour', { sizes: '(max-width: 960px) 92vw, 30vw', priorite: true, attrs: 'data-iris-centre' })}
+          ${img(c, 'cour', { sizes: '(max-width: 960px) 92vw, 30vw', priorite: true })}
           <div class="recap-corps">
+            <div class="tampon" data-tampon data-superpose data-grille="retour" data-nuit="${s('tamponNuit')}" data-nuits="${s('tamponNuits')}" aria-hidden="true">
+              <svg viewBox="0 0 200 200" focusable="false">
+                <defs>
+                  <filter id="encre" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -.85 1.32"/><feComposite in="SourceGraphic" operator="in"/></filter>
+                  <path id="tampon-cercle" d="M100,100 m-68,0 a68,68 0 1,1 136,0 a68,68 0 1,1 -136,0"/>
+                </defs>
+                <g filter="url(#encre)" fill="currentColor" stroke="currentColor">
+                  <circle cx="100" cy="100" r="92" fill="none" stroke-width="4"/>
+                  <circle cx="100" cy="100" r="84" fill="none" stroke-width="1.5"/>
+                  <circle cx="100" cy="100" r="50" fill="none" stroke-width="1.5"/>
+                  <text stroke="none" font-size="15" letter-spacing="2.4"><textPath href="#tampon-cercle" textLength="420">${s('tampon')}</textPath></text>
+                  <text stroke="none" x="100" y="116" text-anchor="middle" font-size="58" data-tampon-nuits>★</text>
+                  <text stroke="none" x="100" y="138" text-anchor="middle" font-size="12" letter-spacing="1.5" data-tampon-mot>${s('tamponSejour')}</text>
+                </g>
+              </svg>
+            </div>
             <h2 id="recap-titre">${f('recap')}</h2>
             <p class="recap-nuits" data-recap-nuits>—</p>
             <dl>
@@ -64,7 +81,8 @@ export default (c) => {
               <dt>${f('recapChambre')}</dt><dd data-recap-chambre>${f('indifferent')}</dd>
             </dl>
             <p class="recap-remise" data-recap-remise data-actif="${s('recapRemise')}" data-inactif="${s('recapRemise0')}">${f('recapRemise0')}</p>
-            <p class="recap-tarif">${f('recapInclus')} · ${f('recapTarif')}</p>
+            <p class="recap-tarif">${f('recapInclus')} · ${f('recapHeures')}</p>
+            <p class="recap-tarif" style="margin-top:.5em">${f('recapTarif')}</p>
           </div>
         </div>
       </aside>

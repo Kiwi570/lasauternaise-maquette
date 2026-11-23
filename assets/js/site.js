@@ -1,7 +1,7 @@
 /* La Sauternaise : effets propres au projet (le reste vient du socle et de sa bibliothèque d'effets).
    Effets du plan (data-effet) : facade, tirage, pile-de-tirages, buee, regle-des-distances, ruban, bandeau,
    plein-cadre, revelateur, brume, filtres-environs, itineraire. */
-import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=1';
+import { demarrer, boucle, etat, versObjet, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = () => window.ScrollTrigger;
@@ -42,7 +42,8 @@ function introTirage(tl) {
     .set(tirage, { autoAlpha: 0 }, 2.2);
   titreOuverture(tl, 1.72);
   tl.fromTo('.hero .surtitre', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5 }, 1.7)
-    .fromTo('.hero-intro, .hero .actions, .hero .info-cle', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.55, stagger: 0.08 }, 1.95);
+    .fromTo('.hero-intro, .hero .actions, .hero .info-cle', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.55, stagger: 0.08 }, 1.95)
+    .fromTo('.cachet', { opacity: 0, scale: 0.6, rotation: -40 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.7, ease: 'back.out(1.6)' }, 1.95);
   return true;
 }
 
@@ -64,6 +65,8 @@ function jouer() {
 function ouvertureDePage(tl, a) {
   const bandeau = $('.bandeau[data-effet="bandeau"]');
   if (bandeau) tl.fromTo(bandeau, { clipPath: 'inset(0% 50% 0% 50%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 1.1, ease: 'power3.inOut' }, a);
+  const tir = $('.tirage-ouv');
+  if (tir) tl.fromTo(tir, { rotation: -8, scale: 0.92 }, { rotation: -2, scale: 1, duration: 1, ease: 'power3.out' }, Math.max(0, a - 0.2));
   const chiffre = $('.chiffre-geant');
   if (chiffre) tl.fromTo(chiffre, { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.9, ease: 'power3.out' }, Math.max(0, a - 0.3));
 }
@@ -74,6 +77,8 @@ function etatFinal() {
   gsap.set('.ouv-titre, .hero .surtitre, .hero-intro, .hero .actions, .hero .info-cle', { opacity: 1, y: 0 });
   gsap.set('.bandeau[data-effet="bandeau"]', { clipPath: 'inset(0% 0% 0% 0%)' });
   gsap.set('.chiffre-geant', { opacity: 1, scale: 1 });
+  gsap.set('.cachet', { opacity: 1, scale: 1, rotation: 0 });
+  gsap.set('.tirage-ouv', { rotation: -2, scale: 1 });
   document.querySelectorAll('[data-effet="eventail"]').forEach((e) => e.classList.add('ouvert'));
 }
 
@@ -92,6 +97,44 @@ function facade() {
   const f = $('.hero-media[data-effet="facade"] img');
   if (!f || !ST()) return;
   gsap.fromTo(f, { scale: 1, yPercent: 0 }, { scale: 1.08, yPercent: 4, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+}
+
+
+/* Le cachet tourne doucement, et plus vite quand on défile. */
+function cachet() {
+  const c = $('[data-effet="cachet"]');
+  if (!c) return;
+  const g = $('.cachet-tourne', c);
+  let angle = 0, elan = 0;
+  if (ST()) ST().create({ trigger: '.hero', start: 'top top', end: 'bottom top', onUpdate: (st) => { elan = Math.min(220, Math.abs(st.getVelocity()) * 0.12); } });
+  boucle(c, (dt) => {
+    elan *= Math.exp(-dt * 2.2);
+    angle = (angle + dt * (9 + elan)) % 360;
+    g.setAttribute('transform', `rotate(${angle.toFixed(2)} 100 100)`);
+  });
+}
+
+/* Curseur : libellé sur les zones à manipuler (« Glisser », « Essuyer »). */
+function curseurLibelle() {
+  if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  const attacher = () => {
+    const c = $('.curseur');
+    if (!c) return false;
+    const l = document.createElement('span');
+    l.className = 'curseur-libelle';
+    c.appendChild(l);
+    let actuel = null;
+    window.addEventListener('pointermove', (e) => {
+      if (e.pointerType !== 'mouse') return;
+      const z = e.target.closest && e.target.closest('[data-curseur-texte]');
+      if (z === actuel) return;
+      actuel = z;
+      c.classList.toggle('curseur-texte', !!z);
+      if (z) l.textContent = z.dataset.curseurTexte;
+    }, { passive: true });
+    return true;
+  };
+  if (!attacher()) setTimeout(attacher, 400);
 }
 
 /* Hier et aujourd'hui : l'archive s'écarte au défilement, et se glisse à la main. */
@@ -141,34 +184,55 @@ function pile() {
   });
 }
 
-/* La buée : elle se dissipe au défilement et s'essuie à la souris ou au doigt. */
+/* La buée : condensation (gouttelettes, coulures) qui se dissipe au défilement et s'essuie à la souris ou au doigt.
+   À l'arrivée, un doigt invisible essuie une première trace pour inviter à continuer. */
 function buee() {
   const zone = $('[data-effet="buee"]');
   if (!zone) return;
   const cv = $('canvas', zone), ctx = cv.getContext('2d');
   const brouillard = document.createElement('canvas'), essuie = document.createElement('canvas');
-  let base = 0.92, sale = true, W = 0, H = 0;
+  let base = 0.96, sale = true, W = 0, H = 0;
   const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
   function fabriquer() {
-    W = Math.round(zone.offsetWidth * dpr); H = Math.round(zone.offsetHeight * dpr);
-    if (!W || !H) return;
-    const ancien = essuie.width ? essuie : null;
-    const copie = ancien ? (() => { const c = document.createElement('canvas'); c.width = essuie.width; c.height = essuie.height; c.getContext('2d').drawImage(essuie, 0, 0); return c; })() : null;
+    const w = Math.round(zone.offsetWidth * dpr), h = Math.round(zone.offsetHeight * dpr);
+    if (!w || !h || (w === W && h === H)) return;
+    const copie = W ? (() => { const c = document.createElement('canvas'); c.width = W; c.height = H; c.getContext('2d').drawImage(essuie, 0, 0); return c; })() : null;
+    W = w; H = h;
     [cv, brouillard, essuie].forEach((c) => { c.width = W; c.height = H; });
     if (copie) essuie.getContext('2d').drawImage(copie, 0, 0, W, H);
     const b = brouillard.getContext('2d');
     const g = b.createLinearGradient(0, 0, 0, H);
-    g.addColorStop(0, 'rgba(226,231,233,.9)'); g.addColorStop(1, 'rgba(208,215,218,.86)');
+    g.addColorStop(0, 'rgba(232,236,238,.93)'); g.addColorStop(1, 'rgba(214,221,224,.9)');
     b.fillStyle = g; b.fillRect(0, 0, W, H);
-    /* Gouttelettes : petites lentilles plus claires, tirées une fois. */
-    let graine = 7;
+    let graine = 11;
     const hasard = () => ((graine = (graine * 16807) % 2147483647) / 2147483647);
-    for (let i = 0; i < 260; i++) {
-      const x = hasard() * W, y = hasard() * H, rr = (0.6 + hasard() * 2.6) * dpr;
-      b.fillStyle = `rgba(255,255,255,${0.35 + hasard() * 0.4})`;
-      b.beginPath(); b.arc(x, y, rr, 0, Math.PI * 2); b.fill();
-      b.fillStyle = 'rgba(150,160,158,.18)';
-      b.beginPath(); b.arc(x + rr * 0.3, y + rr * 0.4, rr * 0.7, 0, Math.PI * 2); b.fill();
+    /* Fine condensation */
+    for (let i = 0; i < 1400; i++) {
+      const x = hasard() * W, y = hasard() * H, r = (0.3 + hasard() * 1.1) * dpr;
+      b.fillStyle = `rgba(255,255,255,${0.25 + hasard() * 0.35})`;
+      b.beginPath(); b.arc(x, y, r, 0, Math.PI * 2); b.fill();
+    }
+    /* Grosses gouttes : bord sombre, reflet clair, centre plus transparent */
+    b.save(); b.globalCompositeOperation = 'destination-out';
+    const gouttes = [];
+    for (let i = 0; i < 70; i++) {
+      const x = hasard() * W, y = hasard() * H, r = (2 + hasard() * 5.5) * dpr;
+      gouttes.push([x, y, r]);
+      b.fillStyle = 'rgba(0,0,0,.55)'; b.beginPath(); b.ellipse(x, y, r, r * 1.12, 0, 0, Math.PI * 2); b.fill();
+    }
+    /* Coulures : traces claires sous quelques gouttes */
+    for (let i = 0; i < 9; i++) {
+      const [x, y, r] = gouttes[i * 7];
+      const lg = (60 + hasard() * 220) * dpr;
+      const gr = b.createLinearGradient(0, y, 0, y + lg);
+      gr.addColorStop(0, 'rgba(0,0,0,.7)'); gr.addColorStop(1, 'rgba(0,0,0,0)');
+      b.fillStyle = gr; b.beginPath();
+      b.moveTo(x - r * 0.5, y); b.quadraticCurveTo(x + r * 0.3, y + lg * 0.5, x - r * 0.2, y + lg); b.lineTo(x + r * 0.5, y + lg); b.quadraticCurveTo(x + r, y + lg * 0.5, x + r * 0.5, y); b.fill();
+    }
+    b.restore();
+    for (const [x, y, r] of gouttes) {
+      b.strokeStyle = 'rgba(120,130,134,.35)'; b.lineWidth = Math.max(1, r * 0.22); b.beginPath(); b.ellipse(x, y, r, r * 1.12, 0, 0, Math.PI * 2); b.stroke();
+      b.fillStyle = 'rgba(255,255,255,.85)'; b.beginPath(); b.arc(x - r * 0.35, y - r * 0.4, r * 0.28, 0, Math.PI * 2); b.fill();
     }
     sale = true; dessiner();
   }
@@ -189,28 +253,52 @@ function buee() {
       ctx.globalCompositeOperation = 'source-over';
     });
   }
-  function frotter(x, y) {
+  function frotter(x, y, k = 1) {
     const e = essuie.getContext('2d');
-    const rr = Math.max(W, H) * 0.075;
-    const g = e.createRadialGradient(x, y, 0, x, y, rr);
-    g.addColorStop(0, 'rgba(0,0,0,.95)'); g.addColorStop(0.6, 'rgba(0,0,0,.6)'); g.addColorStop(1, 'rgba(0,0,0,0)');
-    e.fillStyle = g; e.beginPath(); e.arc(x, y, rr, 0, Math.PI * 2); e.fill();
+    const r = Math.max(W, H) * 0.07 * k;
+    const g = e.createRadialGradient(x, y, 0, x, y, r);
+    g.addColorStop(0, 'rgba(0,0,0,.95)'); g.addColorStop(0.65, 'rgba(0,0,0,.7)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+    e.fillStyle = g; e.beginPath(); e.arc(x, y, r, 0, Math.PI * 2); e.fill();
     sale = true; dessiner();
   }
-  let precedent = null;
+  function trait(a, b, k) {
+    const n = Math.max(1, Math.ceil(Math.hypot(b.x - a.x, b.y - a.y) / (7 * dpr)));
+    for (let i = 1; i <= n; i++) frotter(a.x + ((b.x - a.x) * i) / n, a.y + ((b.y - a.y) * i) / n, k);
+  }
+  let precedent = null, touche = false;
   const point = (e) => { const r = cv.getBoundingClientRect(); return { x: (e.clientX - r.left) * dpr, y: (e.clientY - r.top) * dpr }; };
   cv.addEventListener('pointermove', (e) => {
     if (e.pointerType === 'touch' && !e.isPrimary) return;
+    touche = true;
     const p = point(e);
-    if (precedent) { const n = Math.ceil(Math.hypot(p.x - precedent.x, p.y - precedent.y) / (8 * dpr)); for (let i = 1; i <= n; i++) frotter(precedent.x + ((p.x - precedent.x) * i) / n, precedent.y + ((p.y - precedent.y) * i) / n); }
-    else frotter(p.x, p.y);
+    if (precedent) trait(precedent, p, 1); else frotter(p.x, p.y);
     precedent = p;
   });
   cv.addEventListener('pointerleave', () => { precedent = null; });
-  cv.addEventListener('pointerdown', (e) => { const p = point(e); frotter(p.x, p.y); precedent = p; });
+  cv.addEventListener('pointerdown', (e) => { touche = true; const p = point(e); frotter(p.x, p.y, 1.2); precedent = p; });
   cv.addEventListener('pointerup', () => { if (tactile()) precedent = null; });
   new ResizeObserver(() => fabriquer()).observe(zone);
-  if (ST()) ST().create({ trigger: zone, start: 'top 85%', end: 'bottom 30%', scrub: true, onUpdate: (st) => { base = 0.94 - st.progress * 0.5; sale = true; dessiner(); } });
+  fabriquer();
+  if (!ST()) return;
+  ST().create({ trigger: zone, start: 'top 85%', end: 'bottom 30%', scrub: true, onUpdate: (st) => { base = 0.96 - st.progress * 0.4; sale = true; dessiner(); } });
+  /* Première trace, une seule fois : une vague de gauche à droite à mi-hauteur. */
+  ST().create({
+    trigger: zone, start: 'top 62%', once: true,
+    onEnter: () => {
+      if (touche || !W) return;
+      const o = { t: 0 };
+      let avant = null;
+      gsap.to(o, {
+        t: 1, duration: 1.5, ease: 'power1.inOut', delay: 0.25,
+        onUpdate: () => {
+          if (touche) return;
+          const p = { x: W * (0.12 + o.t * 0.76), y: H * (0.46 + Math.sin(o.t * Math.PI * 2) * 0.07) };
+          if (avant) trait(avant, p, 0.85); else frotter(p.x, p.y, 0.85);
+          avant = p;
+        },
+      });
+    },
+  });
 }
 
 /* La règle des distances : elle se remplit d'or au défilement, chaque château s'allume à son passage. */
@@ -253,10 +341,23 @@ function pleinCadre() {
   gsap.fromTo($('img', m), { scale: 1.02 }, { scale: 1.12, ease: 'none', scrollTrigger: { trigger: m.closest('section'), start: 'top top', end: 'bottom top', scrub: true } });
 }
 
+/* L'archive se développe au défilement : le bain de révélateur s'éclaircit, l'image se resserre. */
 function revelateur() {
   const r = $('[data-effet="revelateur"]');
   if (!r || !ST()) return;
-  ST().create({ trigger: r, start: 'top 80%', end: 'bottom 35%', scrub: 0.5, onUpdate: (st) => r.style.setProperty('--revele', `${(-20 + st.progress * 140).toFixed(1)}%`) });
+  const i = $('.media img', r);
+  ST().create({ trigger: r, start: 'top 85%', end: 'center 45%', scrub: 0.6, onUpdate: (st) => {
+    const p = st.progress;
+    r.style.setProperty('--bain', (0.92 * (1 - p)).toFixed(3));
+    i.style.transform = `scale(${(1.08 - p * 0.08).toFixed(4)})`;
+  } });
+}
+
+/* La maison : le tirage d'ouverture se pose, puis dérive doucement au défilement. */
+function tirageOuverture() {
+  const t = $('[data-effet="tirage-ouv"]');
+  if (!t || !ST()) return;
+  gsap.fromTo(t, { y: 0, rotation: -2 }, { y: -40, rotation: 1, ease: 'none', scrollTrigger: { trigger: t.closest('section'), start: 'top top', end: 'bottom top', scrub: true } });
 }
 
 /* ---------- Les environs ---------- */
@@ -287,6 +388,7 @@ function filtresEnvirons() {
     const appliquer = () => {
       let n = 0;
       cartes.forEach((x) => { const g = garder(x); x.classList.toggle('masquee', !g); if (g) n++; });
+      $$('[data-zone-titre]', liste).forEach((t) => { t.classList.toggle('masquee', !cartes.some((x) => x.dataset.zone === t.dataset.zoneTitre && garder(x))); });
       resultat.textContent = n === 1 ? resultat.dataset.un : resultat.dataset.modele.replace('{n}', n);
       aucun.hidden = n > 0;
       groupes.forEach((g) => {
@@ -320,6 +422,99 @@ function filtresEnvirons() {
 }
 
 /* ---------- Réserver ---------- */
+/* Calendrier de séjour : un clic pour l'arrivée, un autre pour le départ ; jours passés grisés, jour même repéré,
+   nuits colorées entre les deux. Les champs de date restent la source (saisie au clavier possible). */
+function calendrier() {
+  const boite = $('[data-calendrier]');
+  const f = $('[data-sejour]');
+  if (!boite || !f) return;
+  const arr = $('#arrivee', f), dep = $('#depart', f);
+  const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+  const JOURS = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
+  const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const lire = (v) => (v ? new Date(v + 'T12:00:00') : null);
+  const auj = new Date(); auj.setHours(12, 0, 0, 0);
+  let premier = new Date(auj.getFullYear(), auj.getMonth(), 1, 12);
+  let survol = null;
+  const nbMois = () => (boite.clientWidth >= 640 ? 2 : 1);
+  function rendre() {
+    const debut = lire(arr.value), fin = lire(dep.value);
+    const n = nbMois();
+    let h = `<div class="cal-nav"><button type="button" class="cal-fleche" data-cal="-1" aria-label="${boite.dataset.precedent}" ${premier <= new Date(auj.getFullYear(), auj.getMonth(), 1, 12) ? 'disabled' : ''}>‹</button><button type="button" class="cal-fleche" data-cal="1" aria-label="${boite.dataset.suivant}">›</button></div><div class="cal-mois-liste">`;
+    for (let m = 0; m < n; m++) {
+      const d0 = new Date(premier.getFullYear(), premier.getMonth() + m, 1, 12);
+      h += `<div class="cal-mois"><p class="cal-titre">${MOIS[d0.getMonth()]} ${d0.getFullYear()}</p><div class="cal-grille"><span class="cal-js">L</span><span class="cal-js">M</span><span class="cal-js">M</span><span class="cal-js">J</span><span class="cal-js">V</span><span class="cal-js">S</span><span class="cal-js">D</span>`;
+      const decal = (d0.getDay() + 6) % 7;
+      for (let i = 0; i < decal; i++) h += '<span class="cal-vide"></span>';
+      const nbj = new Date(d0.getFullYear(), d0.getMonth() + 1, 0).getDate();
+      for (let j = 1; j <= nbj; j++) {
+        const d = new Date(d0.getFullYear(), d0.getMonth(), j, 12);
+        const passe = d < auj;
+        const cl = ['cal-jour'];
+        if (passe) cl.push('passe');
+        if (+d === +auj) cl.push('aujourdhui');
+        if (debut && +d === +debut) cl.push('debut');
+        if (fin && +d === +fin) cl.push('fin');
+        if (debut && fin && d > debut && d < fin) cl.push('dans');
+        const etiquette = `${JOURS[(d.getDay() + 6) % 7]} ${j} ${MOIS[d.getMonth()]} ${d.getFullYear()}`;
+        h += `<button type="button" class="${cl.join(' ')}" data-date="${iso(d)}" aria-label="${etiquette}" aria-pressed="${(debut && +d === +debut) || (fin && +d === +fin) ? 'true' : 'false'}" ${passe ? 'disabled' : ''}>${j}</button>`;
+      }
+      h += '</div></div>';
+    }
+    boite.innerHTML = h + '</div>';
+  }
+  function apercu() {
+    const debut = lire(arr.value), fin = lire(dep.value);
+    $$('.cal-jour', boite).forEach((b) => {
+      const d = lire(b.dataset.date);
+      b.classList.toggle('apercu', !!(debut && !fin && survol && d > debut && d <= survol));
+    });
+  }
+  boite.addEventListener('click', (e) => {
+    const fl = e.target.closest('[data-cal]');
+    if (fl) { premier = new Date(premier.getFullYear(), premier.getMonth() + Number(fl.dataset.cal), 1, 12); rendre(); return; }
+    const b = e.target.closest('.cal-jour');
+    if (!b || b.disabled) return;
+    const d = lire(b.dataset.date), debut = lire(arr.value), fin = lire(dep.value);
+    if (!debut || fin || d <= debut) { arr.value = iso(d); dep.value = ''; }
+    else dep.value = iso(d);
+    survol = null;
+    arr.dispatchEvent(new Event('input', { bubbles: true }));
+    rendre();
+    const meme = $(`.cal-jour[data-date="${iso(d)}"]`, boite);
+    if (meme) meme.focus({ preventScroll: true });
+  });
+  boite.addEventListener('pointerover', (e) => {
+    const b = e.target.closest('.cal-jour');
+    if (!b || e.pointerType !== 'mouse') return;
+    survol = lire(b.dataset.date); apercu();
+  });
+  boite.addEventListener('pointerleave', () => { survol = null; apercu(); });
+  f.addEventListener('change', (e) => { if (e.target === arr || e.target === dep) rendre(); });
+  let largeur = 0;
+  new ResizeObserver(() => { const w = boite.clientWidth; if (Math.abs(w - largeur) > 20) { largeur = w; rendre(); } }).observe(boite);
+  rendre();
+}
+
+/* Tampon : à l’envoi (simulé) de la demande, un cachet d’encre se pose sur le récapitulatif avec le nombre de nuits. */
+function tampon() {
+  const t = document.querySelector('[data-tampon]');
+  const f = document.querySelector('[data-sejour]');
+  const msg = f && f.querySelector('[data-message-envoi]');
+  if (!t || !msg) return;
+  const nuits = t.querySelector('[data-tampon-nuits]');
+  const mot = t.querySelector('[data-tampon-mot]');
+  new MutationObserver(() => {
+    if (msg.hidden) return;
+    const a = f.querySelector('#arrivee'), d = f.querySelector('#depart');
+    const n = a && d && a.value && d.value ? Math.round((new Date(d.value) - new Date(a.value)) / 864e5) : 0;
+    if (n > 0) { nuits.textContent = String(n); mot.textContent = n > 1 ? t.dataset.nuits : t.dataset.nuit; }
+    t.classList.remove('pose');
+    void t.offsetWidth;
+    t.classList.add('pose');
+  }).observe(msg, { attributes: true, attributeFilter: ['hidden'] });
+}
+
 function sejour() {
   const f = $('[data-sejour]');
   if (!f) return;
@@ -352,7 +547,7 @@ function sejour() {
 demarrer({
   preparer() {
     if (gsap) gsap.set('.ouv-titre', { opacity: 1 });
-    [facade, tirage, pile, buee, regle, eventails, bandeau, pleinCadre, revelateur, brume, filtresEnvirons, sejour].forEach((f) => {
+    [facade, cachet, curseurLibelle, tirage, pile, buee, regle, eventails, bandeau, pleinCadre, revelateur, tirageOuverture, brume, filtresEnvirons, sejour, calendrier, tampon].forEach((f) => {
       try { f(); } catch (err) { console.error('[site]', f.name, err); }
     });
   },

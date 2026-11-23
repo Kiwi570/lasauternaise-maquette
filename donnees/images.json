@@ -1562,27 +1562,20 @@
   "hier-aujourdhui": {
     "nom": "hier-aujourdhui",
     "source": "recu/contact-acces.jpg",
-    "role": "ouverture",
+    "role": "galerie",
     "alt": "Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »",
     "grok": false,
     "mention": null,
-    "beaute": 4,
-    "empreinte": "d0f5a5457dbea238",
-    "ratio": "16:9",
+    "beaute": 5,
+    "empreinte": "490b4fad7353ae7d",
+    "ratio": "4:3",
     "largeurs": [
       640,
       1280,
-      1920
+      1800
     ],
-    "mobile": {
-      "ratio": "4:5",
-      "largeurs": [
-        640,
-        1080
-      ],
-      "cadrage": "50% 35%"
-    },
-    "cadrage": "40% 47%",
+    "mobile": null,
+    "cadrage": "38% 62%",
     "sujet": {
       "x": 0,
       "y": 0,
@@ -1616,7 +1609,7 @@
       "left": 0,
       "top": 0,
       "width": 2000,
-      "height": 1125,
+      "height": 1500,
       "source": [
         2000,
         1500
@@ -1628,18 +1621,14 @@
     "fichiers": [
       "hier-aujourdhui-640.webp",
       "hier-aujourdhui-1280.webp",
-      "hier-aujourdhui-1920.webp",
-      "hier-aujourdhui-mobile-640.webp",
-      "hier-aujourdhui-mobile-1080.webp"
+      "hier-aujourdhui-1800.webp"
     ],
     "poids": {
-      "hier-aujourdhui-640.webp": 30582,
-      "hier-aujourdhui-1280.webp": 79198,
-      "hier-aujourdhui-1920.webp": 132734,
-      "hier-aujourdhui-mobile-640.webp": 70508,
-      "hier-aujourdhui-mobile-1080.webp": 147372
+      "hier-aujourdhui-640.webp": 47804,
+      "hier-aujourdhui-1280.webp": 130904,
+      "hier-aujourdhui-1800.webp": 203398
     },
-    "media": "c.media({ nom: 'hier-aujourdhui', alt: \"Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »\", cadrage: '40% 47%', cadrageMobile: '50% 35%', sizes: '100vw', priorite: true })"
+    "media": "c.media({ nom: 'hier-aujourdhui', alt: \"Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »\", cadrage: '38% 62%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
   },
   "salle-a-manger": {
     "nom": "salle-a-manger",

@@ -64,7 +64,8 @@ h1 em, h2 em, h3 em, .titre em { font-style: italic; color: var(--accent); }
 
 /* ---------- En-tête et menu ---------- */
 [data-entete] { background: var(--chaux); border-bottom-color: rgba(42, 33, 28, .1); }
-.entete-logo img { width: auto; height: 46px; }
+.entete-logo img { width: auto; height: 54px; }
+@media (max-width: 760px) { .entete-logo img { height: 44px; } }
 [data-nav] a { font-weight: 500; font-size: .98rem; }
 [data-nav] a[aria-current] { text-decoration-color: var(--or); }
 [data-menu] .menu-lien { font-size: clamp(2rem, 8vw, 3.2rem); }
@@ -95,6 +96,7 @@ html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .intro-tirage { di
 .hero-ligne em { font-style: italic; color: var(--accent); }
 .hero-intro { max-width: 30em; font-size: clamp(1.02rem, .95rem + .3vw, 1.22rem); margin-bottom: 1.4em; }
 .hero .actions { margin-bottom: 1.2em; }
+.hero-photo { position: relative; min-width: 0; }
 .hero-media { position: relative; height: calc(100svh - var(--entete-h)); border-radius: 0; }
 .hero-adresse { position: absolute; right: 14px; bottom: 14px; z-index: 2; margin: 0; padding: 6px 12px; border-radius: 999px; background: rgba(246, 241, 231, .92); color: var(--texte); font: 500 .85rem/1.3 var(--police-texte); }
 @media (max-width: 960px) and (min-width: 761px) { .hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
@@ -162,7 +164,7 @@ html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .intro-tirage { di
 .equipements { list-style: none; padding: 0; margin: 1.6em 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--ligne); border: 1px solid var(--ligne); }
 .equipements li { background: var(--fond); padding: 18px 18px 16px; display: grid; gap: 2px; }
 .equipements strong { font: 400 1.4rem/1.15 var(--police-titres); }
-.equipements span { font-size: .9rem; color: var(--texte-doux); }
+.equipements span { font-size: .95rem; color: var(--texte-doux); }
 @media (max-width: 860px) { .buee-grille { grid-template-columns: minmax(0, 1fr); } .buee-grille > :first-child { order: 2; } }
 
 /* ---------- Le matin ---------- */
@@ -171,7 +173,7 @@ html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .intro-tirage { di
 .liste-fine { list-style: none; padding: 0; margin: 1.2em 0; border-top: 1px solid var(--ligne); }
 .liste-fine li { padding: .75em 0 .75em 1.6em; border-bottom: 1px solid var(--ligne); position: relative; }
 .liste-fine li::before { content: ''; position: absolute; left: 2px; top: 1.25em; width: 9px; height: 1px; background: var(--or); }
-.note { font-size: .95rem; color: var(--texte-doux); }
+.note { font-size: 1rem; color: var(--texte-doux); }
 @media (max-width: 860px) { .matin-grille { grid-template-columns: minmax(0, 1fr); } .matin-grille .media { order: 2; aspect-ratio: 4 / 3; } }
 
 /* ---------- Vos hôtes ---------- */
@@ -180,29 +182,29 @@ html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .intro-tirage { di
 .hotes-citation { font: italic 400 clamp(1.5rem, 1rem + 1.6vw, 2.3rem)/1.2 var(--police-titres); margin: 0 0 1em; color: var(--texte); }
 .hotes-bios { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-bottom: 1.4em; }
 .hotes-bios h3 { font-size: 1.5rem; margin-bottom: .25em; }
-.hotes-bios p { font-size: .98rem; margin: 0; }
+.hotes-bios p { font-size: 1rem; margin: 0; }
 @media (max-width: 860px) { .hotes-grille, .hotes-bios { grid-template-columns: minmax(0, 1fr); } }
 
 /* ---------- À pied : règle des distances ---------- */
 .pied-bandeau { height: clamp(200px, 28vw, 360px); border-radius: 0; margin-bottom: clamp(48px, 7vw, 96px); }
 .pied-tete { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 80px); align-items: end; margin-bottom: clamp(40px, 6vw, 80px); }
 .pied-tete p { margin: 0; }
-.regle { --p: 0; position: relative; margin: 0 0 clamp(40px, 6vw, 72px); padding: 150px 0 150px; }
-.regle-axe { position: relative; height: 2px; background: color-mix(in srgb, var(--texte) 16%, var(--fond)); margin-left: 34px; }
+.regle { --p: 0; position: relative; margin: 0 0 clamp(40px, 6vw, 72px); padding: 160px 0 170px; }
+.regle-axe { position: relative; height: 4px; border-radius: 4px; background: color-mix(in srgb, var(--texte) 14%, var(--fond)); margin-left: 34px; }
 .regle-plein { position: absolute; inset: 0; background: var(--or); transform-origin: 0 50%; transform: scaleX(var(--p)); }
-.regle-maison { position: absolute; left: -34px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; color: var(--accent); }
+.regle-maison { position: absolute; left: -38px; top: 50%; transform: translateY(-50%); width: 34px; height: 34px; color: var(--accent); }
 .regle-point { position: absolute; left: calc(var(--x) * 100%); top: 0; width: 0; }
-.regle-point::before { content: ''; position: absolute; left: -6px; top: -5px; width: 12px; height: 12px; border-radius: 50%; background: var(--fond); border: 2px solid color-mix(in srgb, var(--texte) 35%, var(--fond)); transition: background .35s, border-color .35s, transform .35s var(--courbe); }
+.regle-point::before { content: ''; position: absolute; left: -9px; top: -7px; width: 18px; height: 18px; border-radius: 50%; background: var(--fond); border: 2px solid color-mix(in srgb, var(--texte) 35%, var(--fond)); transition: background .35s, border-color .35s, transform .35s var(--courbe); }
 .regle-point.atteint::before { background: var(--or); border-color: var(--or); transform: scale(1.25); }
-.regle-etiquette { position: absolute; left: 0; width: max-content; max-width: 132px; transform: translateX(-50%); text-align: center; font-size: .86rem; line-height: 1.25; transition: color .35s; color: var(--texte-doux); }
-.regle-etiquette strong { display: block; font: 400 1.08rem/1.15 var(--police-titres); color: var(--texte); }
+.regle-etiquette { position: absolute; left: 0; width: max-content; max-width: 150px; transform: translateX(-50%); text-align: center; font-size: .95rem; line-height: 1.25; transition: color .35s, transform .45s var(--courbe); color: var(--texte-doux); }
+.regle-etiquette strong { display: block; font: 400 1.25rem/1.12 var(--police-titres); color: var(--texte); }
 .regle-etiquette em { display: block; font-style: normal; font-size: .82rem; color: var(--brun); }
 .regle-point.haut .regle-etiquette { bottom: 18px; }
 .regle-point.bas .regle-etiquette { top: 18px; }
 .regle-point.haut .regle-etiquette::after, .regle-point.bas .regle-etiquette::after { content: ''; position: absolute; left: 50%; width: 1px; height: 12px; background: var(--ligne); }
 .regle-point.haut .regle-etiquette::after { top: 100%; }
 .regle-point.bas .regle-etiquette::after { bottom: 100%; }
-.regle-point.vedette strong { font-size: 1.5rem; color: var(--accent); }
+.regle-point.vedette strong { font-size: 1.7rem; color: var(--accent); }
 .regle-graduation { position: absolute; left: 34px; right: 0; top: 50%; display: flex; justify-content: space-between; transform: translateY(-50%); pointer-events: none; }
 .regle-km { position: absolute; top: 50%; transform: translate(-50%, 14px); font-size: .75rem; color: var(--texte-doux); }
 .regle-legende { margin: 0; font-size: .85rem; color: var(--texte-doux); }
@@ -232,7 +234,7 @@ html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .intro-tirage { di
 .direct-chiffres li { padding: 18px 18px 0 0; }
 .direct-chiffres li + li { padding-left: 18px; border-left: 1px solid var(--ligne); }
 .direct-chiffres strong { display: block; font: 400 clamp(2rem, 1.4rem + 2vw, 3.2rem)/1.05 var(--police-titres); color: var(--or-clair); margin-bottom: .2em; white-space: nowrap; }
-.direct-chiffres span { font-size: .95rem; color: var(--texte-doux); }
+.direct-chiffres span { font-size: 1rem; color: var(--texte-doux); }
 .direct .media { aspect-ratio: 4 / 5; }
 .direct-acces { margin-top: 1.6em; font-size: .95rem; color: var(--texte-doux); }
 @media (max-width: 860px) {
@@ -298,7 +300,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .bandeau[data-effet="bandeau"
 .ouv-outil h1 { font-size: clamp(2.6rem, min(6vw, 11vh), 5.6rem); }
 .ouv-outil .chapo { max-width: 36em; }
 .recap { position: sticky; top: calc(var(--entete-h) + 24px); }
-.recap-carte { background: #fff; border-radius: 6px; box-shadow: 0 24px 50px -30px rgba(42, 30, 24, .5); overflow: hidden; }
+.recap-carte { position: relative; background: #fff; border-radius: 6px; box-shadow: 0 24px 50px -30px rgba(42, 30, 24, .5); overflow: hidden; }
 .recap-carte .media { aspect-ratio: 16 / 10; border-radius: 0; }
 .recap-corps { padding: 20px 22px 22px; }
 .recap-corps h2 { font-size: 1.7rem; margin-bottom: .5em; }
@@ -406,7 +408,7 @@ html:not(.js) .vue, html.secours .vue { height: 420px; scroll-snap-align: start;
 .soins li { padding: 18px; background: rgba(255, 255, 255, .86); border-radius: 4px; }
 .soins strong { display: block; font: 400 1.4rem/1.2 var(--police-titres); }
 .soins em { display: block; font-style: normal; font: 600 .8rem/1.4 var(--police-texte); letter-spacing: .1em; text-transform: uppercase; color: var(--brun); margin-bottom: .4em; }
-.soins span { font-size: .93rem; }
+.soins span { font-size: .97rem; }
 .salles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: clamp(32px, 5vw, 56px); }
 .salles .media { aspect-ratio: 4 / 5; }
 @media (max-width: 760px) { .soins { grid-template-columns: minmax(0, 1fr); } .salles { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; } }
@@ -415,12 +417,12 @@ html:not(.js) .vue, html.secours .vue { height: 420px; scroll-snap-align: start;
 .carte-service { display: flex; flex-direction: column; gap: 14px; }
 .carte-service .media { aspect-ratio: 4 / 5; }
 .carte-service h3 { font-size: 1.7rem; margin: 0; }
-.carte-service p { margin: 0; font-size: .98rem; }
+.carte-service p { margin: 0; font-size: 1rem; }
 @media (max-width: 860px) { .cartes-3 { grid-template-columns: minmax(0, 1fr); } .carte-service .media { aspect-ratio: 4 / 3; } }
 
 .colonnes-matin { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 40px; margin-top: 1.6em; }
 .colonnes-matin h3 { font-size: 1.5rem; margin-bottom: .3em; }
-.colonnes-matin p { margin: 0; font-size: .98rem; }
+.colonnes-matin p { margin: 0; font-size: 1rem; }
 @media (max-width: 760px) { .colonnes-matin { grid-template-columns: minmax(0, 1fr); } }
 
 .revelateur { position: relative; aspect-ratio: 3 / 2; border-radius: 3px; overflow: hidden; }
@@ -436,7 +438,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .revelateur { --revele: -20%;
 .portrait { display: grid; gap: 12px; }
 .portrait .media { aspect-ratio: 1 / 1; max-width: 180px; border-radius: 50%; }
 .portrait h3 { font-size: 2rem; margin: 0; }
-.portrait p { margin: 0; font-size: .98rem; }
+.portrait p { margin: 0; font-size: 1rem; }
 .portrait blockquote { margin: 0; padding-left: 14px; border-left: 2px solid var(--or); font: italic 400 1.15rem/1.35 var(--police-titres); }
 @media (max-width: 960px) { .portraits { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .portraits > .media { grid-column: 1 / -1; aspect-ratio: 16 / 10; } }
 @media (max-width: 620px) { .portraits { grid-template-columns: minmax(0, 1fr); } }
@@ -462,7 +464,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .revelateur { --revele: -20%;
 .visite-corps { padding: 14px 16px 16px; display: grid; gap: 4px; }
 .visite-distance { font: 600 .82rem/1.3 var(--police-texte); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
 .visite h3 { font-size: 1.35rem; margin: 0; }
-.visite p { margin: 0; font-size: .93rem; color: var(--texte-doux); }
+.visite p { margin: 0; font-size: .96rem; color: var(--texte-doux); }
 .visite-rdv { justify-self: start; margin-top: 4px; padding: 2px 9px; border-radius: 999px; background: color-mix(in srgb, var(--or) 22%, #fff); font-size: .82rem; font-weight: 600; }
 .visite.masquee { display: none; }
 html.js .visites.en-change > .visite { opacity: 0 !important; transform: translateY(8px) !important; }
@@ -583,3 +585,137 @@ html.js:not(.secours):not([data-arrivee="retour"]) .eventail:not(.ouvert) .tirag
 @media (max-height: 620px) { html:not(.js) .hero { min-height: 0; } }
 /* Sans JavaScript, l'en-tête (sur deux rangées) reste dans le flux : le texte de l'ouverture part du haut. */
 @media (max-height: 620px) { html:not(.js) .hero-texte { align-self: start; } }
+
+/* ===== v2 ===== */
+/* Cachet tournant sur la façade */
+.cachet { position: absolute; right: clamp(14px, 2.4vw, 34px); top: clamp(14px, 3vh, 34px); z-index: 3; width: clamp(104px, 10vw, 150px); aspect-ratio: 1; pointer-events: none; filter: drop-shadow(0 10px 18px rgba(42, 30, 24, .28)); }
+.cachet svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.cachet-fond { fill: var(--chaux); }
+.cachet-filet { fill: none; stroke: var(--or); stroke-width: 1.2; }
+.cachet-texte { font: 600 14.5px/1 var(--police-texte); letter-spacing: .02em; fill: var(--accent); }
+.cachet-feuille { fill: var(--or); }
+html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .cachet { opacity: 0; }
+@media (max-width: 760px) { .cachet { right: calc(var(--gouttiere) + 10px); top: 10px; width: 92px; } .hero-intro { display: none; } }
+
+/* Règle : le marcheur doré avance avec le défilement */
+.regle-marcheur { position: absolute; z-index: 2; left: calc(var(--p) * 100%); top: 50%; width: 22px; height: 22px; margin: -11px 0 0 -11px; border-radius: 50%; background: var(--or); box-shadow: 0 0 0 6px color-mix(in srgb, var(--or) 28%, transparent), 0 4px 12px rgba(42, 30, 24, .3); }
+.regle-marcheur::after { content: ''; position: absolute; inset: -10px; border-radius: 50%; border: 2px solid var(--or); opacity: .5; animation: pouls 1.8s ease-out infinite; }
+@keyframes pouls { from { transform: scale(.6); opacity: .7; } to { transform: scale(1.5); opacity: 0; } }
+.regle-depart { position: absolute; left: -54px; top: 24px; width: 70px; text-align: center; font: italic 400 1rem/1.1 var(--police-titres); color: var(--accent); }
+.regle-point.atteint .regle-etiquette { color: var(--texte); }
+.regle-point.haut.atteint .regle-etiquette { transform: translate(-50%, -4px); }
+.regle-point.bas.atteint .regle-etiquette { transform: translate(-50%, 4px); }
+.regle-point.debut.atteint .regle-etiquette { transform: translate(-18%, 4px); }
+.regle-point.fin.atteint .regle-etiquette { transform: translate(-82%, -4px); }
+@media (max-width: 860px) {
+  .regle-axe { width: 4px; }
+  .regle-marcheur { left: 50%; top: calc(var(--p) * 100%); margin: -11px 0 0 -11px; }
+  .regle-depart { left: 28px; top: -40px; text-align: left; width: auto; }
+  .regle-point .regle-etiquette, .regle-point.atteint .regle-etiquette, .regle-point.debut.atteint .regle-etiquette, .regle-point.fin.atteint .regle-etiquette { transform: translateY(-50%); }
+  .regle-point::before { left: -7px; }
+}
+
+/* Curseur doré, avec un libellé sur les zones à manipuler */
+.curseur { border-color: var(--or); display: grid; place-items: center; transition: opacity .2s, width .25s var(--courbe), height .25s var(--courbe), left .25s var(--courbe), top .25s var(--courbe), background .25s; }
+.curseur .curseur-libelle { font: 600 12px/1 var(--police-texte); letter-spacing: .06em; text-transform: uppercase; color: var(--cave); opacity: 0; transition: opacity .2s; white-space: nowrap; }
+.curseur.curseur-texte { width: 84px; height: 84px; left: -42px; top: -42px; background: color-mix(in srgb, var(--or-clair) 88%, transparent); border-color: transparent; }
+.curseur.curseur-texte .curseur-libelle { opacity: 1; }
+
+/* Étiquettes de vin (chambres) */
+.etiquettes { gap: clamp(14px, 2vw, 24px); perspective: 900px; }
+.etiquette { justify-content: flex-start; align-items: center; min-height: 0; padding: 40px 24px 26px; background: linear-gradient(180deg, #FFFDF8, #FBF6EA); border-radius: 2px; box-shadow: 0 24px 44px -30px rgba(42, 30, 24, .55), 0 1px 0 rgba(42, 30, 24, .06); }
+.etiquette::before { inset: 12px; border: 1px solid var(--teinte); opacity: .5; }
+.etiquette::after { content: ''; position: absolute; inset: 16px; border: 1px solid var(--teinte); opacity: .25; pointer-events: none; }
+.etiquette-bandeau { position: absolute; left: 0; right: 0; top: 0; height: 8px; background: var(--teinte); }
+.etiquette-initiale { position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); font: italic 400 11rem/1 var(--police-titres); color: var(--teinte); opacity: .09; pointer-events: none; }
+.etiquette-mot { position: relative; margin: 0 0 .5em !important; font: 600 .82rem/1.3 var(--police-texte); letter-spacing: .16em; text-transform: uppercase; color: var(--brun); }
+.etiquette h3 { position: relative; font-size: clamp(1.6rem, 1.1rem + 1vw, 2.1rem); line-height: 1.08; margin: 0; min-height: 2.2em; display: grid; place-items: center; }
+.etiquette-orne { position: relative; display: flex; align-items: center; gap: 10px; width: 70%; margin: 14px 0 16px; color: var(--teinte); }
+.etiquette-orne::before, .etiquette-orne::after { content: ''; flex: 1; height: 1px; background: currentColor; opacity: .5; }
+.etiquette-orne .etiquette-feuille { width: 24px; height: 24px; margin: 0; flex: none; }
+.etiquette-details { position: relative; font-size: .97rem !important; margin: 0 0 18px !important; }
+.etiquette-details strong { display: block; color: var(--accent); font-weight: 600; margin-bottom: .2em; }
+.etiquette .lien-fleche { position: relative; }
+.salles { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 980px; }
+.salles figure { margin: 0; display: grid; gap: 8px; }
+.salles figcaption { font: italic 400 1.05rem/1.3 var(--police-titres); }
+@media (max-width: 760px) { .salles figcaption { font-size: .95rem; } }
+.etiquette-place { display: flex; }
+.etiquette-place > .etiquette { flex: 1; }
+
+/* La maison : ouverture « tirage » (la photo entière posée comme un tirage) */
+.ouv-tirage { padding-bottom: clamp(40px, 7vh, 90px); }
+.ouv-tirage-grille { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: clamp(28px, 5vw, 88px); align-items: center; min-height: calc(100svh - var(--entete-h) - clamp(68px, 13vh, 160px)); }
+.tirage-ouv { position: relative; justify-self: center; width: min(100%, calc((100svh - var(--entete-h) - 190px) * 1.33)); transform: rotate(-2deg); }
+.tirage-ouv .media { aspect-ratio: 4 / 3; }
+.ouv-tirage h1 { font-size: clamp(2.6rem, min(5.4vw, 10vh), 5.6rem); }
+.ouv-source { margin: -.3em 0 1.4em; font-size: .95rem; color: var(--brun); }
+@media (max-width: 860px) {
+  .ouv-tirage-grille { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .ouv-tirage-texte { order: -1; }
+  .tirage-ouv { width: 100%; transform: rotate(-1.2deg); }
+}
+@media (max-height: 620px) and (min-width: 761px) { .ouv-tirage .ouv-source { display: none; } }
+/* Histoire : l'archive se développe comme dans un bain de révélateur */
+.revelateur { position: relative; aspect-ratio: auto; overflow: visible; border-radius: 2px; transform: rotate(1.4deg); }
+.revelateur .media { position: relative; inset: auto; aspect-ratio: 3 / 2; }
+.revelateur-bain { position: absolute; inset: 10px 10px 42px; background: #F4EBDD; mix-blend-mode: normal; opacity: var(--bain, 0); pointer-events: none; }
+html.js:not(.secours):not([data-arrivee="retour"]) .revelateur { --bain: .92; }
+/* Cour et jardin */
+.jardin-grille { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 64px); align-items: start; }
+.jardin-grand { aspect-ratio: 4 / 5; position: sticky; top: calc(var(--entete-h) + 24px); max-height: calc(100svh - var(--entete-h) - 48px); }
+.jardin-petit { aspect-ratio: 3 / 2; margin: 1.2em 0 1.6em; }
+.table-granges h3 { font-size: 1.7rem; margin-bottom: .3em; }
+@media (max-width: 860px) { .jardin-grille { grid-template-columns: minmax(0, 1fr); } .jardin-grand { position: static; aspect-ratio: 4 / 3; max-height: none; } }
+
+/* Environs : intertitres par distance et cartes sans photo */
+.visites-titre { grid-column: 1 / -1; margin-top: clamp(18px, 3vw, 36px); padding-top: 14px; border-top: 1px solid var(--ligne); }
+.visites-titre:first-child { margin-top: 0; }
+.visites-titre h3 { margin: 0; font: italic 400 clamp(1.4rem, 1rem + 1vw, 2rem)/1.2 var(--police-titres); color: var(--accent); }
+.visites-titre.masquee { display: none; }
+.visite-sans-photo { position: relative; display: flex; flex-direction: column; gap: 6px; align-items: center; justify-content: center; background: linear-gradient(160deg, var(--pierre), #EAD9BC); color: var(--brun); }
+.visite-sans-photo svg { width: 52px; height: 52px; }
+.visite-sans-photo-km { font: 400 clamp(1.8rem, 1.4rem + 1vw, 2.4rem)/1 var(--police-titres); color: var(--cave); }
+
+/* Calendrier de séjour */
+.calendrier { position: relative; margin: 6px 0 4px; padding: 16px 16px 10px; background: #fff; border-radius: 6px; box-shadow: 0 18px 40px -30px rgba(42, 30, 24, .45); }
+.cal-nav { position: absolute; left: 10px; right: 10px; top: 8px; display: flex; justify-content: space-between; pointer-events: none; }
+.cal-fleche { pointer-events: auto; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--ligne); background: var(--chaux); font: 400 1.6rem/1 var(--police-titres); color: var(--texte); }
+.cal-fleche:disabled { opacity: .3; cursor: default; }
+.cal-mois-liste { display: flex; gap: 28px; justify-content: center; }
+.cal-mois { flex: 0 1 330px; min-width: 0; }
+.cal-titre { margin: 8px 0 12px; text-align: center; font: 400 1.35rem/1.2 var(--police-titres); text-transform: none; }
+.cal-titre::first-letter { text-transform: uppercase; }
+.cal-grille { display: grid; grid-template-columns: repeat(7, minmax(44px, 1fr)); gap: 2px 0; }
+.cal-js { text-align: center; font: 600 .82rem/1.8 var(--police-texte); color: var(--brun); }
+.cal-jour { position: relative; height: 44px; border: 0; background: none; font: 500 1rem/1 var(--police-texte); color: var(--texte); cursor: pointer; border-radius: 0; font-variant-numeric: tabular-nums; }
+.cal-jour:hover:not(:disabled) { background: color-mix(in srgb, var(--or) 22%, #fff); border-radius: 50%; }
+.cal-jour.passe { color: #74685D; text-decoration: line-through; text-decoration-color: rgba(116, 104, 93, .6); cursor: not-allowed; opacity: 1; }
+.cal-jour.aujourdhui { box-shadow: inset 0 0 0 2px var(--or); border-radius: 50%; }
+.cal-jour.dans, .cal-jour.apercu { background: color-mix(in srgb, var(--accent) 12%, #fff); border-radius: 0; }
+.cal-jour.debut, .cal-jour.fin { background: var(--accent); color: #fff; border-radius: 50%; }
+@media (max-width: 560px) {
+  .calendrier { margin-inline: calc(-1 * min(var(--gouttiere), 12px)); padding: 12px 0 8px; border-radius: 0; }
+  .cal-nav { left: 4px; right: 4px; top: 4px; }
+}
+.regle-depart { white-space: nowrap; }
+@media (max-width: 860px) {
+  .regle-point.haut.atteint .regle-etiquette, .regle-point.bas.atteint .regle-etiquette, .regle-point.haut .regle-etiquette, .regle-point.bas .regle-etiquette { transform: translateY(-50%); }
+  .regle-depart { top: -48px; }
+}
+
+.hero-photo { overflow: clip; }
+@media (max-width: 860px) { .regle-axe { margin-top: 78px; } }
+@media (max-height: 820px) { html:not(.js) .hero-texte { align-self: start; } html:not(.js) .hero { min-height: 0; } }
+#a-pied { overflow-x: clip; }
+.conditions { background: none; border: 0; }
+.conditions li { box-shadow: 0 0 0 1px var(--ligne); }
+/* Tampon d’encre sur le récapitulatif */
+.recap-corps { position: relative; }
+.tampon { position: absolute; top: -58px; right: 14px; z-index: 2; width: clamp(104px, 34%, 132px); aspect-ratio: 1; color: var(--accent); opacity: 0; visibility: hidden; pointer-events: none; transform: rotate(-12deg); mix-blend-mode: multiply; }
+.tampon svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.tampon text { font-family: var(--police-texte); font-weight: 700; }
+.tampon [data-tampon-nuits] { font-family: var(--police-titres); font-weight: 400; }
+.tampon.pose { opacity: .92; visibility: visible; animation: tampon-pose .6s cubic-bezier(.2, .9, .3, 1.15) both; }
+@keyframes tampon-pose { 0% { opacity: 0; transform: rotate(-3deg) scale(1.9); } 55% { opacity: .95; transform: rotate(-13deg) scale(.93); } 100% { opacity: .92; transform: rotate(-12deg) scale(1); } }
+@media (prefers-reduced-motion: reduce) { .tampon.pose { animation: none; } }

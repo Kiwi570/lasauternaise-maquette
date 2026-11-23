@@ -351,15 +351,20 @@
  {
   "source": "recu/contact-acces.jpg",
   "nom": "hier-aujourdhui",
-  "role": "ouverture",
-  "mobile": "4:5",
+  "role": "galerie",
   "cadrage": [
-   40,
-   35
+   38,
+   62
   ],
-  "beaute": 4,
+  "beaute": 5,
   "page": "la-maison",
-  "alt": "Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »"
+  "alt": "Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »",
+  "ratio": "4:3",
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ]
  },
  {
   "source": "recu/galerie-7.jpg",

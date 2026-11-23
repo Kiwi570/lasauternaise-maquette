@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/ibarra-real-nova-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hanken-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F6F1E7">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -107,7 +107,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="ouv ouv-outil" id="debut">
   <div class="conteneur">
     <p class="surtitre">Réserver en direct</p>
-    <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">Demandez <em>vos dates</em></span></span></h1>
+    <h1 data-anime="gsap" class="ouv-titre" data-iris-centre><span class="ligne-masque"><span class="hero-ligne">Demandez <em>vos dates</em></span></span></h1>
     <p class="chapo">En direct, vous payez 5 à 10 € de moins par nuit qu’en passant par les plateformes, avec les mêmes conditions d’annulation (48 h). Réponse sous 24 h maximum.</p>
     <div class="reserver-grille">
       <form class="formulaire" data-formulaire data-sejour novalidate aria-labelledby="debut-form" data-anime="cascade">
@@ -119,6 +119,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <div class="champ"><label for="depart">Départ</label><input id="depart" name="depart" type="date" required></div>
           </div>
           <p class="nuits-direct" data-nuits aria-live="polite" data-info-cle data-zero="Choisissez vos dates" data-modele="{n} nuits" data-un="1 nuit" data-erreur="Le départ doit être après l’arrivée.">Choisissez vos dates</p>
+          <div class="calendrier" data-calendrier aria-label="Calendrier : choisissez le jour d’arrivée, puis le jour de départ" role="group" data-precedent="Mois précédent" data-suivant="Mois suivant"></div>
         </fieldset>
         <fieldset>
           <legend><span>2</span>La chambre</legend>
@@ -143,19 +144,35 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <div class="champ"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required></div>
             <div class="champ"><label for="telephone">Téléphone</label><input id="telephone" name="telephone" type="tel" autocomplete="tel"></div>
           </div>
-          <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+          <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande. La politique de confidentialité sera publiée avec le site.</p>
         </fieldset>
         <p><button class="bouton" type="submit">Envoyer ma demande</button></p>
         <p data-message-envoi tabindex="-1" hidden data-texte="Demande simulée : rien n’a été envoyé. Sur le site final, Pascale et Didier vous répondront sous 24 h."></p>
       </form>
       <aside class="recap" aria-labelledby="recap-titre">
         <div class="recap-carte">
-          <figure class="media " data-iris-centre style="--cadrage:40% 50%;--cadrage-mobile:50% 50%;background-image:url(data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBQCdASoYABIAPu1iqE2ppaOiMAgBMB2JYwDHJvIDNiC3keE9bXk0+bVF5Rcs7e4AAP7LuQm5UMh9liow1hQELzxpO05bPxUP1kCi154+sMvlYzO48+VHNPreikjp4SVEGpFllyREtTsZ/w/axPREAAA=);background-size:cover;background-position:40% 50%">
+          <figure class="media " style="--cadrage:40% 50%;--cadrage-mobile:50% 50%;background-image:url(data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBQCdASoYABIAPu1iqE2ppaOiMAgBMB2JYwDHJvIDNiC3keE9bXk0+bVF5Rcs7e4AAP7LuQm5UMh9liow1hQELzxpO05bPxUP1kCi154+sMvlYzO48+VHNPreikjp4SVEGpFllyREtTsZ/w/axPREAAA=);background-size:cover;background-position:40% 50%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/cour-mobile-640.webp 640w, /assets/images/cour-mobile-1080.webp 1080w" sizes="(max-width: 960px) 92vw, 30vw">
     <img src="/assets/images/cour-1280.webp" srcset="/assets/images/cour-640.webp 640w, /assets/images/cour-1280.webp 1280w, /assets/images/cour-1920.webp 1920w" sizes="(max-width: 960px) 92vw, 30vw" alt="La cour ombragée : table, verres de vin blanc et banc rouge sous la marquise" width="1280" height="960" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
           <div class="recap-corps">
+            <div class="tampon" data-tampon data-superpose data-grille="retour" data-nuit="NUIT" data-nuits="NUITS" aria-hidden="true">
+              <svg viewBox="0 0 200 200" focusable="false">
+                <defs>
+                  <filter id="encre" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -.85 1.32"/><feComposite in="SourceGraphic" operator="in"/></filter>
+                  <path id="tampon-cercle" d="M100,100 m-68,0 a68,68 0 1,1 136,0 a68,68 0 1,1 -136,0"/>
+                </defs>
+                <g filter="url(#encre)" fill="currentColor" stroke="currentColor">
+                  <circle cx="100" cy="100" r="92" fill="none" stroke-width="4"/>
+                  <circle cx="100" cy="100" r="84" fill="none" stroke-width="1.5"/>
+                  <circle cx="100" cy="100" r="50" fill="none" stroke-width="1.5"/>
+                  <text stroke="none" font-size="15" letter-spacing="2.4"><textPath href="#tampon-cercle" textLength="420">LA SAUTERNAISE · DEMANDE DE SÉJOUR · À CONFIRMER · </textPath></text>
+                  <text stroke="none" x="100" y="116" text-anchor="middle" font-size="58" data-tampon-nuits>★</text>
+                  <text stroke="none" x="100" y="138" text-anchor="middle" font-size="12" letter-spacing="1.5" data-tampon-mot>SÉJOUR</text>
+                </g>
+              </svg>
+            </div>
             <h2 id="recap-titre">Votre séjour</h2>
             <p class="recap-nuits" data-recap-nuits>—</p>
             <dl>
@@ -163,7 +180,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
               <dt>Chambre</dt><dd data-recap-chambre>Peu importe, conseillez-nous</dd>
             </dl>
             <p class="recap-remise" data-recap-remise data-actif="Code 4N : -5 % sur le séjour" data-inactif="Dès 4 nuits : -5 % avec le code 4N">Dès 4 nuits : -5 % avec le code 4N</p>
-            <p class="recap-tarif">Petit-déjeuner compris · Le tarif vous est donné avec la réponse, selon la saison et la chambre.</p>
+            <p class="recap-tarif">Petit-déjeuner compris · Arrivée dès 16 h, départ avant 11 h</p>
+            <p class="recap-tarif" style="margin-top:.5em">Le tarif vous est donné avec la réponse, selon la saison et la chambre.</p>
           </div>
         </div>
       </aside>

@@ -229,7 +229,8 @@
       "titre2": "qui vient de renaître",
       "source": "Jean-Pierre Stahl, France 3 Régions",
       "info": "22 rue Principale, place de l’Église, Sauternes",
-      "action": "Voir les chambres"
+      "action": "Voir les chambres",
+      "legende": "La même inscription, hier et aujourd’hui"
     },
     "histoire": {
       "surtitre": "L’histoire",
@@ -358,7 +359,7 @@
       "nom": "Nom",
       "email": "E-mail",
       "telephone": "Téléphone",
-      "donnees": "Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre demande. La politique de confidentialité sera publiée avec le site.",
       "envoyer": "Envoyer ma demande",
       "envoye": "Demande simulée : rien n’a été envoyé. Sur le site final, Pascale et Didier vous répondront sous 24 h.",
       "recap": "Votre séjour",
@@ -367,7 +368,15 @@
       "recapRemise": "Code 4N : -5 % sur le séjour",
       "recapRemise0": "Dès 4 nuits : -5 % avec le code 4N",
       "recapTarif": "Le tarif vous est donné avec la réponse, selon la saison et la chambre.",
-      "recapInclus": "Petit-déjeuner compris"
+      "recapInclus": "Petit-déjeuner compris",
+      "calendrier": "Calendrier : choisissez le jour d’arrivée, puis le jour de départ",
+      "tampon": "LA SAUTERNAISE · DEMANDE DE SÉJOUR · À CONFIRMER · ",
+      "tamponSejour": "SÉJOUR",
+      "tamponNuit": "NUIT",
+      "tamponNuits": "NUITS",
+      "recapHeures": "Arrivée dès 16 h, départ avant 11 h",
+      "precedent": "Mois précédent",
+      "suivant": "Mois suivant"
     },
     "conditions": {
       "titre": "Bon à savoir",
@@ -422,7 +431,7 @@
       "email": "E-mail",
       "message": "Votre message",
       "envoyer": "Envoyer",
-      "donnees": "Vos coordonnées servent seulement à répondre à votre message. Politique de confidentialité : à compléter.",
+      "donnees": "Vos coordonnées servent seulement à répondre à votre message. La politique de confidentialité sera publiée avec le site.",
       "envoye": "Message simulé : rien n’a été envoyé. Sur le site final, il partira vers Pascale et Didier.",
       "adresse": "Adresse",
       "telephone": "Téléphone"

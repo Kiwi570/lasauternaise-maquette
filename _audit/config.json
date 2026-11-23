@@ -15,12 +15,13 @@
   "buee",
   "regle-des-distances",
   "bandeau",
-  "plein-cadre",
   "revelateur",
   "brume",
   "filtres-environs",
   "itineraire",
-  "eventail"
+  "eventail",
+  "cachet",
+  "tirage-ouv"
  ],
  "grille": {
   "dispenses": {}

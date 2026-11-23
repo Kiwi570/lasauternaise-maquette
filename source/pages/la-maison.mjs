@@ -6,17 +6,22 @@ import { img, feuille, titre } from '../gabarits/outils.mjs';
 export const page = { cle: 'la-maison', fichier: 'la-maison', imagePartage: 'hier-aujourdhui-1280.webp' };
 
 export default (c) => html`
-<section class="ouv ouv-plein" id="debut">
-  ${img(c, 'hier-aujourdhui', { priorite: true, sizes: '100vw', attrs: 'data-iris-centre data-effet="plein-cadre"' })}
-  <div class="conteneur ouv-texte">
-    <p class="surtitre">${c.t('maison.tete.surtitre')}</p>
-    <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">«&nbsp;${c.t('maison.tete.titre1')}</span></span><span class="ligne-masque"><span class="hero-ligne"><em>${c.t('maison.tete.titre2')}</em>&nbsp;»</span></span></h1>
-    <p class="ouv-source">${c.t('maison.tete.source')}</p>
-    <p class="actions">
-      ${c.lien('reserver', { classe: 'bouton', texte: c.t('commun.actionEntete'), attrs: 'data-action-principale data-survol="magnetique"' })}
-      ${c.lien('chambres', { classe: 'bouton bouton--contour', texte: c.t('maison.tete.action') })}
-    </p>
-    <p class="info-cle" data-info-cle style="margin-top:14px">${c.t('maison.tete.info')}</p>
+<section class="ouv ouv-tirage fond-pierre" id="debut">
+  <div class="conteneur ouv-tirage-grille">
+    <figure class="tirage tirage-ouv" data-iris-centre data-effet="tirage-ouv">
+      ${img(c, 'hier-aujourdhui', { priorite: true, sizes: '(max-width: 860px) 88vw, 48vw' })}
+      <figcaption class="tirage-legende">${c.t('maison.tete.legende')}</figcaption>
+    </figure>
+    <div class="ouv-tirage-texte">
+      <p class="surtitre">${c.t('maison.tete.surtitre')}</p>
+      <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">«&nbsp;${c.t('maison.tete.titre1')}</span></span><span class="ligne-masque"><span class="hero-ligne"><em>${c.t('maison.tete.titre2')}</em>&nbsp;»</span></span></h1>
+      <p class="ouv-source">${c.t('maison.tete.source')}</p>
+      <p class="actions">
+        ${c.lien('reserver', { classe: 'bouton', texte: c.t('commun.actionEntete'), attrs: 'data-action-principale data-survol="magnetique"' })}
+        ${c.lien('chambres', { classe: 'bouton bouton--contour', texte: c.t('maison.tete.action') })}
+      </p>
+      <p class="info-cle" data-info-cle style="margin-top:14px">${c.t('maison.tete.info')}</p>
+    </div>
   </div>
 </section>
 
@@ -28,11 +33,11 @@ export default (c) => html`
       <p class="chapo" data-anime>${c.t('maison.histoire.texte')}</p>
       <p data-anime><em>${c.t('maison.histoire.nom')}</em></p>
     </div>
-    <div class="revelateur" data-effet="revelateur" data-superpose>
-      ${img(c, 'archive', { classe: 'revelateur-archive', sizes: '(max-width: 860px) 92vw, 46vw' })}
-      ${img(c, 'facade-face', { classe: 'revelateur-couleur', sizes: '(max-width: 860px) 92vw, 46vw' })}
-      <p class="revelateur-etiquettes" aria-hidden="true"><span>${c.t('maison.histoire.autrefois')}</span><span>${c.t('maison.histoire.aujourdhui')}</span></p>
-    </div>
+    <figure class="tirage revelateur" data-effet="revelateur">
+      ${img(c, 'archive', { sizes: '(max-width: 860px) 88vw, 44vw' })}
+      <span class="revelateur-bain" aria-hidden="true"></span>
+      <figcaption class="tirage-legende">${c.t('maison.histoire.autrefois')}</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -88,19 +93,17 @@ export default (c) => html`
 </section>
 
 <section class="section" id="jardin" aria-labelledby="jardin-titre">
-  <div class="conteneur deux">
-    <div>
+  <div class="conteneur jardin-grille">
+    ${img(c, 'cour', { classe: 'jardin-grand', sizes: '(max-width: 860px) 92vw, 58vw', attrs: 'data-anime="rideau"' })}
+    <div class="jardin-texte">
       <h2 class="titre-section" id="jardin-titre" data-anime="lignes">${c.t('maison.jardin.titre')}</h2>
       <p class="chapo" data-anime>${c.t('maison.jardin.texte')}</p>
+      ${img(c, 'jardin', { classe: 'jardin-petit', sizes: '(max-width: 860px) 92vw, 30vw', attrs: 'data-fx="parallaxe" data-fx-force="10"' })}
       <div class="table-granges" data-anime>
-        <h3 style="font-size:1.7rem;margin-top:1.4em">${c.t('maison.table.titre')}</h3>
+        <h3>${c.t('maison.table.titre')}</h3>
         <p>${c.t('maison.table.texte')}</p>
         <p><a class="lien-fleche" href="https://www.les-granges-de-sauternes.com/" target="_blank" rel="noopener">${c.t('maison.table.lien')}<span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></p>
       </div>
-    </div>
-    <div class="duo-photos" >
-      ${img(c, 'cour', { sizes: '(max-width: 860px) 56vw, 26vw', attrs: 'data-fx="parallaxe"' })}
-      ${img(c, 'jardin', { sizes: '(max-width: 860px) 40vw, 20vw', attrs: 'data-fx="parallaxe" data-fx-force="16"' })}
     </div>
   </div>
 </section>

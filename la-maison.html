@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/ibarra-real-nova-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hanken-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F6F1E7">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -104,21 +104,26 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p><a class="bouton" href="tel:+33678006418">Appeler 06 78 00 64 18</a></p>
 </div>
 <main id="contenu" tabindex="-1">
-<section class="ouv ouv-plein" id="debut">
-  <figure class="media " data-iris-centre data-effet="plein-cadre" style="--cadrage:40% 47%;--cadrage-mobile:50% 35%;background-image:url(data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoYAA4APu1orU2ppqSiMAgBMB2JYwCw7CFeRjOekvAPBAAA/u4sAroo4oLYrTyxsTdszubACAq2PsL0f1Zt2u4hd26K89xPhdw7I7trE3rhx5brL9a6qAAA);background-size:cover;background-position:40% 47%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/hier-aujourdhui-mobile-640.webp 640w, /assets/images/hier-aujourdhui-mobile-1080.webp 1080w" sizes="100vw">
-    <img src="/assets/images/hier-aujourdhui-1280.webp" srcset="/assets/images/hier-aujourdhui-640.webp 640w, /assets/images/hier-aujourdhui-1280.webp 1280w, /assets/images/hier-aujourdhui-1920.webp 1920w" sizes="100vw" alt="Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+<section class="ouv ouv-tirage fond-pierre" id="debut">
+  <div class="conteneur ouv-tirage-grille">
+    <figure class="tirage tirage-ouv" data-iris-centre data-effet="tirage-ouv">
+      <figure class="media " style="--cadrage:38% 62%;background-image:url(data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwBACdASoYABIAPu1opk4ppiMiMBgMATAdiWUAt7gQrvr9vk1ovl6mYwC8wOM53CgA/u4sAroo40qAYs7PKN7Ia3YV9WhasgG7dKvxMCHtIFePRrwO1KptSl3NBmBbmnOBUDdE3LpFiUUFkTQzJaGAAAA=);background-size:cover;background-position:38% 62%">
+  <picture>
+    <img src="/assets/images/hier-aujourdhui-1280.webp" srcset="/assets/images/hier-aujourdhui-640.webp 640w, /assets/images/hier-aujourdhui-1280.webp 1280w, /assets/images/hier-aujourdhui-1800.webp 1800w" sizes="(max-width: 860px) 88vw, 48vw" alt="Une main tient la photo d’archive devant la façade d’aujourd’hui : la même inscription « Sauternes, Office de dégustation »" width="1280" height="960" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
-  <div class="conteneur ouv-texte">
-    <p class="surtitre">La maison</p>
-    <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">«&nbsp;Une maison légendaire</span></span><span class="ligne-masque"><span class="hero-ligne"><em>qui vient de renaître</em>&nbsp;»</span></span></h1>
-    <p class="ouv-source">Jean-Pierre Stahl, France 3 Régions</p>
-    <p class="actions">
-      <a href="/reserver" class="bouton" data-libelle="Réserver" data-action-principale data-survol="magnetique">Réserver</a>
-      <a href="/chambres" class="bouton bouton--contour" data-libelle="Les chambres">Voir les chambres</a>
-    </p>
-    <p class="info-cle" data-info-cle style="margin-top:14px">22 rue Principale, place de l’Église, Sauternes</p>
+      <figcaption class="tirage-legende">La même inscription, hier et aujourd’hui</figcaption>
+    </figure>
+    <div class="ouv-tirage-texte">
+      <p class="surtitre">La maison</p>
+      <h1 data-anime="gsap" class="ouv-titre"><span class="ligne-masque"><span class="hero-ligne">«&nbsp;Une maison légendaire</span></span><span class="ligne-masque"><span class="hero-ligne"><em>qui vient de renaître</em>&nbsp;»</span></span></h1>
+      <p class="ouv-source">Jean-Pierre Stahl, France 3 Régions</p>
+      <p class="actions">
+        <a href="/reserver" class="bouton" data-libelle="Réserver" data-action-principale data-survol="magnetique">Réserver</a>
+        <a href="/chambres" class="bouton bouton--contour" data-libelle="Les chambres">Voir les chambres</a>
+      </p>
+      <p class="info-cle" data-info-cle style="margin-top:14px">22 rue Principale, place de l’Église, Sauternes</p>
+    </div>
   </div>
 </section>
 <section class="section" id="histoire" aria-labelledby="histoire-titre">
@@ -129,19 +134,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="chapo" data-anime>Au cœur du village, derrière l’église, la maison abritait l’Office de dégustation de Sauternes : l’inscription peinte est toujours sur la façade. Pascale et Didier l’ont découverte au fil de leurs promenades du dimanche, à leur arrivée dans la région, puis l’ont achetée quelques années plus tard.</p>
       <p data-anime><em>Et le nom ? Le maire du village avait surnommé l’un des enfants nés à la maison « la vraie Sauternaise ».</em></p>
     </div>
-    <div class="revelateur" data-effet="revelateur" data-superpose>
-      <figure class="media revelateur-archive" style="--cadrage:45% 48%">
+    <figure class="tirage revelateur" data-effet="revelateur">
+      <figure class="media " style="--cadrage:45% 48%">
   <picture>
-    <img src="/assets/images/archive-1280.webp" srcset="/assets/images/archive-640.webp 640w, /assets/images/archive-1280.webp 1280w, /assets/images/archive-1800.webp 1800w" sizes="(max-width: 860px) 92vw, 46vw" alt="La même maison autrefois : l’Office de dégustation de Sauternes sur une photo d’archive en noir et blanc" width="1280" height="853" loading="lazy" decoding="async">
+    <img src="/assets/images/archive-1280.webp" srcset="/assets/images/archive-640.webp 640w, /assets/images/archive-1280.webp 1280w, /assets/images/archive-1800.webp 1800w" sizes="(max-width: 860px) 88vw, 44vw" alt="La même maison autrefois : l’Office de dégustation de Sauternes sur une photo d’archive en noir et blanc" width="1280" height="853" loading="lazy" decoding="async">
   </picture>
 </figure>
-      <figure class="media revelateur-couleur" style="--cadrage:36% 50%">
-  <picture>
-    <img src="/assets/images/facade-face-1280.webp" srcset="/assets/images/facade-face-640.webp 640w, /assets/images/facade-face-1280.webp 1280w, /assets/images/facade-face-1800.webp 1800w" sizes="(max-width: 860px) 92vw, 46vw" alt="La façade aujourd’hui, restaurée, sous un ciel bleu" width="1280" height="853" loading="lazy" decoding="async">
-  </picture>
-</figure>
-      <p class="revelateur-etiquettes" aria-hidden="true"><span>Autrefois</span><span>Aujourd’hui</span></p>
-    </div>
+      <span class="revelateur-bain" aria-hidden="true"></span>
+      <figcaption class="tirage-legende">Autrefois</figcaption>
+    </figure>
   </div>
 </section>
 <section class="section fond-pierre" id="hotes" aria-labelledby="hotes-titre">
@@ -221,27 +222,25 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="section" id="jardin" aria-labelledby="jardin-titre">
-  <div class="conteneur deux">
-    <div>
+  <div class="conteneur jardin-grille">
+    <figure class="media jardin-grand" data-anime="rideau" style="--cadrage:40% 50%;--cadrage-mobile:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/cour-mobile-640.webp 640w, /assets/images/cour-mobile-1080.webp 1080w" sizes="(max-width: 860px) 92vw, 58vw">
+    <img src="/assets/images/cour-1280.webp" srcset="/assets/images/cour-640.webp 640w, /assets/images/cour-1280.webp 1280w, /assets/images/cour-1920.webp 1920w" sizes="(max-width: 860px) 92vw, 58vw" alt="La cour ombragée : table, verres de vin blanc et banc rouge sous la marquise" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="jardin-texte">
       <h2 class="titre-section" id="jardin-titre" data-anime="lignes">La cour et le jardin</h2>
       <p class="chapo" data-anime>Le petit-déjeuner y est servi quand il fait beau.</p>
+      <figure class="media jardin-petit" data-fx="parallaxe" data-fx-force="10" style="--cadrage:54% 47%">
+  <picture>
+    <img src="/assets/images/jardin-1280.webp" srcset="/assets/images/jardin-640.webp 640w, /assets/images/jardin-1280.webp 1280w" sizes="(max-width: 860px) 92vw, 30vw" alt="Le jardin : grand arbre, palmier et façade arrière" width="1280" height="854" loading="lazy" decoding="async">
+  </picture>
+</figure>
       <div class="table-granges" data-anime>
-        <h3 style="font-size:1.7rem;margin-top:1.4em">Et pour dîner ?</h3>
+        <h3>Et pour dîner ?</h3>
         <p>Notre restaurant, Les Granges, a son propre site. Plusieurs restaurants réputés sont aussi à pied ou à 1 km.</p>
         <p><a class="lien-fleche" href="https://www.les-granges-de-sauternes.com/" target="_blank" rel="noopener">Le site des Granges<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
       </div>
-    </div>
-    <div class="duo-photos" >
-      <figure class="media " data-fx="parallaxe" style="--cadrage:40% 50%;--cadrage-mobile:50% 50%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/cour-mobile-640.webp 640w, /assets/images/cour-mobile-1080.webp 1080w" sizes="(max-width: 860px) 56vw, 26vw">
-    <img src="/assets/images/cour-1280.webp" srcset="/assets/images/cour-640.webp 640w, /assets/images/cour-1280.webp 1280w, /assets/images/cour-1920.webp 1920w" sizes="(max-width: 860px) 56vw, 26vw" alt="La cour ombragée : table, verres de vin blanc et banc rouge sous la marquise" width="1280" height="960" loading="lazy" decoding="async">
-  </picture>
-</figure>
-      <figure class="media " data-fx="parallaxe" data-fx-force="16" style="--cadrage:54% 47%">
-  <picture>
-    <img src="/assets/images/jardin-1280.webp" srcset="/assets/images/jardin-640.webp 640w, /assets/images/jardin-1280.webp 1280w" sizes="(max-width: 860px) 40vw, 20vw" alt="Le jardin : grand arbre, palmier et façade arrière" width="1280" height="854" loading="lazy" decoding="async">
-  </picture>
-</figure>
     </div>
   </div>
 </section>

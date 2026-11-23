@@ -40,7 +40,16 @@ export default (c) => {
     </p>
     <p class="info-cle" data-info-cle data-anime="gsap">${c.t('accueil.hero.info')}</p>
   </div>
-  ${img(c, 'facade', { priorite: true, classe: 'hero-media', sizes: '(max-width: 760px) 100vw, 55vw', attrs: 'data-iris-centre data-effet="facade" data-boucle-css' })}
+  <div class="hero-photo">
+    ${img(c, 'facade', { priorite: true, classe: 'hero-media', sizes: '(max-width: 760px) 100vw, 55vw', attrs: 'data-iris-centre data-effet="facade" data-boucle-css' })}
+    <div class="cachet" data-effet="cachet" aria-hidden="true" data-audit-ignorer>
+      <svg viewBox="0 0 200 200" focusable="false"><defs><path id="cachet-cercle" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0"/></defs>
+        <circle cx="100" cy="100" r="97" class="cachet-fond"/><circle cx="100" cy="100" r="90" class="cachet-filet"/><circle cx="100" cy="100" r="52" class="cachet-filet"/>
+        <g class="cachet-tourne"><text class="cachet-texte"><textPath href="#cachet-cercle" textLength="448" lengthAdjust="spacing">ANCIEN OFFICE DE DÉGUSTATION · SAUTERNES · XVIIIe SIÈCLE ·</textPath></text></g>
+        <path class="cachet-feuille" transform="translate(76 70) scale(1.5)" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/>
+      </svg>
+    </div>
+  </div>
 </section>
 
 <section class="section fond-pierre" id="histoire" aria-labelledby="hier-titre">
@@ -57,7 +66,7 @@ export default (c) => {
         ${img(c, 'facade-face', { sizes: '(max-width: 860px) 86vw, 44vw' })}
         <figcaption class="tirage-legende">${c.t('accueil.hier.aujourdhui')}</figcaption>
       </figure>
-      <figure class="tirage tirage--archive" data-superpose>
+      <figure class="tirage tirage--archive" data-superpose data-curseur-texte="Glisser" data-grille="manipuler">
         ${img(c, 'archive', { sizes: '(max-width: 860px) 78vw, 40vw' })}
         <figcaption class="tirage-legende">${c.t('accueil.hier.autrefois')}</figcaption>
       </figure>
@@ -87,7 +96,7 @@ export default (c) => {
 <section class="section fond-cave" id="bien-etre" aria-labelledby="bienetre-titre">
   <div class="conteneur buee-grille">
     <div>
-      <div class="buee" data-effet="buee" data-souris>
+      <div class="buee" data-effet="buee" data-souris data-curseur-texte="Essuyer">
         ${img(c, 'bain-rouge', { sizes: '(max-width: 860px) 92vw, 50vw' })}
         <canvas aria-hidden="true" data-audit-ignorer></canvas>
       </div>
@@ -146,7 +155,9 @@ export default (c) => {
     <div class="regle" data-effet="regle-des-distances" role="img" aria-label="${c.s('accueil.pied.echelle')} : ${POINTS.filter((p) => !p.cache).map((p) => `${p.nom} ${p.d}`).join(', ')}">
       <div class="regle-axe">
         <span class="regle-plein"></span>
+        <span class="regle-marcheur" aria-hidden="true"></span>
         ${feuille('regle-maison')}
+        <span class="regle-depart" aria-hidden="true">La maison</span>
         ${POINTS.filter((p) => !p.cache).map((p, i, t) => html`<div class="regle-point ${p.cote}${p.vedette ? ' vedette' : ''}${p.km < 0.2 ? ' debut' : ''}${p.km > 2.1 ? ' fin' : ''}" style="--x:${(p.km / MAX).toFixed(4)};--xi:${(0.04 + (i / (t.length - 1)) * 0.92).toFixed(4)}" data-km="${p.km}" data-repere>
           <p class="regle-etiquette"><strong>${p.nom}</strong>${p.d}${p.rdv ? html`<em>${c.t('accueil.pied.rdv')}</em>` : ''}</p>
         </div>`)}

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/ibarra-real-nova-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hanken-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F6F1E7">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -141,7 +141,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
     <p class="resultat" aria-live="polite" data-resultat data-modele="{n} visites" data-un="1 visite">39 visites</p>
     <ul class="visites" data-visites data-effet="filtres-environs" data-anime="cascade" aria-label="Liste des visites">
-      <li class="visite" id="velos" data-zone="pied" data-theme="nature">
+      <li class="visites-titre" data-zone-titre="pied"><h3>Moins de 3 km · à pied ou à vélo</h3></li><li class="visite" id="velos" data-zone="pied" data-theme="nature">
         <figure class="media " style="--cadrage:50% 47%">
   <picture>
     <img src="/assets/images/env-velos-640.webp" srcset="/assets/images/env-velos-400.webp 400w, /assets/images/env-velos-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Balade à vélo dans les vignes" width="640" height="427" loading="lazy" decoding="async">
@@ -221,7 +221,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <span class="visite-rdv">Sur rendez-vous</span>
         </div>
       </li><li class="visite" id="yquem" data-zone="pied" data-theme="crus">
-        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="18" r="4"/><circle cx="28" cy="18" r="4"/><circle cx="24" cy="25" r="4"/><circle cx="16" cy="25" r="4"/><circle cx="32" cy="25" r="4"/><circle cx="20" cy="32" r="4"/><circle cx="28" cy="32" r="4"/><circle cx="24" cy="39" r="4"/><path d="M24 14c0-4 2-7 6-8"/></g></svg><span class="visite-sans-photo-km">2 km</span></div>
         <div class="visite-corps">
           <span class="visite-distance">2 km</span>
           <h3>Château d’Yquem</h3>
@@ -250,8 +250,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <h3>Le Ciron</h3>
           <p>Rivière bordée d’une hêtraie ancienne : parc d’aventures, grimpe d’arbres, canoë-kayak.</p>
         </div>
-      </li><li class="visite" id="malle" data-zone="30" data-theme="crus">
-        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+      </li><li class="visites-titre" data-zone-titre="30"><h3>De 8 à 25 km</h3></li><li class="visite" id="malle" data-zone="30" data-theme="crus">
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="18" r="4"/><circle cx="28" cy="18" r="4"/><circle cx="24" cy="25" r="4"/><circle cx="16" cy="25" r="4"/><circle cx="32" cy="25" r="4"/><circle cx="20" cy="32" r="4"/><circle cx="28" cy="32" r="4"/><circle cx="24" cy="39" r="4"/><path d="M24 14c0-4 2-7 6-8"/></g></svg><span class="visite-sans-photo-km">8 km</span></div>
         <div class="visite-corps">
           <span class="visite-distance">8 km</span>
           <h3>Château de Malle</h3>
@@ -302,7 +302,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p>Cité médiévale au bord de la Garonne.</p>
         </div>
       </li><li class="visite" id="malagar" data-zone="30" data-theme="patrimoine">
-        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 42V18h6v-6h4v6h8v-6h4v6h6v24"/><path d="M20 42v-9a4 4 0 0 1 8 0v9M6 42h36"/></g></svg><span class="visite-sans-photo-km">13 km</span></div>
         <div class="visite-corps">
           <span class="visite-distance">13 km</span>
           <h3>Malagar, centre François-Mauriac</h3>
@@ -320,7 +320,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p>Le tombeau du pape Clément V.</p>
         </div>
       </li><li class="visite" id="golf" data-zone="30" data-theme="nature">
-        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 42V26"/><path d="M24 8c-8 6-12 12-12 18a12 12 0 0 0 24 0c0-6-4-12-12-18z"/><path d="M8 42h32"/></g></svg><span class="visite-sans-photo-km">15 km</span></div>
         <div class="visite-corps">
           <span class="visite-distance">15 km</span>
           <h3>Golf de Saint-Pardon-de-Conques</h3>
@@ -371,7 +371,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p>À vélo ou à pied, le long du canal.</p>
         </div>
       </li><li class="visite" id="hamel" data-zone="30" data-theme="patrimoine">
-        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 42V18h6v-6h4v6h8v-6h4v6h6v24"/><path d="M20 42v-9a4 4 0 0 1 8 0v9M6 42h36"/></g></svg><span class="visite-sans-photo-km">19 km</span></div>
         <div class="visite-corps">
           <span class="visite-distance">19 km</span>
           <h3>Château du Hamel</h3>
@@ -400,7 +400,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <h3>Château royal de Cazeneuve</h3>
           <p>Meublé d’époque, dans un parc de 40 ha.</p>
         </div>
-      </li><li class="visite" id="la-brede" data-zone="60" data-theme="patrimoine">
+      </li><li class="visites-titre" data-zone-titre="60"><h3>De 25 à 50 km</h3></li><li class="visite" id="la-brede" data-zone="60" data-theme="patrimoine">
         <figure class="media " style="--cadrage:42% 57%">
   <picture>
     <img src="/assets/images/env-la-brede-640.webp" srcset="/assets/images/env-la-brede-400.webp 400w, /assets/images/env-la-brede-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Le château de La Brède entouré de ses douves" width="640" height="427" loading="lazy" decoding="async">
@@ -477,7 +477,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <h3>Saint-Émilion</h3>
           <p>Site classé au patrimoine mondial.</p>
         </div>
-      </li><li class="visite" id="la-dominique" data-zone="loin" data-theme="crus">
+      </li><li class="visites-titre" data-zone-titre="loin"><h3>De 50 à 100 km</h3></li><li class="visite" id="la-dominique" data-zone="loin" data-theme="crus">
         <figure class="media " style="--cadrage:51% 50%">
   <picture>
     <img src="/assets/images/env-la-dominique-640.webp" srcset="/assets/images/env-la-dominique-400.webp 400w, /assets/images/env-la-dominique-640.webp 640w" sizes="(max-width: 600px) 92vw, 300px" alt="Une bouteille du château La Dominique" width="640" height="427" loading="lazy" decoding="async">
@@ -489,7 +489,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <p>Grand cru classé de Saint-Émilion.</p>
         </div>
       </li><li class="visite" id="evangile" data-zone="loin" data-theme="crus">
-        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg></div>
+        <div class="visite-sans-photo" data-visuel><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="18" r="4"/><circle cx="28" cy="18" r="4"/><circle cx="24" cy="25" r="4"/><circle cx="16" cy="25" r="4"/><circle cx="32" cy="25" r="4"/><circle cx="20" cy="32" r="4"/><circle cx="28" cy="32" r="4"/><circle cx="24" cy="39" r="4"/><path d="M24 14c0-4 2-7 6-8"/></g></svg><span class="visite-sans-photo-km">61 km</span></div>
         <div class="visite-corps">
           <span class="visite-distance">61 km</span>
           <h3>Château l’Évangile</h3>

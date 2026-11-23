@@ -2,11 +2,28 @@
   "nom": "La Sauternaise",
   "adresse": "https://lasauternaise-maquette.vercel.app",
   "siteActuel": "lasauternaise.com",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "chambres", "la-maison", "environs", "acces"],
-  "actionEntete": { "page": "reserver" },
-  "couleurs": { "fond": "#F6F1E7", "texte": "#2A211C", "voile": "#E6D9C1", "ouverture": "#F6F1E7", "menu": "#EDE3CF", "theme": "#F6F1E7" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "chambres",
+    "la-maison",
+    "environs",
+    "acces"
+  ],
+  "actionEntete": {
+    "page": "reserver"
+  },
+  "couleurs": {
+    "fond": "#F6F1E7",
+    "texte": "#2A211C",
+    "voile": "#E6D9C1",
+    "ouverture": "#F6F1E7",
+    "menu": "#EDE3CF",
+    "theme": "#F6F1E7"
+  },
   "formeVoile": "rideau",
   "contact": {
     "telephone": "06 78 00 64 18",
@@ -14,7 +31,10 @@
     "telephoneInternational": "+33 6 78 00 64 18",
     "adresse": "22 rue Principale, place de l’Église, 33210 Sauternes"
   },
-  "polices": ["/assets/fonts/ibarra-real-nova-latin-400-normal.woff2", "/assets/fonts/hanken-grotesk-latin-400-normal.woff2"],
+  "polices": [
+    "/assets/fonts/ibarra-real-nova-latin-400-normal.woff2",
+    "/assets/fonts/hanken-grotesk-latin-400-normal.woff2"
+  ],
   "imagePartage": "facade-1280.webp",
-  "curseur": false
+  "curseur": true
 }

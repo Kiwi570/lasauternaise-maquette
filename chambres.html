@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/ibarra-real-nova-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hanken-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F6F1E7">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -128,37 +128,40 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 class="titre-section" id="noms-titre" data-anime="lignes">Choisissez votre cru</h2>
       <p data-anime>Toutes les chambres ont leur salle de bains privative avec un équipement bien-être, une literie Simmons et un plateau de courtoisie. Certaines ont une isolation phonique renforcée ou une entrée indépendante : dites-nous ce qui compte pour vous.</p>
     </div>
-    <ul class="etiquettes" data-anime="cascade" data-effet="etiquettes">
-      <li class="etiquette" id="or-de-bordeaux" style="--teinte:#B0923F">
-        <svg class="etiquette-feuille" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg>
+    <ul class="etiquettes" data-anime="cascade" data-visuel>
+      <li class="etiquette-place" id="or-de-bordeaux"><div class="etiquette" style="--teinte:#B0923F" data-survol="incline">
+        <span class="etiquette-bandeau" aria-hidden="true"></span>
+        <span class="etiquette-initiale" aria-hidden="true" data-audit-ignorer>O</span>
+        <p class="etiquette-mot">Chambre</p>
         <h3>Or de Bordeaux</h3>
-        <p class="etiquette-mot">Climatisée</p>
-        <p>Salle de bains bien-être · literie Simmons · plateau de courtoisie</p>
+        <span class="etiquette-orne" aria-hidden="true"><svg class="etiquette-feuille" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg></span>
+        <p class="etiquette-details"><strong>Climatisée</strong>Salle de bains bien-être · literie Simmons · plateau de courtoisie</p>
         <a href="/reserver?chambre=or-de-bordeaux" class="lien-fleche" data-libelle="Réserver">Demander cette chambre</a>
-      </li><li class="etiquette" id="reflets-de-saint-emilion" style="--teinte:#7E1F33">
-        <svg class="etiquette-feuille" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg>
+      </div></li><li class="etiquette-place" id="reflets-de-saint-emilion"><div class="etiquette" style="--teinte:#7E1F33" data-survol="incline">
+        <span class="etiquette-bandeau" aria-hidden="true"></span>
+        <span class="etiquette-initiale" aria-hidden="true" data-audit-ignorer>R</span>
+        <p class="etiquette-mot">Chambre</p>
         <h3>Reflets de Saint-Émilion</h3>
-        <p class="etiquette-mot">Climatisée</p>
-        <p>Salle de bains bien-être · literie Simmons · plateau de courtoisie</p>
+        <span class="etiquette-orne" aria-hidden="true"><svg class="etiquette-feuille" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg></span>
+        <p class="etiquette-details"><strong>Climatisée</strong>Salle de bains bien-être · literie Simmons · plateau de courtoisie</p>
         <a href="/reserver?chambre=reflets-de-saint-emilion" class="lien-fleche" data-libelle="Réserver">Demander cette chambre</a>
-      </li><li class="etiquette" id="terre-de-margaux" style="--teinte:#A4553A">
-        <svg class="etiquette-feuille" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg>
+      </div></li><li class="etiquette-place" id="terre-de-margaux"><div class="etiquette" style="--teinte:#A4553A" data-survol="incline">
+        <span class="etiquette-bandeau" aria-hidden="true"></span>
+        <span class="etiquette-initiale" aria-hidden="true" data-audit-ignorer>T</span>
+        <p class="etiquette-mot">Chambre</p>
         <h3>Terre de Margaux</h3>
-        <p class="etiquette-mot">La Sauternaise</p>
-        <figure class="media " style="--cadrage:50% 55%">
-  <picture>
-    <img src="/assets/images/chambre-terre-de-margaux-1280.webp" srcset="/assets/images/chambre-terre-de-margaux-640.webp 640w, /assets/images/chambre-terre-de-margaux-1280.webp 1280w, /assets/images/chambre-terre-de-margaux-1800.webp 1800w" sizes="(max-width: 560px) 90vw, 22vw" alt="La chambre Terre de Margaux : mur terracotta, mezzanine et grand lit" width="1280" height="853" loading="lazy" decoding="async">
-  </picture>
-</figure>
-        <p>Salle de bains bien-être · literie Simmons · plateau de courtoisie</p>
+        <span class="etiquette-orne" aria-hidden="true"><svg class="etiquette-feuille" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg></span>
+        <p class="etiquette-details">Salle de bains bien-être · literie Simmons · plateau de courtoisie</p>
         <a href="/reserver?chambre=terre-de-margaux" class="lien-fleche" data-libelle="Réserver">Demander cette chambre</a>
-      </li><li class="etiquette" id="lettre-de-sauternes" style="--teinte:#C29A3A">
-        <svg class="etiquette-feuille" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg>
+      </div></li><li class="etiquette-place" id="lettre-de-sauternes"><div class="etiquette" style="--teinte:#C29A3A" data-survol="incline">
+        <span class="etiquette-bandeau" aria-hidden="true"></span>
+        <span class="etiquette-initiale" aria-hidden="true" data-audit-ignorer>L</span>
+        <p class="etiquette-mot">Chambre</p>
         <h3>Lettre de Sauternes</h3>
-        <p class="etiquette-mot">La Sauternaise</p>
-        <p>Salle de bains bien-être · literie Simmons · plateau de courtoisie</p>
+        <span class="etiquette-orne" aria-hidden="true"><svg class="etiquette-feuille" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16 3c1.2 2.4 3 3.3 5.2 3.1-.5 2 .3 3.7 2.4 4.6-1.4 1.3-1.7 3.1-.8 5.2-2.1-.3-3.6.4-4.6 2.3-.6-1.4-1.3-2.3-2.2-2.7v8.9h-1.9v-8.9c-.9.4-1.6 1.3-2.2 2.7-1-1.9-2.5-2.6-4.6-2.3.9-2.1.6-3.9-.8-5.2 2.1-.9 2.9-2.6 2.4-4.6C12.9 6.3 14.8 5.4 16 3z"/></svg></span>
+        <p class="etiquette-details">Salle de bains bien-être · literie Simmons · plateau de courtoisie</p>
         <a href="/reserver?chambre=lettre-de-sauternes" class="lien-fleche" data-libelle="Réserver">Demander cette chambre</a>
-      </li>
+      </div></li>
     </ul>
   </div>
 </section>
@@ -223,26 +226,22 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <ul class="soins" data-anime="cascade">
       <li><em>Effegibi</em><strong>Hammam</strong><span>La vapeur douce, comme au bain.</span></li><li><em>Tylö</em><strong>Sauna infrarouge</strong><span>Une chaleur qui détend en profondeur.</span></li><li><em>Kinedo</em><strong>Baignoire balnéo</strong><span>Un bain massant, sans sortir de la chambre.</span></li><li><em>Hansgrohe</em><strong>Douche hydromassante</strong><span>Des jets pour se réveiller ou se relâcher.</span></li>
     </ul>
-  </div>
-</section>
-<section class="section" aria-label="Les salles de bains" id="salles-de-bains">
-  <div class="conteneur">
-    <div class="salles" data-anime="cascade" data-effet="salles">
-      <figure class="media " style="--cadrage:50% 60%">
+    <div class="salles" data-anime="cascade" id="salles-de-bains">
+      <figure><figure class="media " style="--cadrage:50% 60%">
   <picture>
-    <img src="/assets/images/sauna-800.webp" srcset="/assets/images/sauna-480.webp 480w, /assets/images/sauna-800.webp 800w" sizes="(max-width: 760px) 32vw, 30vw" alt="Sauna infrarouge en bois clair dans une salle de bains" width="800" height="1000" loading="lazy" decoding="async">
+    <img src="/assets/images/sauna-800.webp" srcset="/assets/images/sauna-480.webp 480w, /assets/images/sauna-800.webp 800w" sizes="(max-width: 760px) 32vw, 26vw" alt="Sauna infrarouge en bois clair dans une salle de bains" width="800" height="1000" loading="lazy" decoding="async">
   </picture>
-</figure>
-      <figure class="media " style="--cadrage:50% 53%">
+</figure><figcaption>Sauna infrarouge</figcaption></figure>
+      <figure><figure class="media " style="--cadrage:50% 53%">
   <picture>
-    <img src="/assets/images/bain-rouge-800.webp" srcset="/assets/images/bain-rouge-480.webp 480w, /assets/images/bain-rouge-800.webp 800w" sizes="(max-width: 760px) 32vw, 30vw" alt="Salle de bains au mur rouge, douche vitrée et carreaux de ciment" width="800" height="1000" loading="lazy" decoding="async">
+    <img src="/assets/images/bain-rouge-800.webp" srcset="/assets/images/bain-rouge-480.webp 480w, /assets/images/bain-rouge-800.webp 800w" sizes="(max-width: 760px) 32vw, 26vw" alt="Salle de bains au mur rouge, douche vitrée et carreaux de ciment" width="800" height="1000" loading="lazy" decoding="async">
   </picture>
-</figure>
-      <figure class="media " style="--cadrage:50% 50%">
+</figure><figcaption>Douche et carreaux de ciment</figcaption></figure>
+      <figure><figure class="media " style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/porte-peignoir-800.webp" srcset="/assets/images/porte-peignoir-480.webp 480w, /assets/images/porte-peignoir-800.webp 800w" sizes="(max-width: 760px) 32vw, 30vw" alt="Porte ancienne en bois et peignoir blanc dans une salle de bains en pierre" width="800" height="1000" loading="lazy" decoding="async">
+    <img src="/assets/images/porte-peignoir-800.webp" srcset="/assets/images/porte-peignoir-480.webp 480w, /assets/images/porte-peignoir-800.webp 800w" sizes="(max-width: 760px) 32vw, 26vw" alt="Porte ancienne en bois et peignoir blanc dans une salle de bains en pierre" width="800" height="1000" loading="lazy" decoding="async">
   </picture>
-</figure>
+</figure><figcaption>Porte ancienne et peignoir</figcaption></figure>
     </div>
   </div>
 </section>

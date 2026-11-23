@@ -11,7 +11,7 @@ Pages : accueil, Les chambres, La maison, Les environs, Réserver, Accès & cont
 ```
 node outils/generer.mjs          pages HTML générées depuis donnees/ et source/ (ne jamais modifier les .html à la main)
 node outils/flous.mjs            aperçus flous des images d'ouverture (donnees/flous.json)
-node _audit/audit.mjs            audit standard
+node _audit/audit.mjs            audit standard (--complet : 13 tailles)
 ```
 
 Les textes sont dans `donnees/textes/fr.json`, les chambres dans `donnees/chambres.json`, les 39 visites dans `donnees/environs.json`, les temps de route dans `donnees/acces.json`.
@@ -21,7 +21,7 @@ Les textes sont dans `donnees/textes/fr.json`, les chambres dans `donnees/chambr
 Mentions et obligations, marquées « à compléter » dans la maquette :
 - Mentions légales : éditeur (raison sociale, adresse, SIRET), directeur de la publication : **à compléter**.
 - Hébergeur : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis (adresse vérifiée le 20 novembre 2026 dans la politique de confidentialité de Vercel), à reporter dans les mentions légales.
-- Politique de confidentialité (formulaires de réservation et de contact, RGPD) : **à compléter**.
+- Politique de confidentialité (formulaires de réservation et de contact, RGPD) : **à compléter**. Sous les formulaires, la maquette annonce « La politique de confidentialité sera publiée avec le site. »
 - Conditions générales de vente (le site actuel en a une page) : **à compléter**.
 - Assurance responsabilité civile, classement ou labels officiels (le site cite « Bacchus », « Vignobles & Découvertes », « Route des Vins ») : **à confirmer**.
 - Crédit des photos : plusieurs photos portent la mention « LaSauternaiseLuxuryB&B©2016 FPoincet » : nom complet du photographe **à confirmer**.

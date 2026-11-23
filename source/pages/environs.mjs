@@ -7,7 +7,14 @@ export const page = { cle: 'environs', fichier: 'environs', imagePartage: 'vigne
 
 const ZONES = ['pied', '30', '60', 'loin'];
 const THEMES = ['crus', 'patrimoine', 'nature', 'villes'];
-const sansPhoto = brut('<svg viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 40h36M10 40V22l14-10 14 10v18M20 40V28h8v12"/></svg>');
+const PICTOS = {
+  crus: '<circle cx="20" cy="18" r="4"/><circle cx="28" cy="18" r="4"/><circle cx="24" cy="25" r="4"/><circle cx="16" cy="25" r="4"/><circle cx="32" cy="25" r="4"/><circle cx="20" cy="32" r="4"/><circle cx="28" cy="32" r="4"/><circle cx="24" cy="39" r="4"/><path d="M24 14c0-4 2-7 6-8"/>',
+  patrimoine: '<path d="M10 42V18h6v-6h4v6h8v-6h4v6h6v24"/><path d="M20 42v-9a4 4 0 0 1 8 0v9M6 42h36"/>',
+  nature: '<path d="M24 42V26"/><path d="M24 8c-8 6-12 12-12 18a12 12 0 0 0 24 0c0-6-4-12-12-18z"/><path d="M8 42h32"/>',
+  villes: '<path d="M6 42V26l8-6 8 6v16M22 42V18l10-8 10 8v24M6 42h36M30 42v-8h4v8"/>',
+};
+const picto = (t) => brut(`<svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${PICTOS[t] || PICTOS.patrimoine}</g></svg>`);
+const ZONE_TITRES = { pied: 'Moins de 3 km · à pied ou à vélo', 30: 'De 8 à 25 km', 60: 'De 25 à 50 km', loin: 'De 50 à 100 km' };
 
 export default (c) => {
   const v = c.donnees.environs;
@@ -46,8 +53,8 @@ export default (c) => {
     </div>
     <p class="resultat" aria-live="polite" data-resultat data-modele="${c.s('environs.outil.resultat')}" data-un="${c.s('environs.outil.un')}">${c.t('environs.outil.resultat', { n: v.length })}</p>
     <ul class="visites" data-visites data-effet="filtres-environs" data-anime="cascade" aria-label="${c.s('environs.outil.region')}">
-      ${v.map((x) => html`<li class="visite" id="${x.id}" data-zone="${x.zone}" data-theme="${x.theme}">
-        ${x.image ? img(c, x.image, { sizes: '(max-width: 600px) 92vw, 300px' }) : html`<div class="visite-sans-photo" data-visuel>${sansPhoto}</div>`}
+      ${v.map((x, i) => html`${i === 0 || v[i - 1].zone !== x.zone ? html`<li class="visites-titre" data-zone-titre="${x.zone}"><h3>${ZONE_TITRES[x.zone]}</h3></li>` : ''}<li class="visite" id="${x.id}" data-zone="${x.zone}" data-theme="${x.theme}">
+        ${x.image ? img(c, x.image, { sizes: '(max-width: 600px) 92vw, 300px' }) : html`<div class="visite-sans-photo" data-visuel>${picto(x.theme)}<span class="visite-sans-photo-km">${x.distance}</span></div>`}
         <div class="visite-corps">
           <span class="visite-distance">${x.distance}</span>
           <h3>${x.nom}</h3>

@@ -39,15 +39,16 @@ export default (c) => html`
       <h2 class="titre-section" id="noms-titre" data-anime="lignes">${c.t('chambres.noms.titre')}</h2>
       <p data-anime>${c.t('chambres.noms.texte')}</p>
     </div>
-    <ul class="etiquettes" data-anime="cascade" data-effet="etiquettes">
-      ${c.donnees.chambres.map((x) => html`<li class="etiquette" id="${x.id}" style="--teinte:${x.teinte}">
-        ${feuille('etiquette-feuille')}
+    <ul class="etiquettes" data-anime="cascade" data-visuel>
+      ${c.donnees.chambres.map((x) => html`<li class="etiquette-place" id="${x.id}"><div class="etiquette" style="--teinte:${x.teinte}" data-survol="incline">
+        <span class="etiquette-bandeau" aria-hidden="true"></span>
+        <span class="etiquette-initiale" aria-hidden="true" data-audit-ignorer>${x.nom.charAt(0)}</span>
+        <p class="etiquette-mot">Chambre</p>
         <h3>${x.nom}</h3>
-        <p class="etiquette-mot">${x.clim ? 'Climatisée' : 'La Sauternaise'}</p>
-        ${x.photo ? img(c, x.photo, { sizes: '(max-width: 560px) 90vw, 22vw' }) : ''}
-        <p>${c.t('chambres.noms.commun')}</p>
+        <span class="etiquette-orne" aria-hidden="true">${feuille('etiquette-feuille')}</span>
+        <p class="etiquette-details">${x.clim ? html`<strong>Climatisée</strong>` : ''}${c.t('chambres.noms.commun')}</p>
         ${c.lien('reserver', { params: `chambre=${x.id}`, classe: 'lien-fleche', texte: c.t('chambres.noms.choisir') })}
-      </li>`)}
+      </div></li>`)}
     </ul>
   </div>
 </section>
@@ -74,15 +75,10 @@ export default (c) => html`
     <ul class="soins" data-anime="cascade">
       ${[['Hammam', 'Effegibi'], ['Sauna infrarouge', 'Tylö'], ['Baignoire balnéo', 'Kinedo'], ['Douche hydromassante', 'Hansgrohe']].map(([e, m], i) => html`<li><em>${m}</em><strong>${e}</strong><span>${c.t('chambres.bienetre.d' + (i + 1))}</span></li>`)}
     </ul>
-  </div>
-</section>
-
-<section class="section" aria-label="${c.s('chambres.bienetre.photos')}" id="salles-de-bains">
-  <div class="conteneur">
-    <div class="salles" data-anime="cascade" data-effet="salles">
-      ${img(c, 'sauna', { sizes: '(max-width: 760px) 32vw, 30vw' })}
-      ${img(c, 'bain-rouge', { sizes: '(max-width: 760px) 32vw, 30vw' })}
-      ${img(c, 'porte-peignoir', { sizes: '(max-width: 760px) 32vw, 30vw' })}
+    <div class="salles" data-anime="cascade" id="salles-de-bains">
+      <figure>${img(c, 'sauna', { sizes: '(max-width: 760px) 32vw, 26vw' })}<figcaption>Sauna infrarouge</figcaption></figure>
+      <figure>${img(c, 'bain-rouge', { sizes: '(max-width: 760px) 32vw, 26vw' })}<figcaption>Douche et carreaux de ciment</figcaption></figure>
+      <figure>${img(c, 'porte-peignoir', { sizes: '(max-width: 760px) 32vw, 26vw' })}<figcaption>Porte ancienne et peignoir</figcaption></figure>
     </div>
   </div>
 </section>

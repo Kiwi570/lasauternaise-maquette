@@ -1,0 +1,58 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "page large de 909 px — largeurs : 880 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "balayage 320–1920",
+      "mode": "normal",
+      "lieux": [
+        "balayage 320–1920 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "acces.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "reserver.html",
+      "lieux": [
+        ""
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "mesures": 273,
+    "balayage": 6,
+    "mouvement": 12,
+    "effets du plan": 13,
+    "souris immobile": 6
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=2",
+    "Journal v2 : 1 étape(s) notée(s), 19 min de travail pour 15 min de budget, 0 min d’attente de l’utilisateur.",
+    "Journal : « analyse complète de la v1 (captures section par section, films) » 19 min pour 15 prévues.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés."
+  ],
+  "grille": []
+}
